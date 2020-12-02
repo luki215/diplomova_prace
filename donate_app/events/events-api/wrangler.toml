@@ -1,0 +1,9 @@
+name = "events-api"
+type = "webpack"
+account_id = "ba8fecd59fd3205323517712ce3aedd7"
+workers_dev = true
+webpack_config = "webpack.config.js"
+
+kv_namespaces = [ 
+    { binding = "EVENTS_KV", id = "7abcd2d7ee2345f9bb627ce902b1af44", preview_id = "d63e8f5f69834447983f75b7887e3c38" }
+]

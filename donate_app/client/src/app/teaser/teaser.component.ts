@@ -14,8 +14,10 @@ export class TeaserComponent implements OnInit {
 
   public scrollToDonate(e): void {
     const headerHeight = 60;
-    window.scrollTo({top: window.innerHeight - headerHeight, behavior: 'smooth'});
-    e.preventDefault();
+    if(window) {
+      window.scrollTo({top: window.innerHeight - headerHeight, behavior: 'smooth'});
+      e.preventDefault();
+    }
   }
 
 }

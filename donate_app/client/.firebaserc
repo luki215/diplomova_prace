@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "church-donate": {
+      "hosting": {
+        "client": [
+          "church-donate"
+        ]
+      }
+    }
+  }
+}

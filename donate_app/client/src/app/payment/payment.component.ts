@@ -19,14 +19,15 @@ export class PaymentComponent implements OnInit {
 
     this.amountFC.valueChanges.pipe(startWith(this.amountFC.value)).subscribe((am) => {
       const payment = {
-        acc: 'CZ2806000000000168540115',
+        acc: 'CZ5855000000001265098001+RZBCCZPP',
         am,
         cc: 'CZK',
-        msg: 'Payment for some stuff',
-        xvs: '1234567890'
+        msg: '<jmeno a prijmeni> <adresa>',
+        xvs: '1111'
       };
 
 
+      console.log(spayd(payment));
       qrcode.toDataURL(spayd(payment))
       .then((url) => {
         this.imgSrc = url;
