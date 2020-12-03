@@ -1,0 +1,40 @@
+.event {
+  padding: 20px 0;
+  &:not(:last-child) {
+    border-bottom: 1px solid #c5c5c5
+  }
+  h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-transform: none;
+  }
+  p {
+    margin: 0;
+  }
+
+  &:first-of-type{
+    padding-top: 0
+  }
+}
+
+.img {
+  width: 30%;
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+img {
+  width: 100%;
+}
+
+a {
+  color: var(--primary);
+}
+
+.d-flex {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 5px;
+}
+.clear {
+  clear: both
+}

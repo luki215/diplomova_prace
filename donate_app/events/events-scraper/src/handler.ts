@@ -1,24 +1,18 @@
 import * as cheerio from 'cheerio'
+import { ChurchEvent } from '../../../shared/interfaces/ChurchEvent'
 
 declare global {
   const EVENTS_KV: KVNamespace
 }
 
-interface Event {
-  id: string
-  name: string
-  date: Date
-  link: string
-  img: string
-  place: string
-  text: string
-}
-
-async function getEvents(url: string, fetchPages = true): Promise<Event[]> {
+async function getEvents(
+  url: string,
+  fetchPages = true,
+): Promise<ChurchEvent[]> {
   const html = await (await fetch(url)).text()
   const $ = cheerio.load(html)
 
-  let eventsOnOtherPages: Event[] = []
+  let eventsOnOtherPages: ChurchEvent[] = []
   if (fetchPages && $('.bpager-in').length > 0) {
     const anotherPagesToFetch = []
     const pagesCount = $('.bpager-in>*').length
@@ -32,7 +26,7 @@ async function getEvents(url: string, fetchPages = true): Promise<Event[]> {
     ).flat()
   }
 
-  const events: Event[] = []
+  const events: ChurchEvent[] = []
   $('.article .item').each(function () {
     const name = $(this).find('h2 a').text().trim()
     const link = `https://www.kcmt.cz${$(this).find('h2 a').attr('href')}`

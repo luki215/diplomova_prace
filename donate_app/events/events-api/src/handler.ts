@@ -13,6 +13,7 @@ export async function handleRequest(request: Request): Promise<Response> {
   return new Response(JSON.stringify(events, null, 2), {
     headers: {
       'content-type': 'application/json;charset=UTF-8',
+      'Access-Control-Allow-Origin': '*',
     },
   })
 }

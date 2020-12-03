@@ -1,0 +1,27 @@
+app-events-list {
+  width: 300px;
+  display: block;
+  border-left: 2px solid #c5c5c5;
+  padding: 0 20px;
+  max-height: calc(100vh - 60px);
+  overflow: auto;
+  @media screen and (max-width: 600px) {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+    box-sizing: border-box;
+    border-left: 0;
+    border-top: 2px solid #c5c5c5
+  }
+}
+
+
+#donate {
+  @media screen and (min-width: 600px) {
+    display: flex;
+  }
+}
+
+app-payment {
+  flex-grow: 1
+}

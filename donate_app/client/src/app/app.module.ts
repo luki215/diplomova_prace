@@ -8,6 +8,8 @@ import { PaymentComponent } from './payment/payment.component';
 import { PaymentAmountSelectorComponent } from './payment/payment-amount-selector/payment-amount-selector.component';
 import { RouterModule } from '@angular/router';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { EventsListComponent } from './events-list/events-list.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -15,11 +17,13 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     HeaderComponent,
     TeaserComponent,
     PaymentComponent,
-    PaymentAmountSelectorComponent
+    PaymentAmountSelectorComponent,
+      EventsListComponent
    ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
     FormsModule,
+    HttpClientModule,
     ReactiveFormsModule
   ],
   providers: [],
