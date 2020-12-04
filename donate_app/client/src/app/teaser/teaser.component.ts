@@ -16,7 +16,6 @@ export class TeaserComponent implements OnInit {
     const headerHeight = 60;
     if(window) {
       window.scrollTo({top: window.innerHeight - headerHeight, behavior: 'smooth'});
-      e.preventDefault();
     }
   }
 

@@ -1,12 +1,37 @@
-<h2>Nedělní sbírka / dar farnosti</h2>
-- u daru farnosti data:
-Jméno, Příjmení, bydlište
+<h2>
+  <a [routerLink]="['.']" [queryParams]="{type: 'sunday'}" routerLinkActive="active" fragment="donate">
+    Nedělní sbírka</a> /
+  <a [routerLink]="['.']" [queryParams]="{type: 'donation'}" routerLinkActive="active" fragment="donate">
+    Dar farnosti
+  </a>
+</h2>
 
-částky u darů: 200, 300, 1000, 
+<app-payment-amount-selector [amounts]="type === 'sunday' ? [10, 20, 50, 100, 200] : [200, 300, 500, 1000]"
+  [formControl]="amountFC"></app-payment-amount-selector>
 
-<app-payment-amount-selector [amounts]="[10, 20, 50, 100, 200]" [formControl]="amountFC"></app-payment-amount-selector>
+<div class="contact-form" *ngIf="type !== 'sunday'" [formGroup]="userInfo">
+  <div class="form-control">
+    <input formControlName="name" id="contact-form__name" type="text" autocomplete="name" placeholder="&nbsp;">
+    <label for="contact-form__name">Jméno a příjmení</label>
+  </div>
 
-<div class="qr-code">
-  <img [src]="imgSrc" alt="paymentCode">
+  <div class="form-control">
+    <input formControlName="street" id="contact-form__street" type="text" autocomplete="street-address"
+      placeholder="&nbsp;">
+    <label for="contact-form__street">Ulice</label>
+  </div>
+  <div class="form-control">
+    <input formControlName="city" id="contact-form__city" type="text" autocomplete="address-level2"
+      placeholder="&nbsp;">
+    <label for="contact-form__city">Město</label>
+  </div>
+  <div class="form-control">
+    <input formControlName="zip" id="contact-form__zip" type="text" autocomplete="postal-code" placeholder="&nbsp;">
+    <label for="contact-form__zip">PSČ</label>
+  </div>
 </div>
 
+
+<div class="qr-code" *ngIf="showQR">
+  <img [src]="imgSrc" alt="paymentCode">
+</div>

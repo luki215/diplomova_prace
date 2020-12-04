@@ -1,3 +1,7 @@
+:host {
+  margin-bottom: var(--header-height);
+  display: block;
+}
 header {
   background: var(--background);
   height: var(--header-height);
@@ -8,7 +12,7 @@ header {
   width: 100%;
   top: 0;
   padding: 0 10px;
-  border-bottom: 2px solid #c5c5c5;
+  border-bottom: 2px solid var(--border-color);
   z-index: 1;
 }
 

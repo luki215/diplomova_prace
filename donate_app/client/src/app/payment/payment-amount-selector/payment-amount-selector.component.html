@@ -2,7 +2,7 @@
   <label>Částka</label>
 
   <div class="amounts">
-    <ng-container *ngFor="let a of amounts">
+    <ng-container *ngFor="let a of amountOptions">
       <input [id]="'amountFC-' + a" type="radio" [formControl]="radioFC" [value]="a"> <label
         [for]="'amountFC-' + a">{{ a }} Kč</label>
     </ng-container>
@@ -11,7 +11,8 @@
   </div>
 </div>
 
-<div class="custom-amount" *ngIf="radioFC.value === 'custom'">
-  <input type="number" [formControl]="customAmountFC" placeholder="Vyplňte vlastní částku">
+<div class="form-control" *ngIf="radioFC.value === 'custom'">
+  <input id="amount_selector__custom_amount" type="number" [formControl]="customAmountFC" placeholder="&nbsp;">
+  <label for="amount_selector__custom_amount">Vyplňte vlastní částku</label>
   <span>Kč</span>
 </div>

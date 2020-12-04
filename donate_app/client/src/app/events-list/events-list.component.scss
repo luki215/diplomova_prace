@@ -1,7 +1,7 @@
 .event {
   padding: 20px 0;
   &:not(:last-child) {
-    border-bottom: 1px solid #c5c5c5
+    border-bottom: 1px solid var(--border-color)
   }
   h4 {
     margin-top: 0;

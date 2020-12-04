@@ -1,11 +1,12 @@
 :host {
-  height: calc(100vh);
+  min-height: calc(100vh - var(--header-height));
   color: white;
   display: flex;
   flex-direction: column;
   position: relative;
   overflow: hidden;
 }
+
 :host::before {
   content: '';
   background-image: url("/assets/kcmt_sal.jpg");
@@ -22,30 +23,33 @@
 
 
 .wrapper {
-  height: 100%;
   flex-grow: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  position: relative;
-  top: 40px
+}
+
+.inner {
+  padding: 0 20px;
+  max-width: 1200px;
+  margin: auto;
+  @media screen and (min-width: 750px) {
+    display: flex;
+  }
 }
 
 
 h1 {
   font-size: 2.5rem;
-  margin-bottom: 0;
+  margin-bottom: 20px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 h2 {
-  font-size: 1.5rem;
-  margin-bottom: 3rem;
-  font-weight: 200;
-
+  text-align: center;
 }
 
+p {
+  text-align: justify;
+}
 a {
   border: 1px solid white;
   border-radius: 3px;
@@ -56,6 +60,9 @@ a {
   width: 130px;
   text-align: center;
   font-weight: 300;
+  margin: 20px auto;
+  margin-bottom: 40px;
+  display: block;
 }
 
 .arrow {
@@ -63,6 +70,12 @@ a {
   justify-content: center;
   margin-bottom: 20px;
 }
+
 .arrow img {
   width: 80px;
+}
+
+.cols-2 {
+  flex: 1 1 50%;
+  margin: 0 20px
 }

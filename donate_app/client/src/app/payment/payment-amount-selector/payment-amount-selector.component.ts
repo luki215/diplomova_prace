@@ -16,8 +16,20 @@ import { startWith } from 'rxjs/operators';
   ]
 })
 export class PaymentAmountSelectorComponent implements OnInit, ControlValueAccessor {
+  public amountOptions: number[];
+  public currVal: number;
 
-  @Input() amounts: number[];
+  @Input() set amounts(amounts: number[]) {
+    this.amountOptions = amounts;
+    if (this.currVal) {
+      if (amounts.includes(this.currVal)) {
+        this.radioFC.patchValue(this.currVal);
+      } else {
+        this.customAmountFC.patchValue(this.currVal);
+        this.radioFC.patchValue('custom');
+      }
+    }
+  }
 
   public radioFC = new FormControl();
   public customAmountFC = new FormControl();
@@ -26,11 +38,13 @@ export class PaymentAmountSelectorComponent implements OnInit, ControlValueAcces
   constructor() { }
 
   public writeValue(val: number): void {
-    if (this.amounts.includes(val)) {
-      this.radioFC.patchValue(val);
-    } else {
-      this.radioFC.patchValue('custom');
-      this.customAmountFC.patchValue(val);
+    if (val) {
+      if (this.amountOptions.includes(val)) {
+        this.radioFC.patchValue(val);
+      } else {
+        this.radioFC.patchValue('custom');
+        this.customAmountFC.patchValue(val);
+      }
     }
   }
   public registerOnChange(fn: any): void { this.onChange = fn; }
@@ -40,11 +54,11 @@ export class PaymentAmountSelectorComponent implements OnInit, ControlValueAcces
   public ngOnInit(): void {
     combineLatest([this.customAmountFC.valueChanges.pipe(startWith(null)), this.radioFC.valueChanges])
     .subscribe(([customAmount, radioVal]) => {
-      console.log(customAmount, radioVal);
       if (this.onChange) {
-        if(!(radioVal === 'custom' && !customAmount)) {
-        this.onChange(radioVal === 'custom' ? customAmount : radioVal);
-        this.onTouched();
+        if (!(radioVal === 'custom' && !customAmount)) {
+          this.currVal = radioVal === 'custom' ? customAmount : radioVal;
+          this.onChange(this.currVal);
+          this.onTouched();
         }
       }
     });
