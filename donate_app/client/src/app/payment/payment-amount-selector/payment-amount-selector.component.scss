@@ -1,12 +1,17 @@
 .amounts {
   margin: 10px 0;
+  display: flex;
+  flex-wrap: wrap;
   input {
     display: none;
     & ~ label {
       border: 1px solid var(--primary);
       color: var(--primary);
-      padding: 2px 5px;
+      padding: 7px 15px;
       border-radius: 3px;
+      white-space: nowrap;
+      margin-bottom: 10px;
+
       &:hover {
         background-color: var(--primary);
         color: white;
@@ -19,8 +24,8 @@
       color: white;
     }
 
-    &:not(:first-child) + label {
-      margin-left: 10px;
+    &:not(:last-child) + label {
+      margin-right: 10px;
     }
   }
 }
