@@ -4,8 +4,17 @@
       "hosting": {
         "client": [
           "church-donate"
+        ],
+        "CSR": [
+          "church-donate-csr"
+        ],
+        "prerender": [
+          "church-donate-prerender"
         ]
       }
     }
+  },
+  "projects": {
+    "default": "church-donate"
   }
 }
