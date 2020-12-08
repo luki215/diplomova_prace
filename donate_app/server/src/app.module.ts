@@ -1,10 +1,15 @@
-import { Module } from '@nestjs/common';
+import { HttpModule, HttpService, Module } from '@nestjs/common';
 import { AppController } from './app.controller';
-import { AppService } from './app.service';
+import { EventsService } from './events.service';
 
 @Module({
-  imports: [],
+  imports: [
+    HttpModule.register({
+      timeout: 5000,
+      maxRedirects: 5,
+    }),
+  ],
   controllers: [AppController],
-  providers: [AppService],
+  providers: [EventsService],
 })
 export class AppModule {}

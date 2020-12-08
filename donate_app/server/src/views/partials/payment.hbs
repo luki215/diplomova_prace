@@ -1,0 +1,87 @@
+<div class="payment">
+    <h2>
+        <a href="/?type=sunday#donate" {{#unless isDonation}}class="active" {{/unless}}>
+            Nedělní sbírka</a> /
+        <a href="/?type=donation#donate" {{#if isDonation}}class="active" {{/if}}>
+            Dar farnosti
+        </a>
+    </h2>
+
+    <form action="/#donate" method="GET">
+        <div class="payment-amount-selector">
+            <div>
+                <label>Částka</label>
+                <input type="hidden" name="type" value={{query.type}}>
+                <div class="amounts">
+                    {{#each amountOptions}}
+                    <input id="amountFC-{{this.value}}" type="submit" value="{{this.value}}" name="amountRadio"
+                        {{#if this.active }}class="active" {{/if}}>
+                    <label for="amountFC-{{this.value}}">{{ this.label }}</label>
+                    {{/each}}
+                </div>
+            </div>
+            {{#if showCustomAmountInput }}
+            <div class="custom-amount">
+                <div class="form-control" *ngIf="radioFC.value === 'custom'">
+                    <input id="amount_selector__custom_amount" type="number" name="customAmount" placeholder="&nbsp;"
+                        value="{{query.customAmount}}">
+                    <label for="amount_selector__custom_amount">Vyplňte vlastní částku</label>
+                    <span>Kč</span>
+                </div>
+                {{#unless isDonation}}
+                <div class="submit-btn">
+                    <input id="amount_selector__custom_amount_submit" type="submit" value="custom" name="amountRadio">
+                    <label for="amount_selector__custom_amount_submit">OK</label>
+                </div>
+                {{/unless }}
+            </div>
+            {{/if }}
+        </div>
+
+        {{#if isDonation}}
+        <div class="contact-form" [formGroup]="userInfo">
+            <div class="form-control">
+                <input name="contact_form__name" id="contact-form__name" type="text" autocomplete="name"
+                    placeholder="&nbsp;" value="{{query.contact_form__name}}">
+                <label for="contact-form__name">Jméno a příjmení</label>
+            </div>
+
+            <div class="form-control">
+                <input name="contact_form__street" id="contact-form__street" type="text" autocomplete="street-address"
+                    placeholder="&nbsp;" value="{{query.contact_form__street}}">
+                <label for="contact-form__street">Ulice</label>
+            </div>
+            <div class="form-control">
+                <input name="contact_form__city" id="contact-form__city" type="text" autocomplete="address-level2"
+                    placeholder="&nbsp;" value="{{query.contact_form__city}}">
+                <label for="contact-form__city">Město</label>
+            </div>
+            <div class="form-control">
+                <input name="contact_form__zip" id="contact-form__zip" type="text" autocomplete="postal-code"
+                    placeholder="&nbsp;" value="{{query.contact_form__zip}}">
+                <label for="contact-form__zip">PSČ</label>
+            </div>
+
+            <div class="submit-btn">
+                <input id="amount_selector__custom_amount_submit" type="submit" value="{{query.amountRadio}}"
+                    name="amountRadio">
+                <label for="amount_selector__custom_amount_submit">OK</label>
+            </div>
+        </div>
+    </form>
+    {{/if}}
+
+    <div class="payment-info">
+        {{#if paymentImg}}
+        <div class="qr-code">
+            <img src="{{paymentImg}}" alt="paymentCode"><br>
+            <a href="{{paymentImg}}" download="KCMT_QR_platba" class="btn">Stáhnout</a>
+        </div>
+        {{/if}}
+        <div class="account-info">
+            Číslo účtu: 19-9362170227/0100<br>
+            Variabilní symbol: 1111<br>
+            do zprávy pro příjemce uveďte prosím jméno a adresu, abychom vám mohli vystavit potvrzení o daru
+        </div>
+    </div>
+</div>

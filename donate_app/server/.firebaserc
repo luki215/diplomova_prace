@@ -2,15 +2,6 @@
   "targets": {
     "church-donate": {
       "hosting": {
-        "client": [
-          "church-donate"
-        ],
-        "CSR": [
-          "church-donate-csr"
-        ],
-        "prerender": [
-          "church-donate-prerender"
-        ],
         "server": [
           "church-donate-server"
         ]

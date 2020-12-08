@@ -1,0 +1,91 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+  --background: #fff;
+  --header-height: 60px;
+  --primary: #5d032c;
+  --border-color: #c5c5c5;
+  --text-color: #424242;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Alegreya Sans', sans-serif;
+  color: var(--text-color);
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.d-flex {
+  display: flex !important;
+}
+
+.align-items-center {
+  align-items: center !important;
+}
+
+.form-control {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+
+  label,
+  input {
+    display: block;
+    width: 100%;
+  }
+
+  label {
+    position: relative;
+    bottom: 0;
+    order: -1;
+    color: var(--text-color);
+    margin-bottom: 5px;
+    margin-top: 0.25rem;
+    transition: all 70ms ease-in-out;
+    font-size: 0.75rem;
+  }
+
+  input {
+    border: 0;
+    border-bottom: 1px solid var(--border-color);
+    padding: 5px 0px;
+
+    &:placeholder-shown ~ label {
+      bottom: calc(-1rem - 12px);
+      font-size: 1rem;
+      margin-top: 0;
+      cursor: text;
+    }
+
+    &:focus {
+      border-bottom-color: var(--primary);
+      outline: none;
+      &:not(:placeholder-shown) ~ label {
+        color: var(--primary);
+      }
+    }
+  }
+}
+
+#donate {
+  @media screen and (min-width: 600px) {
+    display: flex;
+  }
+}

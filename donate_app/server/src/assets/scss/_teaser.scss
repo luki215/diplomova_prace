@@ -1,0 +1,79 @@
+.teaser {
+  min-height: calc(100vh - var(--header-height));
+  color: white;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    background-image: url('/public/images/kcmt_sal.jpg');
+    background-size: cover;
+    filter: grayscale(70%) blur(4px) brightness(0.3);
+    transform: scale(1.1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+
+  .wrapper {
+    flex-grow: 1;
+  }
+
+  .inner {
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: auto;
+    @media screen and (min-width: 750px) {
+      display: flex;
+    }
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  p {
+    text-align: justify;
+  }
+  a {
+    border: 1px solid white;
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    text-transform: uppercase;
+    width: 130px;
+    text-align: center;
+    font-weight: 300;
+    margin: 20px auto;
+    margin-bottom: 40px;
+    display: block;
+  }
+
+  .arrow {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .arrow img {
+    width: 80px;
+  }
+
+  .cols-2 {
+    flex: 1 1 50%;
+    margin: 0 20px;
+  }
+}

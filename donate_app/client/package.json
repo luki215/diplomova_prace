@@ -12,7 +12,7 @@
     "serve:ssr": "node dist/client/server/main.js",
     "build:ssr": "ng build --prod && ng run client:server:production",
     "prerender": "ng run client:prerender",
-    "deploy": "rm -rf functions/dist && yarn build:ssr && cp -R functions/dist/client functions/dist/SSR && mv functions/dist/SSR/browser/index.html functions/dist/SSR/browser/index.original.html && cp -R functions/dist/client/browser functions/dist/CSR && yarn prerender && yarn firebase deploy"
+    "deploy": "rm -rf functions/dist && yarn build:ssr && cp -R functions/dist/client functions/dist/SSR && mv functions/dist/SSR/browser/index.html functions/dist/SSR/browser/index.original.html && cp -R functions/dist/client/browser functions/dist/CSR && yarn prerender && cd ../server/ && yarn build && cd ../client/ && cp -R ../server/ ./functions/dist/server_render/ && yarn firebase deploy"
   },
   "private": true,
   "dependencies": {

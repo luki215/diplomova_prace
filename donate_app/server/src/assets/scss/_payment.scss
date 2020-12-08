@@ -1,0 +1,105 @@
+.payment {
+  flex-grow: 1;
+  display: block;
+  padding: 20px;
+  box-sizing: border-box;
+  max-height: calc(100vh - 60px);
+  overflow: auto;
+
+  .qr-code {
+    text-align: center;
+  }
+  .account-info {
+    margin-top: 10px;
+    line-height: 2rem;
+  }
+
+  img {
+    min-width: 200px;
+    max-width: 100%;
+  }
+
+  a.active {
+    text-decoration: underline;
+  }
+
+  .btn {
+    border: 1px solid var(--primary);
+    color: var(--primary);
+    padding: 7px 15px;
+    border-radius: 3px;
+    white-space: nowrap;
+    margin-bottom: 10px;
+
+    &:hover {
+      background-color: var(--primary);
+      color: white;
+      cursor: pointer;
+    }
+  }
+
+  .payment-amount-selector {
+    .amounts {
+      margin: 10px 0;
+      display: flex;
+      flex-wrap: wrap;
+      input {
+        &.active + label {
+          background-color: var(--primary);
+          color: white;
+        }
+
+        &:not(:last-child) + label {
+          margin-right: 10px;
+        }
+      }
+    }
+
+    .form-control {
+      position: relative;
+      flex-grow: 1;
+      &:focus-within span {
+        display: block;
+      }
+    }
+    .form-control span {
+      display: none;
+      position: absolute;
+      right: 25px;
+      bottom: 3px;
+    }
+  }
+
+  .custom-amount {
+    display: flex;
+    align-items: flex-end;
+    .submit-btn {
+      margin-left: 10px;
+      margin-bottom: 15px;
+    }
+  }
+
+  input[type='submit'] {
+    display: none;
+    & ~ label {
+      border: 1px solid var(--primary);
+      color: var(--primary);
+      padding: 7px 15px;
+      border-radius: 3px;
+      white-space: nowrap;
+      margin-bottom: 10px;
+
+      &:hover {
+        background-color: var(--primary);
+        color: white;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .contact-form .submit-btn {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+  }
+}

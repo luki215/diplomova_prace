@@ -11,10 +11,9 @@ app-events-list {
     overflow: visible;
     box-sizing: border-box;
     border-left: 0;
-    border-top: 2px solid var(--border-color)
+    border-top: 2px solid var(--border-color);
   }
 }
-
 
 #donate {
   @media screen and (min-width: 600px) {
@@ -23,5 +22,5 @@ app-events-list {
 }
 
 app-payment {
-  flex-grow: 1
+  flex-grow: 1;
 }
