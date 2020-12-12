@@ -37,4 +37,7 @@ async function run(): Promise<void> {
 createNestApp(server);
 export const server_render = functions.https.onRequest(server);
 
-// run();
+// we are not running from firebase => start on localhost
+if (!process.env.GCLOUD_PROJECT) {
+  run();
+}
