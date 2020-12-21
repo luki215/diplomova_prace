@@ -15,7 +15,7 @@ export class PaymentComponent implements OnInit {
   public amountFC = new FormControl(null);
   public showQR = false;
   public imgSrc = null;
-  public type: 'sunday' | 'donation' = 'sunday';
+  public type: 'sunday' | 'donation' = 'donation';
 
   constructor(private route: ActivatedRoute, private fb: FormBuilder) {}
   public userInfo = this.fb.group({
@@ -27,7 +27,7 @@ export class PaymentComponent implements OnInit {
 
   public ngOnInit(): void {
     this.route.queryParamMap.subscribe((res) => {
-      this.type = this.whitelist<'sunday' | 'donation'>(['sunday', 'donation'], res.get('type')) ?? 'sunday';
+      this.type = this.whitelist<'sunday' | 'donation'>(['sunday', 'donation'], res.get('type')) ?? 'donation';
     });
 
     combineLatest([

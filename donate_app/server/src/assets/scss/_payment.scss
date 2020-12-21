@@ -3,11 +3,12 @@
   display: block;
   padding: 20px;
   box-sizing: border-box;
-  max-height: calc(100vh - 60px);
+  height: calc(100vh - 60px);
   overflow: auto;
 
   .qr-code {
     text-align: center;
+    flex-grow: 1;
   }
   .account-info {
     margin-top: 10px;
@@ -101,5 +102,37 @@
     margin: 20px 0;
     display: flex;
     justify-content: center;
+  }
+
+  h2 {
+    margin-top: 0;
+  }
+
+  .payment-info {
+    display: flex;
+  }
+
+  @media screen and (max-width: 880px) {
+    .payment-info {
+      display: block;
+    }
+  }
+
+  .account-info {
+    font-size: 1.2rem;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 0 15px;
+    text-align: left;
+    order: -1;
+    flex-basis: 50%;
+    .text-disabled {
+      color: #636363;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .account-info {
+      grid-template-columns: 1fr;
+    }
   }
 }

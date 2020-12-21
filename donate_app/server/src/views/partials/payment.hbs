@@ -1,10 +1,11 @@
 <div class="payment">
     <h2>
-        <a href="/?type=sunday#donate" {{#unless isDonation}}class="active" {{/unless}}>
-            Nedělní sbírka</a> /
+
         <a href="/?type=donation#donate" {{#if isDonation}}class="active" {{/if}}>
-            Dar farnosti
-        </a>
+            Dar farnosti</a>
+        |
+        <a href="/?type=sunday#donate" {{#unless isDonation}}class="active" {{/unless}}>
+            Nedělní sbírka</a>
     </h2>
 
     <form action="/#donate" method="GET">
@@ -14,8 +15,8 @@
                 <input type="hidden" name="type" value={{query.type}}>
                 <div class="amounts">
                     {{#each amountOptions}}
-                    <input id="amountFC-{{this.value}}" type="submit" value="{{this.value}}" name="amountRadio"
-                        {{#if this.active }}class="active" {{/if}}>
+                    <input id="amountFC-{{this.value}}" type="submit" value="{{this.value}}" name="amountRadio" {{#if
+                        this.active }}class="active" {{/if}}>
                     <label for="amountFC-{{this.value}}">{{ this.label }}</label>
                     {{/each}}
                 </div>
@@ -75,13 +76,14 @@
         {{#if paymentImg}}
         <div class="qr-code">
             <img src="{{paymentImg}}" alt="paymentCode"><br>
-            <a href="{{paymentImg}}" download="KCMT_QR_platba" class="btn">Stáhnout</a>
+            <a href="{{paymentImg}}" download="KCMT_QR_platba" class="btn">Stáhnout QR kód</a>
         </div>
         {{/if}}
         <div class="account-info">
-            Číslo účtu: 19-9362170227/0100<br>
-            Variabilní symbol: 1111<br>
-            do zprávy pro příjemce uveďte prosím jméno a adresu, abychom vám mohli vystavit potvrzení o daru
+            <span class="text-disabled">Číslo účtu:</span> 19-9362170227/0100
+            <span class="text-disabled">Variabilní symbol:</span> 1111
+            <span class="text-disabled">Zpráva příjemci:</span> do zprávy pro příjemce uveďte prosím jméno a adresu,
+            abychom vám mohli vystavit potvrzení o daru
         </div>
     </div>
 </div>

@@ -6,6 +6,7 @@
 
 .qr-code {
   text-align: center;
+  flex-grow: 1;
 }
 .account-info {
   margin-top: 10px;
@@ -33,5 +34,37 @@ a.active {
     background-color: var(--primary);
     color: white;
     cursor: pointer;
+  }
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.payment-info {
+  display: flex;
+}
+
+@media screen and (max-width: 880px) {
+  .payment-info {
+    display: block;
+  }
+}
+
+.account-info {
+  font-size: 1.2rem;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 0 15px;
+  text-align: left;
+  order: -1;
+  flex-basis: 50%;
+  .text-disabled {
+    color: #636363;
+  }
+}
+@media screen and (max-width: 400px) {
+  .account-info {
+    grid-template-columns: 1fr;
   }
 }

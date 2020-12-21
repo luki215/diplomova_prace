@@ -3,6 +3,19 @@
     <h1>Přispějte komunitnímu centru Matky Terezy</h1>
     <div class="inner">
       <div class="cols-2">
+        <h2>Dar farnosti</h2>
+        <p>Explicabo distinctio ea ullam qui. Dolorum quo iure rerum sint consequuntur amet ut sunt. Ut ducimus et omnis
+          eligendi itaque quia id non ipsam. Qui recusandae porro. Id distinctio consequatur esse qui. Repellendus vel
+          laborum.</p>
+        <ul>
+          <li>Peníze jdou farnosti</li>
+          <li>Je potřeba vyplnit kontaktní údaje do poznámky v platbě</li>
+          <li>Možnost dát do daňového přiznání</li>
+        </ul>
+        <a [routerLink]="['.']" [queryParams]="{type: 'donation'}" fragment="donate"
+          (click)="scrollToDonate($event)">Přispět</a>
+      </div>
+      <div class="cols-2">
         <h2>Nedělní sbírka</h2>
         <p>Modi in provident aut eius repellendus. Accusamus aspernatur consequatur praesentium debitis. Ut eum pariatur
           molestiae vel.</p>
@@ -15,19 +28,6 @@
         <a [routerLink]="['.']" [queryParams]="{type: 'sunday'}" fragment="donate"
           (click)="scrollToDonate($event)">Přispět</a>
 
-      </div>
-      <div class="cols-2">
-        <h2>Dar farnosti</h2>
-        <p>Explicabo distinctio ea ullam qui. Dolorum quo iure rerum sint consequuntur amet ut sunt. Ut ducimus et omnis
-          eligendi itaque quia id non ipsam. Qui recusandae porro. Id distinctio consequatur esse qui. Repellendus vel
-          laborum.</p>
-        <ul>
-          <li>Peníze jdou farnosti</li>
-          <li>Je potřeba vyplnit kontaktní údaje do poznámky v platbě</li>
-          <li>Možnost dát do daňového přiznání</li>
-        </ul>
-        <a [routerLink]="['.']" [queryParams]="{type: 'donation'}" fragment="donate"
-          (click)="scrollToDonate($event)">Přispět</a>
       </div>
     </div>
   </div>

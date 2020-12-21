@@ -129,6 +129,7 @@ h6 {
 }
 .teaser .wrapper {
   flex-grow: 1;
+  justify-content: center;
 }
 .teaser .inner {
   padding: 0 20px;
@@ -184,11 +185,12 @@ h6 {
   display: block;
   padding: 20px;
   box-sizing: border-box;
-  max-height: calc(100vh - 60px);
+  height: calc(100vh - 60px);
   overflow: auto;
 }
 .payment .qr-code {
   text-align: center;
+  flex-grow: 1;
 }
 .payment .account-info {
   margin-top: 10px;
@@ -268,9 +270,37 @@ h6 {
   display: flex;
   justify-content: center;
 }
+.payment h2 {
+  margin-top: 0;
+}
+.payment .payment-info {
+  display: flex;
+}
+@media screen and (max-width: 880px) {
+  .payment .payment-info {
+    display: block;
+  }
+}
+.payment .account-info {
+  font-size: 1.2rem;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 0 15px;
+  text-align: left;
+  order: -1;
+  flex-basis: 50%;
+}
+.payment .account-info .text-disabled {
+  color: #636363;
+}
+@media screen and (max-width: 400px) {
+  .payment .account-info {
+    grid-template-columns: 1fr;
+  }
+}
 
 .event-list {
-  width: 300px;
+  width: 600px;
   display: block;
   border-left: 2px solid var(--border-color);
   padding: 0 20px;
@@ -299,13 +329,13 @@ h6 {
   text-transform: none;
 }
 .event-list .event p {
-  margin: 0;
+  margin-top: 10px;
 }
 .event-list .event:first-of-type {
   padding-top: 0;
 }
 .event-list .img {
-  width: 30%;
+  width: 100px;
   margin-right: 10px;
   flex-shrink: 0;
 }

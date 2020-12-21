@@ -9,7 +9,7 @@
 
 :host::before {
   content: '';
-  background-image: url("/assets/kcmt_sal.jpg");
+  background-image: url('/assets/kcmt_sal.jpg');
   background-size: cover;
   filter: grayscale(70%) blur(4px) brightness(0.3);
   transform: scale(1.1);
@@ -21,9 +21,9 @@
   z-index: -1;
 }
 
-
 .wrapper {
   flex-grow: 1;
+  justify-content: center;
 }
 
 .inner {
@@ -34,7 +34,6 @@
     display: flex;
   }
 }
-
 
 h1 {
   font-size: 2.5rem;
@@ -77,5 +76,5 @@ a {
 
 .cols-2 {
   flex: 1 1 50%;
-  margin: 0 20px
+  margin: 0 20px;
 }

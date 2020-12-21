@@ -1,5 +1,5 @@
 app-events-list {
-  width: 300px;
+  width: 600px;
   display: block;
   border-left: 2px solid var(--border-color);
   padding: 0 20px;
@@ -23,4 +23,5 @@ app-events-list {
 
 app-payment {
   flex-grow: 1;
+  height: calc(100vh - 60px);
 }

@@ -1,0 +1,8 @@
+[ ] Větší logo
+[ ] sjednotit grafiku s hlavním webem
+[ ] zvětšit číslo účtu - ať je rovnocenná alternativa QR
+[x] Stáhnout => stáhnout QR kód
+[x] Nedělní sbírka / Dar farnosti > Nedělní sbírka | Dar farnosti
+[x] Prohodit sbírku a dar farnosti, ať je primární dar farnosti
+[x] větší prostor pro události - klidně 1/3 pro monitory
+
