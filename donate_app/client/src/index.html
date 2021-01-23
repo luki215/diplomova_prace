@@ -3,11 +3,36 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Client</title>
+  <title>KCMT | farní sbírka</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400&display=swap" rel="stylesheet">
+
+  <!-- Web vitals scripts -->
+  <script defer src="https://unpkg.com/web-vitals"></script>
+  <script>
+    addEventListener('DOMContentLoaded', function () {
+      const endpoint = 'https://metrics-endpoint.brezina.workers.dev/';
+      function sendToAnalytics({ name, value }) {
+        const body = JSON.stringify({
+          name,
+          value,
+          renderingType: document.cookie.match(/rendering_choice=([^;]*)/)[1],
+          userAgent: navigator.userAgent
+        });
+        // Use `navigator.sendBeacon()` if available, falling back to `fetch()`.
+        (navigator.sendBeacon && navigator.sendBeacon(endpoint, body)) ||
+          fetch(endpoint, { body, method: 'POST', keepalive: true });
+      }
+
+      webVitals.getCLS(sendToAnalytics);
+      webVitals.getFID(sendToAnalytics);
+      webVitals.getLCP(sendToAnalytics);
+      webVitals.getFCP(sendToAnalytics);
+      webVitals.getTTFB(sendToAnalytics);
+    });
+  </script>
 </head>
 
 <body>

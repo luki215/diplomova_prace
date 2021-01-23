@@ -37,7 +37,7 @@ export class PaymentComponent implements OnInit {
       if (am) {
         this.showQR = true;
         const payment = {
-          acc: 'CZ5855000000001265098001+RZBCCZPP',
+          acc: 'CZ3401000000199362170227+KOMBCZPP',
           am,
           cc: 'CZK',
           msg: this.type === 'donation' ? `${this.getUserInfo()} ` : ' ',
@@ -56,9 +56,12 @@ export class PaymentComponent implements OnInit {
     });
   }
   private getUserInfo(): string {
-    return `${this.userInfo.get('name').value}, ${this.userInfo.get('street').value},  ${
-      this.userInfo.get('zip').value
-    }, ${this.userInfo.get('city').value}`;
+    const string = `${this.userInfo.get('name').value ?? '<jmeno>'}, ${
+      this.userInfo.get('street').value ?? '<ulice>'
+    },  ${this.userInfo.get('zip').value ?? '<PSČ>'}, ${this.userInfo.get('city').value ?? '<město>'}`;
+
+    // remove diacritics
+    return string.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
   }
 
   private whitelist<T>(items: T[], value: any): T | null {

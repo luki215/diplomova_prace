@@ -52,12 +52,19 @@ export class AppController {
     };
   }
   private getUserInfo(query): string {
-    return `${query.contact_form__name}, ${query.contact_form__street},  ${query.contact_form__zip}, ${query.contact_form__city}`;
+    const string = `${query.contact_form__name ?? '<jmeno>'}, ${
+      query.contact_form__street ?? '<ulice>'
+    },  ${query.contact_form__zip ?? '<PSČ>'}, ${
+      query.contact_form__city ?? '<město>'
+    }`;
+
+    // remove diacritics
+    return string.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
   }
 
   private getPaymentImg(am: string, msg: string) {
     const payment = {
-      acc: 'CZ5855000000001265098001+RZBCCZPP',
+      acc: 'CZ3401000000199362170227+KOMBCZPP',
       am,
       cc: 'CZK',
       msg,

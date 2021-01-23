@@ -8,7 +8,7 @@
 
   &::before {
     content: '';
-    background-image: url('/public/images/kcmt_sal.jpg');
+    background-image: url('/images/kcmt_sal.jpg');
     background-size: cover;
     filter: grayscale(70%) blur(4px) brightness(0.3);
     transform: scale(1.1);

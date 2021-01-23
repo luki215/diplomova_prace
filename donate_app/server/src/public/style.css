@@ -10,7 +10,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Alegreya Sans", sans-serif;
+  font-family: 'Alegreya Sans', sans-serif;
   color: var(--text-color);
 }
 
@@ -115,8 +115,8 @@ h6 {
   overflow: hidden;
 }
 .teaser::before {
-  content: "";
-  background-image: url("/public/images/kcmt_sal.jpg");
+  content: '';
+  background-image: url('/images/kcmt_sal.jpg');
   background-size: cover;
   filter: grayscale(70%) blur(4px) brightness(0.3);
   transform: scale(1.1);
@@ -249,10 +249,10 @@ h6 {
   margin-left: 10px;
   margin-bottom: 15px;
 }
-.payment input[type=submit] {
+.payment input[type='submit'] {
   display: none;
 }
-.payment input[type=submit] ~ label {
+.payment input[type='submit'] ~ label {
   border: 1px solid var(--primary);
   color: var(--primary);
   padding: 7px 15px;
@@ -260,7 +260,7 @@ h6 {
   white-space: nowrap;
   margin-bottom: 10px;
 }
-.payment input[type=submit] ~ label:hover {
+.payment input[type='submit'] ~ label:hover {
   background-color: var(--primary);
   color: white;
   cursor: pointer;

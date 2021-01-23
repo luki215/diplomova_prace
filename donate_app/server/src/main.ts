@@ -15,7 +15,7 @@ async function createNestApp(expressInstance) {
     new ExpressAdapter(expressInstance),
   );
 
-  app.useStaticAssets(join(__dirname, 'public'), { prefix: '/public/' });
+  app.useStaticAssets(join(__dirname, 'public'));
   app.setBaseViewsDir(join(__dirname, 'views'));
   app.setViewEngine('hbs');
   hbs.registerPartials(join(__dirname, 'views', 'partials'));

@@ -1,0 +1,8 @@
+name = "metrics-endpoint"
+type = "webpack"
+workers_dev = true
+webpack_config = "webpack.config.js"
+account_id = "ba8fecd59fd3205323517712ce3aedd7"
+kv_namespaces = [ 
+    { binding = "METRICS_KV", id = "a928b03a7150457da15da9fc014bcfeb", preview_id = "a928b03a7150457da15da9fc014bcfeb" }
+]

@@ -1,6 +1,10 @@
 <div class="event-list">
     <h3>Nejbližší akce ve farnosti</h3>
-
+    {{#unless events.length}}
+    <div class="event">
+        Momentálně nejsou žádné akce naplánované
+    </div>
+    {{/unless}}
     {{#each events}}
     <div class="event">
         <h4><a href="{{this.link}}">{{this.name}}</a></h4>
