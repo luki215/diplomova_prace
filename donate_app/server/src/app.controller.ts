@@ -18,7 +18,7 @@ export class AppController {
     query.type ??= 'donation';
 
     let amountOptions: any =
-      query.type === 'sunday' ? [10, 20, 50, 100, 200] : [200, 300, 500, 1000];
+      query.type === 'sunday' ? [20, 50, 100, 200] : [200, 300, 500, 1000];
 
     amountOptions = amountOptions.map((x) => ({
       active: x === +query.amountRadio,
@@ -38,7 +38,9 @@ export class AppController {
     const paymentImg = amount
       ? await this.getPaymentImg(
           amount,
-          query.type === 'donation' ? `${this.getUserInfo(query)} ` : ' ',
+          query.type === 'donation'
+            ? `${this.getUserInfo(query)} `
+            : 'NEDELNI SBIRKA',
         )
       : false;
 
@@ -52,14 +54,18 @@ export class AppController {
     };
   }
   private getUserInfo(query): string {
-    const string = `${query.contact_form__name ?? '<jmeno>'}, ${
+    const string = `${query.contact_form__name ?? '<jmeno>'},${
       query.contact_form__street ?? '<ulice>'
-    },  ${query.contact_form__zip ?? '<PSČ>'}, ${
+    },${query.contact_form__zip ?? '<PSČ>'},${
       query.contact_form__city ?? '<město>'
     }`;
 
     // remove diacritics
-    return string.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+
+    return string
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .substr(0, 50);
   }
 
   private getPaymentImg(am: string, msg: string) {

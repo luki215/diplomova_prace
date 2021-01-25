@@ -7,7 +7,7 @@
 
 </h2>
 
-<app-payment-amount-selector [amounts]="type === 'sunday' ? [10, 20, 50, 100, 200] : [200, 300, 500, 1000]"
+<app-payment-amount-selector [amounts]="type === 'sunday' ? [20, 50, 100, 200] : [200, 300, 500, 1000]"
   [formControl]="amountFC"></app-payment-amount-selector>
 
 <div class="contact-form" *ngIf="type !== 'sunday'" [formGroup]="userInfo">
@@ -44,8 +44,13 @@
   <div class="account-info">
     <span class="text-disabled">Číslo účtu:</span> 19-9362170227/0100
     <span class="text-disabled">Variabilní symbol:</span> 1111
-    <span class="text-disabled">Zpráva příjemci:</span> do zprávy pro příjemce uveďte prosím jméno a adresu, abychom
-    vám
-    mohli vystavit potvrzení o daru
+    <span class="text-disabled">Zpráva příjemci:</span>
+    <ng-container *ngIf="type==='donation'">
+      do zprávy pro příjemce uveďte prosím jméno a adresu,
+      abychom vám mohli vystavit potvrzení o daru
+    </ng-container>
+    <ng-container *ngIf="type==='sunday'">
+      NEDELNI SBIRKA
+    </ng-container>
   </div>
 </div>

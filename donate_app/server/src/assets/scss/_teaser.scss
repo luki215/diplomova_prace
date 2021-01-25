@@ -48,7 +48,7 @@
   p {
     text-align: justify;
   }
-  a {
+  .inner a {
     border: 1px solid white;
     border-radius: 3px;
     color: white;
@@ -76,5 +76,14 @@
   .cols-2 {
     flex: 1 1 50%;
     margin: 0 20px;
+  }
+
+  .message {
+    max-width: 1200px;
+    margin: 0 40px;
+  }
+
+  .message a {
+    color: #dea2bd;
   }
 }

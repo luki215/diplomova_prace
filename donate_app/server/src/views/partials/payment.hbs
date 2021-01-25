@@ -82,8 +82,13 @@
         <div class="account-info">
             <span class="text-disabled">Číslo účtu:</span> 19-9362170227/0100
             <span class="text-disabled">Variabilní symbol:</span> 1111
-            <span class="text-disabled">Zpráva příjemci:</span> do zprávy pro příjemce uveďte prosím jméno a adresu,
+            <span class="text-disabled">Zpráva příjemci:</span>
+            {{#if isDonation}}
+            do zprávy pro příjemce uveďte prosím jméno a adresu,
             abychom vám mohli vystavit potvrzení o daru
+            {{else}}
+            NEDELNI SBIRKA
+            {{/if}}
         </div>
     </div>
 </div>

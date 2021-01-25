@@ -40,7 +40,7 @@ export class PaymentComponent implements OnInit {
           acc: 'CZ3401000000199362170227+KOMBCZPP',
           am,
           cc: 'CZK',
-          msg: this.type === 'donation' ? `${this.getUserInfo()} ` : ' ',
+          msg: this.type === 'donation' ? `${this.getUserInfo()} ` : 'NEDELNI SBIRKA',
           xvs: '1111'
         };
 
@@ -56,12 +56,15 @@ export class PaymentComponent implements OnInit {
     });
   }
   private getUserInfo(): string {
-    const string = `${this.userInfo.get('name').value ?? '<jmeno>'}, ${
-      this.userInfo.get('street').value ?? '<ulice>'
-    },  ${this.userInfo.get('zip').value ?? '<PSČ>'}, ${this.userInfo.get('city').value ?? '<město>'}`;
+    const string = `${this.userInfo.get('name').value ?? '<jmeno>'},${this.userInfo.get('street').value ?? '<ulice>'},${
+      this.userInfo.get('zip').value ?? '<PSČ>'
+    },${this.userInfo.get('city').value ?? '<město>'}`;
 
     // remove diacritics
-    return string.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    return string
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .substr(0, 50);
   }
 
   private whitelist<T>(items: T[], value: any): T | null {
