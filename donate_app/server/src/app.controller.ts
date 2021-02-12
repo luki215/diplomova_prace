@@ -2,7 +2,7 @@ import { Controller, Get, Query, Render } from '@nestjs/common';
 import { EventsService } from './events.service';
 import spayd from 'spayd';
 import * as qrcode from 'qrcode';
-
+import { church_app_config } from './config';
 @Controller()
 export class AppController {
   constructor(private readonly eventsService: EventsService) {}
@@ -17,8 +17,11 @@ export class AppController {
 
     query.type ??= 'donation';
 
-    let amountOptions: any =
-      query.type === 'sunday' ? [20, 50, 100, 200] : [200, 300, 500, 1000];
+    const isDonation = query.type === 'donation';
+
+    let amountOptions: any = isDonation
+      ? [200, 300, 500, 1000]
+      : [20, 50, 100, 200];
 
     amountOptions = amountOptions.map((x) => ({
       active: x === +query.amountRadio,
@@ -35,22 +38,23 @@ export class AppController {
     const amount =
       query.amountRadio === 'custom' ? query.customAmount : query.amountRadio;
 
+    const paymentConfig = isDonation
+      ? church_app_config.accounts.donation
+      : church_app_config.accounts.sunday;
+
     const paymentImg = amount
-      ? await this.getPaymentImg(
-          amount,
-          query.type === 'donation'
-            ? `${this.getUserInfo(query)} `
-            : 'NEDELNI SBIRKA',
-        )
+      ? await this.getPaymentImg(amount, query, isDonation, paymentConfig)
       : false;
 
+    debugger;
     return {
       query,
       amountOptions,
       events,
-      isDonation: query.type === 'donation',
+      isDonation,
       showCustomAmountInput: query.amountRadio === 'custom',
       paymentImg,
+      paymentConfig,
     };
   }
   private getUserInfo(query): string {
@@ -68,13 +72,13 @@ export class AppController {
       .substr(0, 50);
   }
 
-  private getPaymentImg(am: string, msg: string) {
+  private getPaymentImg(am: string, query, isDonation: boolean, paymentConfig) {
     const payment = {
-      acc: 'CZ3401000000199362170227+KOMBCZPP',
+      acc: paymentConfig.account,
       am,
       cc: 'CZK',
-      msg,
-      xvs: '1111',
+      msg: isDonation ? `${this.getUserInfo(query)} ` : 'NEDELNI SBIRKA',
+      xvs: paymentConfig.vs,
     };
 
     return qrcode.toDataURL(spayd(payment));

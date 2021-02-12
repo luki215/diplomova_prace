@@ -42,12 +42,11 @@
   </div>
 
   <div class="account-info">
-    <span class="text-disabled">Číslo účtu:</span> 19-9362170227/0100
-    <span class="text-disabled">Variabilní symbol:</span> 1111
+    <span class="text-disabled">Číslo účtu:</span> {{config.accounts[type].account_print}}
+    <span class="text-disabled">Variabilní symbol:</span> {{config.accounts[type].vs}}
     <span class="text-disabled">Zpráva příjemci:</span>
     <ng-container *ngIf="type==='donation'">
-      do zprávy pro příjemce uveďte prosím jméno a adresu,
-      abychom vám mohli vystavit potvrzení o daru
+      do zprávy pro příjemce uveďte prosím jméno a adresu, abychom Vám mohli vystavit potvrzení o daru
     </ng-container>
     <ng-container *ngIf="type==='sunday'">
       NEDELNI SBIRKA

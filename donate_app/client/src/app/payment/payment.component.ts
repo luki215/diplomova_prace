@@ -5,7 +5,7 @@ import qrcode from 'qrcode';
 import { startWith } from 'rxjs/operators';
 import { ActivatedRoute } from '@angular/router';
 import { combineLatest } from 'rxjs';
-
+import { church_app_config } from '../../../../shared/config';
 @Component({
   selector: 'app-payment',
   templateUrl: './payment.component.html',
@@ -16,6 +16,7 @@ export class PaymentComponent implements OnInit {
   public showQR = false;
   public imgSrc = null;
   public type: 'sunday' | 'donation' = 'donation';
+  public config = church_app_config;
 
   constructor(private route: ActivatedRoute, private fb: FormBuilder) {}
   public userInfo = this.fb.group({
@@ -37,11 +38,11 @@ export class PaymentComponent implements OnInit {
       if (am) {
         this.showQR = true;
         const payment = {
-          acc: 'CZ3401000000199362170227+KOMBCZPP',
+          acc: this.config.accounts[this.type].account,
           am,
           cc: 'CZK',
           msg: this.type === 'donation' ? `${this.getUserInfo()} ` : 'NEDELNI SBIRKA',
-          xvs: '1111'
+          xvs: this.config.accounts[this.type].vs
         };
 
         qrcode
