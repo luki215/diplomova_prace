@@ -1,0 +1,33 @@
+:host {
+  background: var(--bg-medium);
+  display: block;
+  border: 1px solid #ababab;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  white-space: nowrap;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  li {
+    display: block;
+    width: 100%;
+    border-right: 1px solid #ababab;
+    &:first-child {
+      border-left: 1px solid #ababab;
+    }
+  }
+  a {
+    display: block;
+    color: var(--bg-dark);
+    text-decoration: none;
+    padding: 10px 20px;
+
+    &:hover {
+      background-color: var(--bg-dark);
+      color: var(--bg);
+    }
+  }
+}
