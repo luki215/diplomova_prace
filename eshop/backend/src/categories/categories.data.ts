@@ -4,7 +4,7 @@ export const categories: Category[] = [
     {
         name: "Trvalky",
         slug: "trvalky",
-        background: `${process.env.HOST}/images/cat/cat1.jpg`,
+        background: `${process.env.HOST}/images/cat/trvalky.webp`,
         seo: {
             title: "Trvalky | Zahradnictví Březina",
             description: "Rostliny, které žijí, dokud je nezapomenete dlouho zalít"
@@ -13,7 +13,7 @@ export const categories: Category[] = [
     {
         name: "Bylinky",
         slug: "bylinky",
-        background: `${process.env.HOST}/images/cat/cat1.jpg`,
+        background: `${process.env.HOST}/images/cat/bylinky.webp`,
         seo: {
             title: "Trvalky | Zahradnictví Březina",
             description: "Rostliny, které žijí, dokud je nezapomenete dlouho zalít"
@@ -22,7 +22,7 @@ export const categories: Category[] = [
     {
         name: "Růže",
         slug: "ruze",
-        background: `${process.env.HOST}/images/cat/cat1.jpg`,
+        background: `${process.env.HOST}/images/cat/ruze.webp`,
         seo: {
             title: "Trvalky | Zahradnictví Březina",
             description: "Rostliny, které žijí, dokud je nezapomenete dlouho zalít"
@@ -31,7 +31,7 @@ export const categories: Category[] = [
     {
         name: "Trávy",
         slug: "travy",
-        background: `${process.env.HOST}/images/cat/cat1.jpg`,
+        background: `${process.env.HOST}/images/cat/trava.webp`,
         seo: {
             title: "Trvalky | Zahradnictví Březina",
             description: "Rostliny, které žijí, dokud je nezapomenete dlouho zalít"
@@ -40,7 +40,7 @@ export const categories: Category[] = [
     {
         name: "Substráty, hnojiva",
         slug: "substraty-hnojiva",
-        background: `${process.env.HOST}/images/cat/cat1.jpg`,
+        background: `${process.env.HOST}/images/cat/substraty.webp`,
         seo: {
             title: "Trvalky | Zahradnictví Březina",
             description: "Rostliny, které žijí, dokud je nezapomenete dlouho zalít"
