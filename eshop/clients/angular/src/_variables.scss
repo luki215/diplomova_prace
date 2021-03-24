@@ -1,5 +1,7 @@
+$primary: #334d37;
+
 :root {
-  --bg-dark: #334d37;
-  --bg-medium: #bdcdc0;
-  --bg: #f3f7f4;
+  --primary: $primary;
+  --bg-medium: white;
+  --bg: white;
 }

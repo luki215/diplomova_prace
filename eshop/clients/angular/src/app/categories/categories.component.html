@@ -1,6 +1,5 @@
 <app-layout>
   <div *ngIf="category$ | async as category">
-    Název
-    {{category.name}}
+    <app-teaser [title]="category.name" [image]="category.background"></app-teaser>
   </div>
 </app-layout>

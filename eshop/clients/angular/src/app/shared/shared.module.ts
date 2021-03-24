@@ -8,18 +8,20 @@ import { MainNavComponent } from './components/main-nav/main-nav.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { RouterModule } from '@angular/router';
 import { OpeningHoursComponent } from './components/opening-hours/opening-hours.component';
+import { TeaserComponent } from './components/teaser/teaser.component';
 
 
 
 @NgModule({
-  declarations: [HeaderComponent, AppLayoutComponent, TopHeaderComponent, MainNavComponent, FooterComponent, OpeningHoursComponent],
+  declarations: [HeaderComponent, AppLayoutComponent, TopHeaderComponent, MainNavComponent, FooterComponent, OpeningHoursComponent, TeaserComponent],
   imports: [
     CommonModule,
     RouterModule
   ],
   exports: [
     AppLayoutComponent,
-    OpeningHoursComponent
+    OpeningHoursComponent,
+    TeaserComponent
   ]
 })
 export class SharedModule { }

@@ -1,7 +1,7 @@
 :host {
-  background: var(--bg-medium);
+  background: var(--bg);
   display: block;
-  border: 1px solid #ababab;
+  border: 1px solid var(--primary);
 }
 ul {
   list-style-type: none;
@@ -14,20 +14,20 @@ ul {
   li {
     display: block;
     width: 100%;
-    border-right: 1px solid #ababab;
+    border-right: 1px solid var(--primary);
     &:first-child {
-      border-left: 1px solid #ababab;
+      border-left: 1px solid var(--primary);
     }
   }
   a {
     display: block;
-    color: var(--bg-dark);
+    color: var(--primary);
     text-decoration: none;
     padding: 10px 20px;
 
     &:hover,
     &.active {
-      background-color: var(--bg-dark);
+      background-color: var(--primary);
       color: var(--bg);
     }
   }
