@@ -1,0 +1,14 @@
+<nav aria-label="secondary">
+  <ul class="d-none d-md-flex">
+    <li><a [routerLink]="['pages', 'preprava']">Přeprava rostlin</a></li>
+    <li><a [routerLink]="['pages', 'o-nas']">O nás</a></li>
+    <li><a [routerLink]="['pages', 'kontakt']">Kontakt</a></li>
+    <li><a [routerLink]="['pages', 'podminky']">Obchodní podmínky</a></li>
+  </ul>
+  <div class="d-flex justify-content-between justify-content-md-end w-100 w-md-auto">
+    <a href="tel:{{telephone$ | async}}" class="text-nowrap mr-4">{{telephone$ | async}}</a>
+    <span>
+      Dnes otevřeno: <app-opening-hours [openHours]="openingToday$ | async"></app-opening-hours>
+    </span>
+  </div>
+</nav>

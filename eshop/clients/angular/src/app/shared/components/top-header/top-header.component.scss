@@ -1,0 +1,24 @@
+nav {
+  background-color: var(--top-header-color);
+  padding: 0 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  a {
+    color: white;
+  }
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  white-space: nowrap;
+  a {
+    color: #f7f3f3;
+    display: block;
+    margin-right: 15px;
+    padding: 5px 0;
+  }
+}
