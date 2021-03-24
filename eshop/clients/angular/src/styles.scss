@@ -3,3 +3,12 @@
 /* Importing Bootstrap SCSS file. */
 @import "~bootstrap/scss/bootstrap";
 @import "variables";
+
+html {
+  background-color: var(--bg-dark);
+}
+
+body {
+  background: var(--bg);
+  min-height: 100vh;
+}
