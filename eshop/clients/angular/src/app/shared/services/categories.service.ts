@@ -13,4 +13,8 @@ export class CategoriesService {
   public getAll() {
     return this.http.get<Category[]>(`${environment.api}/categories`)
   }
+
+  public get(slug: string) {
+    return this.http.get<Category>(`${environment.api}/categories/${slug}`)
+  }
 }

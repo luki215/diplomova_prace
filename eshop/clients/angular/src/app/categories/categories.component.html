@@ -1,3 +1,6 @@
 <app-layout>
-  <p>categories works!</p>
+  <div *ngIf="category$ | async as category">
+    Název
+    {{category.name}}
+  </div>
 </app-layout>
