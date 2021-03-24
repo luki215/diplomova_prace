@@ -1,9 +1,9 @@
 <div class="container">
   <div class="row">
     <div class="col d-flex justify-content-between align-center align-items-center">
-      <div class="logo">
+      <a class="logo" [routerLink]="['/']">
         <i class="fas fa-seedling fa-3x"></i> Zahradnictví Březina
-      </div>
+      </a>
 
       <div class="search">
         <div class="input-group">
@@ -15,7 +15,7 @@
       </div>
 
       <div class="cart">
-        <a class="btn btn-outline-primary" [routerLink]="['cart']"><i class="fa fa-shopping-cart"></i> Košík</a>
+        <a class="btn btn-outline-primary" [routerLink]="['/', 'cart']"><i class="fa fa-shopping-cart"></i> Košík</a>
       </div>
     </div>
   </div>

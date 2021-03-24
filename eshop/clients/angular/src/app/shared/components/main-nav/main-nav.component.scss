@@ -25,7 +25,8 @@ ul {
     text-decoration: none;
     padding: 10px 20px;
 
-    &:hover {
+    &:hover,
+    &.active {
       background-color: var(--bg-dark);
       color: var(--bg);
     }
