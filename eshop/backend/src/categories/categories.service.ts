@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { Observable, of } from 'rxjs';
 // import { categories } from './categories.data';
-import { Category } from './categories.interfaces';
+import { Category } from '../shared/interfaces/categories.interfaces';
 
 const categories: Category[] = [
   {

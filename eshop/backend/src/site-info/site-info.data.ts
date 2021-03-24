@@ -1,4 +1,4 @@
-import { SiteInfo } from "./site-info.interfaces";
+import { SiteInfo } from "../shared/interfaces/site-info.interfaces";
 
 export const siteInfo: SiteInfo = {
     name: 'Zahradnictví Březina',

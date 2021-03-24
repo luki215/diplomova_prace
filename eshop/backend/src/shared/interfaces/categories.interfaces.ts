@@ -1,4 +1,4 @@
-import { Seo } from "src/shared/interfaces/seo.interface";
+import { Seo } from "./seo.interface";
 
 export interface Category {
     name: string;
