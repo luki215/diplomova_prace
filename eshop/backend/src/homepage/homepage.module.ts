@@ -1,8 +1,10 @@
 import { Module } from '@nestjs/common';
+import { HomepageController } from './homepage.controller';
+import { HomepageService } from './homepage.service';
 
 @Module({
     imports: [],
-    controllers: [],
-    providers: [],
+    controllers: [HomepageController],
+    providers: [HomepageService],
 })
-export class HomepageModule {}
+export class HomepageModule { }
