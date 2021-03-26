@@ -4,6 +4,7 @@ import { Product } from "src/shared/interfaces/product.interface";
 export const products: Product[] = [
     {
         title: "Example product",
+        slug: "example-product",
         shortDesc: "Tempora laudantium suscipit iusto.",
         description: "Tempora laudantium suscipit iusto. Vel soluta tempora dolorum quam qui. Rerum ipsa ut reprehenderit voluptatum iure.",
         category: categories[0],

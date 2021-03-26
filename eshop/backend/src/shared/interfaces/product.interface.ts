@@ -26,6 +26,7 @@ export interface Product_Property {
 
 export interface Product {
     title: string;
+    slug: string
     image: string;
     shortDesc: string;
     description: string;
