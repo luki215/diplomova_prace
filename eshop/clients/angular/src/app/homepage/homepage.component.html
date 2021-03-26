@@ -4,11 +4,11 @@
 
 
   <div *ngIf="homepage$ | async as homepage" class="container">
-    <div *ngFor="let campaign of homepage.campaigns" class="row">
+    <div *ngFor="let campaign of homepage.campaigns" class="row my-4">
       <div class="col">
-        <h2>{{campaign.title}}</h2>
+        <h2 class="mb-3">{{campaign.title}}</h2>
         <div class="row">
-          <app-product-card *ngFor="let product of campaign.products" [product]="product" class="d-block col col-md-3">
+          <app-product-card *ngFor="let product of campaign.products" [product]="product" class="d-flex col col-md-3">
           </app-product-card>
         </div>
       </div>

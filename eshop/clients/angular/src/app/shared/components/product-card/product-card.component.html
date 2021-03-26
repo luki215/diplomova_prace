@@ -1,7 +1,7 @@
-<a [routerLink]="['/product', product?.slug]">
+<a [routerLink]="['/product', product?.slug]" class="d-flex flex-column">
   <img [src]="product?.image" [alt]="product?.title">
 
-  <div class="content px-3 pt-2">
+  <div class="content px-3 pt-2 h-100">
     <h3>{{product?.title}}</h3>
 
     <div class="d-flex">
@@ -10,7 +10,7 @@
       <div class="d-flex flex-column text-right">
         <strong class="price">{{product?.price}}&nbsp;Kč</strong>
 
-        <small>{{product?.stockState | stockState}}</small>
+        <small class="text-nowrap">{{product?.stockState | stockState}}</small>
       </div>
     </div>
   </div>
