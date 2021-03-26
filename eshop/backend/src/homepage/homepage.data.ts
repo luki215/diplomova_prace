@@ -1,24 +1,23 @@
-import { products } from "src/products/products.data";
-import { Homepage } from "src/shared/interfaces/homepage.interface";
+import { products } from 'src/products/products.data';
+import { Homepage } from 'src/shared/interfaces/homepage.interface';
 
-export const homepage: Homepage =
-{
-    seo: {
-        title: "Homepage",
-        description: "",
+export const homepage: Homepage = {
+  seo: {
+    title: 'Homepage',
+    description: '',
+  },
+  campaigns: [
+    {
+      title: 'Jarní speciál',
+      products: products.slice(0, 4),
     },
-    campaigns: [
-        {
-            title: "Jarní speciál",
-            products: [products[0], products[0], products[0], products[0]]
-        },
-        {
-            title: "Nejprodávanější",
-            products: [products[0], products[0], products[0], products[0]]
-        },
-        {
-            title: "Výběr zahradníka",
-            products: [products[0], products[0], products[0], products[0]]
-        }
-    ]
-}
+    {
+      title: 'Nejprodávanější',
+      products: products.slice(4, 8),
+    },
+    {
+      title: 'Výběr zahradníka',
+      products: products.slice(8, 12),
+    },
+  ],
+};
