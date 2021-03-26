@@ -2,5 +2,17 @@
   <app-teaser [title]="'Nakupujte květiny z pohodlí svého domova'" image="http://localhost:3000/images/hp_teaser.webp">
   </app-teaser>
 
-  body
+
+  <div *ngIf="homepage$ | async as homepage" class="container">
+    <div *ngFor="let campaign of homepage.campaigns" class="row">
+      <div class="col">
+        <h2>{{campaign.title}}</h2>
+        <div class="row">
+          <app-product-card *ngFor="let product of campaign.products" [product]="product" class="d-block col col-md-3">
+          </app-product-card>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </app-layout>

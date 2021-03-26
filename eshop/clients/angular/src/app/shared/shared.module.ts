@@ -9,19 +9,36 @@ import { FooterComponent } from './components/footer/footer.component';
 import { RouterModule } from '@angular/router';
 import { OpeningHoursComponent } from './components/opening-hours/opening-hours.component';
 import { TeaserComponent } from './components/teaser/teaser.component';
-
-
+import { ProductCardComponent } from './components/product-card/product-card.component';
+import { StockStatePipe } from './pipes/stockState.pipe';
+import { CartButtonsComponent } from './components/cart-buttons/cart-buttons.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
-  declarations: [HeaderComponent, AppLayoutComponent, TopHeaderComponent, MainNavComponent, FooterComponent, OpeningHoursComponent, TeaserComponent],
+  declarations: [
+    HeaderComponent,
+    AppLayoutComponent,
+    TopHeaderComponent,
+    MainNavComponent,
+    FooterComponent,
+    OpeningHoursComponent,
+    TeaserComponent,
+    ProductCardComponent,
+    StockStatePipe,
+    CartButtonsComponent
+  ],
   imports: [
     CommonModule,
-    RouterModule
+    RouterModule,
+    ReactiveFormsModule
   ],
   exports: [
     AppLayoutComponent,
     OpeningHoursComponent,
-    TeaserComponent
+    TeaserComponent,
+    ProductCardComponent,
+    StockStatePipe,
+    CartButtonsComponent
   ]
 })
 export class SharedModule { }

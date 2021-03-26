@@ -13,7 +13,7 @@
   color: white;
   display: flex;
   align-items: center;
-  @include media-breakpoint-down(xs) {
+  @include media-breakpoint-down(sm) {
     background: linear-gradient(0deg, #0000007f 35%, #ffffff44 100%);
     align-items: flex-end;
     padding-bottom: 20px;

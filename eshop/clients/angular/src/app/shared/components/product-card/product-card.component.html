@@ -1,0 +1,21 @@
+<a [routerLink]="['/product', product?.slug]">
+  <img [src]="product?.image" [alt]="product?.title">
+
+  <div class="content px-3 pt-2">
+    <h3>{{product?.title}}</h3>
+
+    <div class="d-flex">
+      <p class="description mr-2">{{product?.shortDesc}}</p>
+
+      <div class="d-flex flex-column text-right">
+        <strong class="price">{{product?.price}}&nbsp;Kč</strong>
+
+        <small>{{product?.stockState | stockState}}</small>
+      </div>
+    </div>
+  </div>
+</a>
+
+<div class="cart-buttons px-3">
+  <app-cart-buttons [product]="product"></app-cart-buttons>
+</div>
