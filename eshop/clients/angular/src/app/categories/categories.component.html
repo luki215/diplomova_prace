@@ -14,7 +14,7 @@
       <div class="col">
         <div class="d-flex justify-content-center">
           <ngb-pagination [page]="page" [pageSize]="pageSize" [collectionSize]="products.total"
-            (pageChange)="this.onPageChange($event)"></ngb-pagination>
+            (pageChange)="this.onPageChange($event)" [ellipses]="true" [maxSize]="3"></ngb-pagination>
         </div>
       </div>
     </div>
