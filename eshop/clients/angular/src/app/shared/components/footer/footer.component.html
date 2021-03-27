@@ -1,13 +1,44 @@
-<div class="container">
+<div class="container" *ngIf="siteInfo$ | async as siteInfo">
   <div class="row">
     <div class="col col-md-4">
       <h3>Kontakty</h3>
+      <table>
+        <tr>
+          <td>Tel:</td>
+          <td><a [href]="'tel:'+siteInfo.telephone">{{siteInfo.telephone}}</a></td>
+        </tr>
+        <tr>
+          <td class="pr-1">Email:</td>
+          <td><a [href]="'mailto:' + siteInfo.email">{{siteInfo.email}}</a></td>
+        </tr>
+      </table>
+
+      <h3 class="mt-4">Osobní odběr</h3>
+      <ul>
+        <li>{{siteInfo.address.street}}</li>
+        <li>{{siteInfo.address.city}}</li>
+        <li>{{siteInfo.address.zip}}</li>
+      </ul>
     </div>
     <div class="col col-md-4">
       <h3>Otevírací doba</h3>
+      <table>
+        <tr *ngFor="let opening of siteInfo.openHours">
+          <td class="pr-2">{{days[opening.day]}}:</td>
+          <td>{{opening.from}}&nbsp;–&nbsp;{{opening.to}}</td>
+        </tr>
+      </table>
     </div>
     <div class="col col-md-4">
       <h3>Užitečné informace</h3>
+      <ul>
+        <li><a [routerLink]="['/pages', 'obchodni-podminky']">Obchodní podmínky</a></li>
+        <li><a [routerLink]="['/pages', 'reklamace']">Reklamační podmínky</a></li>
+        <li><a [routerLink]="['/pages', 'kariera']">Kariéra</a></li>
+        <li><a [routerLink]="['/pages', 'preprava-rostlin']">Přepravní informace</a></li>
+        <li><a [routerLink]="['/pages', 'eet']">EET</a></li>
+        <li><a [routerLink]="['/pages', 'osobni-udaje']">Zpracování osobních údajů</a></li>
+      </ul>
     </div>
   </div>
 </div>
