@@ -1,7 +1,8 @@
 :host {
   background: var(--bg);
   display: block;
-  border-top: 1px solid var(--primary);
+  border-top: 1px solid var(--bg-secondary);
+  border-bottom: 3px solid var(--bg-secondary);
 }
 ul {
   list-style-type: none;
@@ -14,9 +15,9 @@ ul {
   li {
     display: block;
     width: 100%;
-    border-right: 1px solid var(--primary);
+    border-right: 1px solid var(--bg-secondary);
     &:first-child {
-      border-left: 1px solid var(--primary);
+      border-left: 1px solid var(--bg-secondary);
     }
   }
   a {
@@ -24,7 +25,7 @@ ul {
     color: var(--primary);
     text-decoration: none;
     padding: 10px 20px;
-
+    text-transform: uppercase;
     &:hover,
     &.active {
       background-color: var(--primary);

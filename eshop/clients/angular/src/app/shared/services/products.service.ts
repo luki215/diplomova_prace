@@ -15,4 +15,8 @@ export class ProductsService {
       params: params,
     });
   }
+
+  public get(slug: string) {
+    return this.http.get<Product>(`${environment.api}/products/${slug}`);
+  }
 }

@@ -12,3 +12,8 @@ body {
   background: var(--bg);
   min-height: 100vh;
 }
+
+.btn-outline-primary,
+.btn-outline-primary:disabled {
+  background: white;
+}

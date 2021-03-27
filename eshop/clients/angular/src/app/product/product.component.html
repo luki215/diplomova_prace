@@ -1,1 +1,32 @@
-<p>product works!</p>
+<app-layout>
+  <div class="container py-5" *ngIf="product$ | async as product">
+    <div class="row">
+      <div class="col-12 col-sm-4">
+        <img [src]="product.image" class="w-100">
+      </div>
+      <div class="col-12 col-sm-8">
+        <h1>{{product.title}}</h1>
+        <p>{{product.description | slice:0:200}} <a routerLink="." fragment="product-description">...Pokračovat</a></p>
+
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="property-grid mb-3">
+              <app-product-property *ngFor="let property of product.properties" [property]="property">
+              </app-product-property>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <app-order-box [product]="product"></app-order-box>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mt-3" id="product-description">
+      <div class="col-12">
+        <h2>Podrobný popis</h2>
+        <div [innerHtml]="product.description"></div>
+      </div>
+    </div>
+  </div>
+</app-layout>

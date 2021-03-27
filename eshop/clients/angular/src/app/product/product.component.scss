@@ -1,0 +1,15 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+.property-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  @include media-breakpoint-down(md) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  @media screen and (max-width: 400px) {
+    grid-template-columns: 1fr 1fr;
+  }
+}

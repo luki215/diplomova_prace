@@ -1,6 +1,6 @@
 <div class="container" *ngIf="siteInfo$ | async as siteInfo">
   <div class="row">
-    <div class="col col-md-4">
+    <div class="col-12 col-md-4 mb-4">
       <h3>Kontakty</h3>
       <table>
         <tr>
@@ -20,7 +20,7 @@
         <li>{{siteInfo.address.zip}}</li>
       </ul>
     </div>
-    <div class="col col-md-4">
+    <div class="col-12 col-md-4 mb-4">
       <h3>Otevírací doba</h3>
       <table>
         <tr *ngFor="let opening of siteInfo.openHours">
@@ -29,7 +29,7 @@
         </tr>
       </table>
     </div>
-    <div class="col col-md-4">
+    <div class="col-12 col-md-4 ">
       <h3>Užitečné informace</h3>
       <ul>
         <li><a [routerLink]="['/pages', 'obchodni-podminky']">Obchodní podmínky</a></li>
