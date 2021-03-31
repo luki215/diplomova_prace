@@ -1,4 +1,4 @@
-import { Controller, Get, Query } from '@nestjs/common';
+import { Controller, Get, Param, Query } from '@nestjs/common';
 import { Paginated } from 'src/shared/interfaces/utils.interface';
 import { ProductsService } from './products.service';
 
@@ -17,5 +17,10 @@ export class ProductsController {
       page: +page,
       pageSize: +pageSize,
     });
+  }
+
+  @Get(':slug')
+  find(@Param('slug') slug) {
+    return this.productsService.find(slug);
   }
 }

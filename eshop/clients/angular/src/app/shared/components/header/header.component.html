@@ -14,6 +14,7 @@
   </div>
 
   <div class="cart">
-    <a class="btn btn-outline-primary" [routerLink]="['/', 'cart']"><i class="fa fa-shopping-cart"></i> Košík</a>
+    <a class="btn btn-outline-primary" [routerLink]="['/', 'cart']"><i class="fa fa-shopping-cart"></i> Košík
+      ({{itemsCount$ | async}})</a>
   </div>
 </div>

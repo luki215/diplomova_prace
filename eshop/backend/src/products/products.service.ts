@@ -31,4 +31,9 @@ export class ProductsService {
       items: resProducts,
     });
   }
+
+  find(slug: string): Observable<Product> {
+    let product = products.find((p) => p.slug === slug);
+    return of(product);
+  }
 }

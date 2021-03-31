@@ -8,6 +8,7 @@ import { join } from 'path';
 import { ConfigModule } from '@nestjs/config';
 import { CategoriesModule } from './categories/categories.module';
 import { ProductsModule } from './products/products.module';
+import { StaticPageModule } from './static-page/static-page.module';
 
 @Module({
   imports: [
@@ -16,6 +17,7 @@ import { ProductsModule } from './products/products.module';
     SiteInfoModule,
     CategoriesModule,
     ProductsModule,
+    StaticPageModule,
     ServeStaticModule.forRoot({
       rootPath: join(__dirname, '..', 'public'),
     }),

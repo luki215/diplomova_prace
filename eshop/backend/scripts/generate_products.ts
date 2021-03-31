@@ -109,7 +109,7 @@ const productFactory: (cat: Category) => Product = (cat: Category) => {
         ...sample([
           {
             value: 'Každý den',
-            ico: 'cloud-showers-heavy',
+            ico: 'fa-cloud-showers-heavy',
           },
           {
             value: '1–2x týdně',
@@ -121,7 +121,7 @@ const productFactory: (cat: Category) => Product = (cat: Category) => {
           },
           {
             value: '1x měsíčně',
-            ico: 'tint-slash',
+            ico: 'fa-tint-slash',
           },
         ]),
       },
@@ -182,11 +182,11 @@ const productFactory: (cat: Category) => Product = (cat: Category) => {
 };
 
 const generateSettings = [
-  { cat: categories[2], count: 20 },
-  { cat: categories[0], count: 5 },
-  { cat: categories[1], count: 5 },
-  { cat: categories[3], count: 5 },
-  { cat: categories[4], count: 5 },
+  { cat: categories[2], count: 200 },
+  { cat: categories[0], count: 50 },
+  { cat: categories[1], count: 50 },
+  { cat: categories[3], count: 50 },
+  { cat: categories[4], count: 50 },
 ];
 
 const generatedProducts: Product[] = [];

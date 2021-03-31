@@ -28,6 +28,8 @@
     "@nestjs/platform-express": "^7.6.13",
     "@nestjs/serve-static": "^2.1.4",
     "@nestjs/swagger": "^4.8.0",
+    "@types/cookie-parser": "^1.4.2",
+    "cookie-parser": "^1.4.5",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
     "rxjs": "^6.6.6",
