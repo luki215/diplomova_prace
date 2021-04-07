@@ -1,38 +1,42 @@
-import { Category } from "./categories.interfaces";
+import { Category } from './categories.interfaces';
+import { Seo } from './seo.interface';
 
 export interface StockState_Available {
-    state: "available";
-    instockCount: number,
-    deliveryIn: number
+  state: 'available';
+  instockCount: number;
+  deliveryIn: number;
 }
 
 export interface StockState_AvailableSoon {
-    state: "available-soon";
-    deliveryIn: number
+  state: 'available-soon';
+  deliveryIn: number;
 }
 
 export interface StockState_Unavailable {
-    state: "unavailable";
+  state: 'unavailable';
 }
 
-export type StockState = StockState_Available | StockState_AvailableSoon | StockState_Unavailable
+export type StockState =
+  | StockState_Available
+  | StockState_AvailableSoon
+  | StockState_Unavailable;
 
 export interface Product_Property {
-    name: string;
-    ico?: string;
-    value: string;
+  name: string;
+  ico?: string;
+  value: string;
 }
 
-
 export interface Product {
-    title: string;
-    slug: string
-    image: string;
-    shortDesc: string;
-    description: string;
-    price: number;
-    stockState: StockState;
-    similarProducts: Product[];
-    category: Category;
-    properties: Product_Property[]
+  title: string;
+  slug: string;
+  image: string;
+  shortDesc: string;
+  description: string;
+  price: number;
+  stockState: StockState;
+  similarProducts: Product[];
+  category: Category;
+  properties: Product_Property[];
+  seo: Seo;
 }

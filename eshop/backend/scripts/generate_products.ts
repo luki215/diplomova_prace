@@ -76,16 +76,22 @@ const stockStateFactory: () => StockState = () => {
 
 const productFactory: (cat: Category) => Product = (cat: Category) => {
   const name = faker.commerce.productName();
+  const shortDesc = faker.lorem.sentence();
+
   return {
     title: name,
     slug: faker.helpers.slugify(name),
-    shortDesc: faker.lorem.sentence(),
+    shortDesc,
     description: faker.lorem.paragraphs(4),
     category: cat,
     image: productImage(cat),
     price: faker.random.number({ min: 10, max: 600, precision: 10 }) + 9,
     similarProducts: [],
     stockState: stockStateFactory(),
+    seo: {
+      title: name + ' | Zahradnictví Březina',
+      description: shortDesc,
+    },
     properties: [
       {
         name: 'Nároky na světlo',
