@@ -1,0 +1,24 @@
+<div>
+  <img [src]="cartItem?.product?.image" [alt]="cartItem?.product?.title">
+  <div>
+    <h3>{{cartItem?.product?.title}}</h3>
+    <span>{{cartItem?.product?.stockState | stockState}}</span>
+  </div>
+  <div>
+    <div class="input-group input-group-sm">
+      <div class="input-group-prepend">
+        <button class="btn btn-outline-primary" type="button" (click)="itemCountFc.patchValue(itemCountFc.value - 1)"
+          [disabled]="itemCountFc.value <= 1">-</button>
+      </div>
+      <input type="number" class="form-control" value="1" [formControl]="itemCountFc" max="99" min="1">
+      <div class="input-group-append">
+        <button class="btn btn-outline-primary" type="button" (click)="itemCountFc.patchValue(itemCountFc.value + 1)"
+          [disabled]="itemCountFc.value >= 99">+</button>
+      </div>
+    </div>
+  </div>
+
+  <div>{{(cartItem?.product?.price || 0) * (cartItem?.count || 0)}}&nbsp;Kč</div>
+
+  <button class="btn btn-danger" (click)="itemCountFc.patchValue(0)"><i class="fa fa-times"></i></button>
+</div>

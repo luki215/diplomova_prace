@@ -35,4 +35,10 @@ export class CartService {
       .post<Cart>(`${environment.api}/cart/asdf/addToCart`, params)
       .pipe(tap((x) => this.cart.next(x)));
   }
+
+  public set(params: CartParams): Observable<Cart> {
+    return this.http
+      .post<Cart>(`${environment.api}/cart/asdf/set`, params)
+      .pipe(tap((x) => this.cart.next(x)));
+  }
 }
