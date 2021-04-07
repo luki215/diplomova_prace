@@ -1,0 +1,26 @@
+{
+  "targets": {
+    "church-donate": {
+      "hosting": {
+        "SSR": [
+          "dp-eshop"
+        ],
+        "CSR": [
+          "dp-eshop-csr"
+        ],
+        "prerender": [
+          "dp-eshop-prerender"
+        ],
+        "server": [
+          "dp-eshop-sr"
+        ],
+        "api": [
+          "api-dp-eshop"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "dp-eshop"
+  }
+}
