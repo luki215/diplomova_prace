@@ -13,6 +13,8 @@ import { ProductCardComponent } from './components/product-card/product-card.com
 import { StockStatePipe } from './pipes/stockState.pipe';
 import { CartButtonsComponent } from './components/cart-buttons/cart-buttons.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { ToastsComponent } from './components/toasts/toasts.component';
+import { NgbToastModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -25,20 +27,18 @@ import { ReactiveFormsModule } from '@angular/forms';
     TeaserComponent,
     ProductCardComponent,
     StockStatePipe,
-    CartButtonsComponent
+    CartButtonsComponent,
+    ToastsComponent,
   ],
-  imports: [
-    CommonModule,
-    RouterModule,
-    ReactiveFormsModule
-  ],
+  imports: [CommonModule, RouterModule, ReactiveFormsModule, NgbToastModule],
   exports: [
     AppLayoutComponent,
     OpeningHoursComponent,
     TeaserComponent,
     ProductCardComponent,
     StockStatePipe,
-    CartButtonsComponent
-  ]
+    CartButtonsComponent,
+    ToastsComponent,
+  ],
 })
-export class SharedModule { }
+export class SharedModule {}

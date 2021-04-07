@@ -3,12 +3,14 @@
     <div class="row">
       <div class="col-12">
         <h1>Košík</h1>
-        <ng-container *ngIf="cart$ | async as cart; else empty">
+        <ng-container *ngIf="cart$ | async as cart; else empty">
           <ng-container *ngIf="cart.items.length; else empty">
-            <app-cart-item [cartItem]="it" *ngFor="let it of cart.items; trackBy: trackBy"></app-cart-item>
+            <app-cart-item
+              [cartItem]="it"
+              *ngFor="let it of cart.items; trackBy: trackBy"
+            ></app-cart-item>
           </ng-container>
         </ng-container>
-
         <ng-template #empty>
           <div class="empty p-5">
             <p>Žádné položky v košíku, prvně něco přidejte.</p>
@@ -17,5 +19,4 @@
       </div>
     </div>
   </div>
-
 </app-layout>

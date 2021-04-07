@@ -1,20 +1,15 @@
-<div class="price">
-  {{product?.price}}&nbsp;Kč
-</div>
+<div class="price">{{ product?.price }}&nbsp;Kč</div>
 
 <ng-container [ngSwitch]="product?.stockState?.state">
   <div *ngSwitchCase="'available'">
-    {{$any(product?.stockState)?.instockCount}} ks skladem<br>
-    Doručení do {{$any(product?.stockState)?.deliveryIn}} dnů
+    {{ $any(product?.stockState)?.instockCount }} ks skladem<br />
+    Doručení do {{ $any(product?.stockState)?.deliveryIn }} dnů
   </div>
   <div *ngSwitchCase="'available-soon'">
-    Dočasně nedostupné<br>
-    Doručení do {{$any(product?.stockState)?.deliveryIn}} dnů
+    Dočasně nedostupné<br />
+    Doručení do {{ $any(product?.stockState)?.deliveryIn }} dnů
   </div>
-  <div *ngSwitchCase="'unavailable'">
-    Nedostupné
-  </div>
+  <div *ngSwitchCase="'unavailable'">Nedostupné</div>
 
-
-  <app-cart-buttons class="d-block mt-3"></app-cart-buttons>
+  <app-cart-buttons class="d-block mt-3" [product]="product"></app-cart-buttons>
 </ng-container>

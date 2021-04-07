@@ -10,6 +10,7 @@ import { FormControl } from '@angular/forms';
 import { switchMap } from 'rxjs/operators';
 import { Cart, CartItem } from 'src/app/shared/interfaces/cart.interface';
 import { CartService } from 'src/app/shared/services/cart.service';
+import { ToastService } from 'src/app/shared/services/toast.service';
 
 @Component({
   selector: 'app-cart-item',
@@ -21,7 +22,10 @@ export class CartItemComponent implements OnInit, OnChanges {
   @Input() cartItem: CartItem | null = null;
   public itemCountFc = new FormControl(0);
 
-  constructor(private cartService: CartService) {}
+  constructor(
+    private cartService: CartService,
+    private toastService: ToastService
+  ) {}
 
   ngOnChanges(changes: SimpleChanges): void {
     if (changes.cartItem) {
@@ -41,6 +45,6 @@ export class CartItemComponent implements OnInit, OnChanges {
           })
         )
       )
-      .subscribe((res) => {});
+      .subscribe();
   }
 }
