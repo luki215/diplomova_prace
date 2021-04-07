@@ -7,6 +7,7 @@ import { Product } from '../shared/interfaces/product.interface';
 import { Paginated } from '../shared/interfaces/utils.interface';
 import { CategoriesService } from '../shared/services/categories.service';
 import { ProductsService } from '../shared/services/products.service';
+import { SeoService } from '../shared/services/seo.service';
 
 @Component({
   selector: 'app-categories',
@@ -24,11 +25,13 @@ export class CategoriesComponent implements OnInit {
     private route: ActivatedRoute,
     private categoriesService: CategoriesService,
     private productsService: ProductsService,
-    private router: Router
+    private router: Router,
+    private seo: SeoService
   ) {
     this.category$ = this.route.paramMap.pipe(
       map((x) => x.get('slug') as string),
-      switchMap((x) => this.categoriesService.get(x))
+      switchMap((x) => this.categoriesService.get(x)),
+      tap((hp) => this.seo.setSeo(hp.seo))
     );
 
     this.products$ = combineLatest([
