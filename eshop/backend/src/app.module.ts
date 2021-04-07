@@ -9,6 +9,7 @@ import { ConfigModule } from '@nestjs/config';
 import { CategoriesModule } from './categories/categories.module';
 import { ProductsModule } from './products/products.module';
 import { StaticPageModule } from './static-page/static-page.module';
+import { CartModule } from './cart/cart.module';
 
 @Module({
   imports: [
@@ -17,6 +18,7 @@ import { StaticPageModule } from './static-page/static-page.module';
     SiteInfoModule,
     CategoriesModule,
     ProductsModule,
+    CartModule,
     StaticPageModule,
     ServeStaticModule.forRoot({
       rootPath: join(__dirname, '..', 'public'),

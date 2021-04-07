@@ -10,7 +10,6 @@ import { CartService } from '../../services/cart.service';
 })
 export class CartButtonsComponent implements OnInit {
   @Input() product: Product | null = null;
-
   public fc = new FormControl(1);
   constructor(private cart: CartService) {}
 

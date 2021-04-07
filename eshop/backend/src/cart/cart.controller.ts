@@ -16,6 +16,15 @@ export class CartController {
     @Body('productSlug') productSlug: string,
     @Body('count') count: number,
   ) {
-    this.cartService.add(user, productSlug, count);
+    return this.cartService.add(user, productSlug, count);
+  }
+
+  @Post(':user/set')
+  set(
+    @Param('user') user,
+    @Body('productSlug') productSlug: string,
+    @Body('count') count: number,
+  ) {
+    return this.cartService.set(user, productSlug, count);
   }
 }

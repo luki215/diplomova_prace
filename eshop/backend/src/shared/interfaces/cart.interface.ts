@@ -10,3 +10,8 @@ export interface CartItem {
 export interface Cart {
   items: CartItem[];
 }
+
+export interface CartParams {
+  productSlug: string;
+  count: number;
+}

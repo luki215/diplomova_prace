@@ -37,6 +37,26 @@ export class CartService {
     return of(cart);
   }
 
+  public set(
+    user: string,
+    productSlug: string,
+    count: number,
+  ): Observable<Cart> {
+    const cart = this.getOrCreateCart(user);
+    const item: CartItem = this.getOrCreateCartItem(cart, productSlug);
+
+    item.count = count;
+
+    if (count <= 0) {
+      cart.items.splice(
+        cart.items.findIndex((it) => it.product.slug === productSlug),
+        1,
+      );
+    }
+
+    return of(cart);
+  }
+
   private getOrCreateCart(user: string): Cart {
     let cart = carts.get(user);
     if (!cart) {
@@ -47,11 +67,15 @@ export class CartService {
   }
 
   private getOrCreateCartItem(cart: Cart, productSlug: string): CartItem {
-    return (
-      cart.items.find((it) => it.product.slug === productSlug) ?? {
+    let item = cart.items.find((it) => it.product.slug === productSlug);
+    if (!item) {
+      item = {
         product: products.find((p) => p.slug === productSlug),
         count: 0,
-      }
-    );
+      };
+
+      cart.items.push(item);
+    }
+    return item;
   }
 }
