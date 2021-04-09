@@ -6,7 +6,11 @@ import { staticPages } from './static-page.data';
 @Injectable()
 export class StaticPageService {
   find(slug: string): Observable<StaticPage> {
-    let page = staticPages.find((p) => p.slug === slug);
+    const page = staticPages.find((p) => p.slug === slug);
     return of(page);
+  }
+
+  findAll(): Observable<StaticPage[]> {
+    return of(staticPages);
   }
 }

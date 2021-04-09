@@ -4,7 +4,7 @@ export const categories: Category[] = [
   {
     name: 'Trvalky',
     slug: 'trvalky',
-    background: `http://localhost:3000/images/cat/trvalky.webp`,
+    background: `https://api-dp-eshop.web.app/images/cat/trvalky.webp`,
     seo: {
       title: 'Trvalky | Zahradnictví Březina',
       description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
@@ -13,7 +13,7 @@ export const categories: Category[] = [
   {
     name: 'Bylinky',
     slug: 'bylinky',
-    background: `http://localhost:3000/images/cat/bylinky.webp`,
+    background: `https://api-dp-eshop.web.app/images/cat/bylinky.webp`,
     seo: {
       title: 'Trvalky | Zahradnictví Březina',
       description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
@@ -22,7 +22,7 @@ export const categories: Category[] = [
   {
     name: 'Růže',
     slug: 'ruze',
-    background: `http://localhost:3000/images/cat/ruze.webp`,
+    background: `https://api-dp-eshop.web.app/images/cat/ruze.webp`,
     seo: {
       title: 'Trvalky | Zahradnictví Březina',
       description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
@@ -31,7 +31,7 @@ export const categories: Category[] = [
   {
     name: 'Trávy',
     slug: 'travy',
-    background: `http://localhost:3000/images/cat/trava.webp`,
+    background: `https://api-dp-eshop.web.app/images/cat/trava.webp`,
     seo: {
       title: 'Trvalky | Zahradnictví Březina',
       description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
@@ -40,7 +40,7 @@ export const categories: Category[] = [
   {
     name: 'Substráty, hnojiva',
     slug: 'substraty-hnojiva',
-    background: `http://localhost:3000/images/cat/substraty.webp`,
+    background: `https://api-dp-eshop.web.app/images/cat/substraty.webp`,
     seo: {
       title: 'Trvalky | Zahradnictví Březina',
       description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',

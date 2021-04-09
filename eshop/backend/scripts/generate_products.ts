@@ -26,7 +26,7 @@ const images = fs
     cat: cat,
     images: fs
       .readdirSync(path.join('public', 'images', 'products', cat))
-      .map((im) => `http://localhost:3000/images/products/${cat}/${im}`),
+      .map((im) => `https://api-dp-eshop.web.app/images/products/${cat}/${im}`),
   }));
 
 const catImages: { [key: string]: { current: number; images: string[] } } = {};

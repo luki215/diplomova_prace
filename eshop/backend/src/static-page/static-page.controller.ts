@@ -9,4 +9,9 @@ export class StaticPageController {
   find(@Param('slug') slug) {
     return this.staticPageService.find(slug);
   }
+
+  @Get()
+  findAll() {
+    return this.staticPageService.findAll();
+  }
 }
