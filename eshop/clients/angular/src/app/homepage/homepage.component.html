@@ -1,20 +1,24 @@
 <app-layout>
-  <app-teaser class="mb-4" [title]="'Nakupujte květiny z pohodlí svého domova'"
-    image="http://localhost:3000/images/hp_teaser.webp">
+  <app-teaser
+    class="mb-4"
+    [title]="'Nakupujte květiny z pohodlí svého domova'"
+    [image]="environment.api + '/images/hp_teaser.webp'"
+  >
   </app-teaser>
-
 
   <div *ngIf="homepage$ | async as homepage" class="container">
     <div *ngFor="let campaign of homepage.campaigns" class="row">
       <div class="col">
-        <h2 class="mb-3">{{campaign.title}}</h2>
+        <h2 class="mb-3">{{ campaign.title }}</h2>
         <div class="row">
-          <app-product-card *ngFor="let product of campaign.products" [product]="product"
-            class="d-flex col-12 col-sm-6 col-lg-3 mb-4">
+          <app-product-card
+            *ngFor="let product of campaign.products"
+            [product]="product"
+            class="d-flex col-12 col-sm-6 col-lg-3 mb-4"
+          >
           </app-product-card>
         </div>
       </div>
     </div>
   </div>
-
 </app-layout>

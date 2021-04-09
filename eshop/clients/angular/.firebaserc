@@ -1,6 +1,6 @@
 {
   "targets": {
-    "church-donate": {
+    "dp-eshop": {
       "hosting": {
         "SSR": [
           "dp-eshop"

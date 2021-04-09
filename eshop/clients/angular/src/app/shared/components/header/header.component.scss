@@ -1,3 +1,7 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
 :host {
   background-color: var(--bg);
   display: block;
@@ -10,4 +14,13 @@
   display: flex;
   max-width: 200px;
   line-height: 1;
+}
+
+@include media-breakpoint-down(xs) {
+  :host {
+    padding: 10px;
+  }
+  .fa-seedling {
+    font-size: 1.5rem;
+  }
 }
