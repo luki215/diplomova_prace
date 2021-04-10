@@ -1,3 +1,3 @@
 export const environment = {
-  api: 'https://api-dp-eshop.web.app',
+  api: 'http://localhost:4000',
 };

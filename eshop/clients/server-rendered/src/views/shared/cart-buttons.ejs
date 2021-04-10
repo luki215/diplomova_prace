@@ -1,37 +1,25 @@
 <div class="c-cart-buttons">
-  <div class="d-flex justify-content-between align-items-center">
-    <div class="input-group input-group-sm">
-      <div class="input-group-prepend">
-        <button
-          class="btn btn-outline-primary"
-          type="button"
-          (click)="fc.patchValue(fc.value - 1)"
-          [disabled]="fc.value <= 1"
-        >
-          -
-        </button>
+  <form method="POST" action="/cart">
+    <input type="hidden" name="product_id" value="<%= product.slug %>" />
+    <div class="d-flex justify-content-between align-items-center">
+      <div class="input-group input-group-sm">
+        <div class="input-group-prepend">
+          <button class="btn btn-outline-primary" type="button">-</button>
+        </div>
+        <input
+          type="number"
+          class="form-control"
+          value="1"
+          name="count"
+          max="99"
+          min="1"
+        />
+        <div class="input-group-append">
+          <button class="btn btn-outline-primary" type="button">+</button>
+        </div>
       </div>
-      <input
-        type="number"
-        class="form-control"
-        value="1"
-        [formControl]="fc"
-        [max]="99"
-      />
-      <div class="input-group-append">
-        <button
-          class="btn btn-outline-primary"
-          type="button"
-          (click)="fc.patchValue(fc.value + 1)"
-          [disabled]="fc.value >= 99"
-        >
-          +
-        </button>
-      </div>
-    </div>
 
-    <button class="btn btn-sm btn-primary text-uppercase" (click)="addToCart()">
-      Objednat
-    </button>
-  </div>
+      <button class="btn btn-sm btn-primary text-uppercase">Objednat</button>
+    </div>
+  </form>
 </div>

@@ -2,14 +2,6 @@
 <%- include('../layouts/head', {seo, siteInfo}); %>
 
 <div class="p-product">
-  <!-- prettier-ignore -->
-
-  <%- include('../shared/teaser', 
-    { title:'Nakupujte květiny z pohodlí svého domova' ,
-      image: environment.api + '/images/hp_teaser.webp',
-      css_class: 'mb-4'
-    }
-    ); %>
   <div class="container py-5" *ngIf="product$ | async as product">
     <div class="row">
       <div class="col-12 col-sm-4">

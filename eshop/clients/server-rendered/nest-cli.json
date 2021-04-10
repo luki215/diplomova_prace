@@ -2,7 +2,7 @@
   "collection": "@nestjs/schematics",
   "sourceRoot": "src",
   "compilerOptions": {
-    "assets": ["**/*.ejs", "**/*.css", "**/*.css.map"],
+    "assets": ["**/*.ejs", "**/*.css", "**/*.css.map", "public/js/main.js"],
     "watchAssets": true
   }
 }

@@ -10155,6 +10155,13 @@ body {
   font-size: 40px;
 }
 
+.c-toasts {
+  position: fixed;
+  top: 30px;
+  right: 20px;
+  z-index: 999;
+}
+
 .p-product .property-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
