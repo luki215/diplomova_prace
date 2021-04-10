@@ -6,7 +6,10 @@
           <ul>
             <% categories.forEach(category=> { %>
             <li>
-              <a href="/cat/<%=category.slug%>" routerLinkActive="active">
+              <a
+                href="/cat/<%=category.slug%>"
+                class="<%= req.url == `/cat/${category.slug}` ? 'active' : '' %>"
+              >
                 <%= category.name %>
               </a>
             </li>
