@@ -8,13 +8,17 @@
         <a href="/pages/obchodni-podminky">Obchodní podmínky</a>
       </li>
     </ul>
-    <div class="d-flex justify-content-between justify-content-md-end w-100 w-md-auto">
+    <div
+      class="d-flex justify-content-between justify-content-md-end w-100 w-md-auto"
+    >
       <a href="tel:<%= siteInfo.telephone %>" class="text-nowrap mr-4">
         <%= siteInfo.telephone %>
       </a>
-      <span class="d-none d-sm-inline">Dnes otevřeno:
+      <span class="d-none d-sm-inline"
+        >Dnes otevřeno:
         <span class="text-nowrap">
-          <%= helpers.openingToday(siteInfo).from%>&nbsp;–&nbsp;<%= helpers.openingToday(siteInfo).to %>
+          <%= helpers.openingToday(siteInfo).from%>&nbsp;–&nbsp;<%=
+          helpers.openingToday(siteInfo).to %>
         </span>
         &nbsp;
       </span>

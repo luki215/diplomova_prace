@@ -5,12 +5,12 @@
         <nav>
           <ul>
             <% categories.forEach(category=> { %>
-              <li>
-                <a href="/cat/<%=category.slug%>" routerLinkActive="active">
-                  <%= category.name %>
-                </a>
-              </li>
-              <% }) %>
+            <li>
+              <a href="/cat/<%=category.slug%>" routerLinkActive="active">
+                <%= category.name %>
+              </a>
+            </li>
+            <% }) %>
           </ul>
         </nav>
       </div>

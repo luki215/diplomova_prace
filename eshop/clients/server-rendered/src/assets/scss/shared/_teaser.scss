@@ -1,0 +1,31 @@
+@import 'bootstrap/scss/functions';
+@import 'bootstrap/scss/variables';
+@import 'bootstrap/scss/mixins';
+
+.c-teaser {
+  & {
+    display: flex;
+    min-height: 300px;
+  }
+
+  .inner {
+    background: linear-gradient(90deg, #0000007f 35%, #ffffff44 100%);
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    @include media-breakpoint-down(sm) {
+      background: linear-gradient(0deg, #0000007f 35%, #ffffff44 100%);
+      align-items: flex-end;
+      padding-bottom: 20px;
+    }
+  }
+
+  .wrapper {
+    width: 100%;
+    display: flex;
+
+    background-size: cover;
+    background-position: center center;
+  }
+}

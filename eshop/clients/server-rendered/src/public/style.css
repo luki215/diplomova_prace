@@ -10057,4 +10057,83 @@ body {
   margin-bottom: 10px;
 }
 
+.c-teaser {
+  display: flex;
+  min-height: 300px;
+}
+.c-teaser .inner {
+  background: linear-gradient(90deg, #0000007f 35%, #ffffff44 100%);
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 767.98px) {
+  .c-teaser .inner {
+    background: linear-gradient(0deg, #0000007f 35%, #ffffff44 100%);
+    align-items: flex-end;
+    padding-bottom: 20px;
+  }
+}
+.c-teaser .wrapper {
+  width: 100%;
+  display: flex;
+  background-size: cover;
+  background-position: center center;
+}
+
+.c-product-card {
+  position: relative;
+}
+.c-product-card img {
+  max-width: 100%;
+}
+.c-product-card h3 {
+  font-size: 1.2rem;
+}
+.c-product-card .content {
+  border: 1px solid #c7d0c8;
+  border-top: 0;
+  background: white;
+  padding-bottom: 55px;
+  flex-grow: 1;
+}
+.c-product-card .description {
+  font-size: 0.7rem;
+}
+.c-product-card .price {
+  font-size: 1.2rem;
+  line-height: 1;
+  margin-bottom: 0.2rem;
+}
+.c-product-card a {
+  text-decoration: none;
+  color: #212529;
+  display: block;
+  width: 100%;
+}
+.c-product-card a:hover {
+  box-shadow: 0px 0px 0px 1px #0000000f;
+}
+.c-product-card a:hover h3 {
+  color: var(--primary);
+}
+.c-product-card .cart-buttons {
+  position: absolute;
+  bottom: 15px;
+  width: calc(100% - 2rem);
+}
+
+.c-cart-buttons .input-group {
+  width: 85px;
+}
+.c-cart-buttons input[type=number] {
+  -moz-appearance: textfield;
+  text-align: center;
+}
+.c-cart-buttons input::-webkit-outer-spin-button,
+.c-cart-buttons input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
 /*# sourceMappingURL=style.css.map */

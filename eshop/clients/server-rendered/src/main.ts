@@ -2,11 +2,16 @@ import { HttpAdapterHost, NestFactory } from '@nestjs/core';
 import { NestExpressApplication } from '@nestjs/platform-express';
 import { join } from 'path';
 import { AppModule } from './app.module';
+import { environment } from './environments/environment';
 import { helpers } from './shared/helpers/helpers';
 
 async function bootstrap() {
   const app = await NestFactory.create<NestExpressApplication>(AppModule);
-  app.get(HttpAdapterHost).httpAdapter.getInstance().locals.helpers = helpers;
+
+  const templateLocals = app.get(HttpAdapterHost).httpAdapter.getInstance()
+    .locals;
+  templateLocals.helpers = helpers;
+  templateLocals.environment = environment;
 
   app.useStaticAssets(join(__dirname, 'public'));
   app.setBaseViewsDir(join(__dirname, 'views'));

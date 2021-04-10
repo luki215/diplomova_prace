@@ -1,0 +1,25 @@
+<div class="c-product-card <%= css_class %>">
+  <a href="/product/<%= product.slug%>" class="d-flex flex-column">
+    <img src="<%= product.image %>" alt="<%= product.title%>" />
+
+    <div class="content px-3 pt-2">
+      <h3><%= product.title %></h3>
+
+      <div class="d-flex justify-content-between">
+        <p class="description mb-0 mr-2"><%= product.shortDesc %></p>
+
+        <div class="d-flex flex-column text-right">
+          <strong class="price"><%= product.price %>&nbsp;Kč</strong>
+
+          <small class="text-nowrap"
+            ><%= helpers.stockState( product?.stockState)%></small
+          >
+        </div>
+      </div>
+    </div>
+  </a>
+
+  <div class="cart-buttons px-3">
+    <%- include('./cart-buttons', {product}) -%>
+  </div>
+</div>
