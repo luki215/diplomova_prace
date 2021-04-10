@@ -1,13 +1,13 @@
-import { HomepageService } from '../shared/services/homepage.service';
-import { HomepageController } from './homepage.controller';
+import { CategoryController } from './category.controller';
 import { HttpModule, Module } from '@nestjs/common';
 import { SiteInfoService } from 'src/shared/services/site-info.service';
 import { CartService } from 'src/shared/services/cart.service';
 import { CategoriesService } from 'src/shared/services/categories.service';
+import { ProductsService } from 'src/shared/services/products.service';
 
 @Module({
   imports: [HttpModule],
-  controllers: [HomepageController],
-  providers: [HomepageService, SiteInfoService, CartService, CategoriesService],
+  controllers: [CategoryController],
+  providers: [SiteInfoService, CartService, CategoriesService, ProductsService],
 })
-export class HomepageModule {}
+export class CategoryModule {}

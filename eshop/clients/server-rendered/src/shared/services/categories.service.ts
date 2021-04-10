@@ -15,6 +15,8 @@ export class CategoriesService {
   }
 
   public get(slug: string) {
-    return this.http.get<Category>(`${environment.api}/categories/${slug}`);
+    return this.http
+      .get<Category>(`${environment.api}/categories/${slug}`)
+      .pipe(map((x) => x.data));
   }
 }

@@ -1,0 +1,28 @@
+<!-- prettier-ignore -->
+<%- include('../layouts/head', {seo, siteInfo}); %>
+
+<div class="p-category">
+  <div>
+    <%- include('../shared/teaser', { title: category.name , image:
+    category.background, css_class: 'mb-4' } ); %>
+  </div>
+
+  <div class="container">
+    <div class="row mt-4">
+      <% products.items.forEach(product => { %>
+      <!-- prettier-ignore -->
+      <%- include('../shared/product-card', { product, css_class: "d-flex col-12 col-sm-6 col-lg-3 mb-4" }); %>
+        <% }) %>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <div class="d-flex justify-content-center">
+          <%- include('../shared/pagination', {page, pageSize, collectionSize:
+          products.total }) -%>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<%- include('../layouts/foot'); %>

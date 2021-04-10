@@ -9,9 +9,11 @@ export class ProductsService {
   constructor(private http: HttpService) {}
 
   public getAll(params: { page: string; pageSize: string; category: string }) {
-    return this.http.get<Paginated<Product>>(`${environment.api}/products`, {
-      params: params,
-    });
+    return this.http
+      .get<Paginated<Product>>(`${environment.api}/products`, {
+        params: params,
+      })
+      .pipe(map((x) => x.data));
   }
 
   public get(slug: string) {
