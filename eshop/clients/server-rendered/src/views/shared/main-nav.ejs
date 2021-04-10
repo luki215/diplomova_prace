@@ -1,0 +1,19 @@
+<div class="c-main-nav">
+  <div class="container-md">
+    <div class="row">
+      <div class="col">
+        <nav>
+          <ul>
+            <% categories.forEach(category=> { %>
+              <li>
+                <a href="/cat/<%=category.slug%>" routerLinkActive="active">
+                  <%= category.name %>
+                </a>
+              </li>
+              <% }) %>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,63 @@
+<% const days=[ 'Pondělí' , 'Úterý' , 'Středa' , 'Čtvrtek' , 'Pátek' , 'Sobota' , 'Neděle' , ]; %>
+  <div class="c-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-4 mb-4">
+          <h3>Kontakty</h3>
+          <table>
+            <tr>
+              <td>Tel:</td>
+              <td><a href="tel:<%= siteInfo.telephone %>">
+                  <%=siteInfo.telephone%>
+                </a></td>
+            </tr>
+            <tr>
+              <td class="pr-1">Email:</td>
+              <td><a href="mailto:<%= siteInfo.email %>">
+                  <%=siteInfo.email%>
+                </a></td>
+            </tr>
+          </table>
+
+          <h3 class="mt-4">Osobní odběr</h3>
+          <ul>
+            <li>
+              <%=siteInfo.address.street%>
+            </li>
+            <li>
+              <%=siteInfo.address.city%>
+            </li>
+            <li>
+              <%=siteInfo.address.zip%>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-4 mb-4">
+          <h3>Otevírací doba</h3>
+          <table>
+            <% siteInfo.openHours.forEach(opening=> { %>
+              <tr>
+                <td class="pr-2">
+                  <%=days[opening.day]%>:
+                </td>
+                <td>
+                  <%=opening.from%>&nbsp;–&nbsp;<%=opening.to%>
+                </td>
+              </tr>
+              <% }) %>
+          </table>
+        </div>
+        <div class="col-12 col-md-4 ">
+          <h3>Užitečné informace</h3>
+          <ul>
+            <li><a href='/pages/obchodni-podminky'>Obchodní podmínky</a></li>
+            <li><a href='/pages/reklamace'>Reklamační podmínky</a></li>
+            <li><a href='/pages/kariera'>Kariéra</a></li>
+            <li><a href='/pages/preprava'>Přepravní informace</a></li>
+            <li><a href='/pages/eet'>EET</a></li>
+            <li><a href='/pages/osobni-udaje'>Zpracování osobních údajů</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>

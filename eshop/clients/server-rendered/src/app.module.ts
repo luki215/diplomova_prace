@@ -1,15 +1,11 @@
+import { SiteInfoService } from './shared/services/site-info.service';
+import { HomepageModule } from './homepage/homepage.module';
 import { Module } from '@nestjs/common';
-import { AppController } from './app.controller';
-import { AppService } from './app.service';
+import { HomepageService } from './shared/services/homepage.service';
 
 @Module({
-  imports: [
-    GraphQLModule.forRoot({
-      debug: false,
-      playground: false,
-    }),
-  ],
-  controllers: [AppController],
-  providers: [AppService],
+  imports: [HomepageModule],
+  controllers: [],
+  providers: [],
 })
 export class AppModule {}
