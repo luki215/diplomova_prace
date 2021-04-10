@@ -1,8 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 
 /* Importing Bootstrap SCSS file. */
-@import "variables";
-@import "bootstrap/scss/bootstrap";
+@import 'variables';
+@import 'bootstrap/scss/bootstrap';
 
 html {
   background-color: var(--primary);
@@ -18,5 +18,5 @@ body {
   background: white;
 }
 
-
 @import 'shared/shared';
+@import 'pages/pages';

@@ -1,0 +1,17 @@
+<div class="c-order-box">
+  <div class="price"><%= product?.price %>&nbspKč</div>
+
+  <% switch(product.stockState.state) { case 'available': %>
+  <div>
+    <%= product.stockState.instockCount %> ks skladem<br />
+    Doručení do <%= product.stockState.deliveryIn %> dnů
+  </div>
+  <% break; case 'available-soon':%>
+  <div>
+    Dočasně nedostupné<br />
+    Doručení do <%= product.stockState.deliveryIn %> dnů
+  </div>
+  <% break; case 'unavailable': %>
+  <div>Nedostupné</div>
+  <% break; } %> <%- include("cart-buttons", {product}) -%>
+</div>

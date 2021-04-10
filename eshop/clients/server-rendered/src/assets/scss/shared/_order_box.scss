@@ -1,0 +1,12 @@
+.c-order-box {
+  & {
+    background-color: var(--bg-secondary);
+    display: block;
+    padding: 20px;
+  }
+
+  .price {
+    text-align: center;
+    font-size: 40px;
+  }
+}
