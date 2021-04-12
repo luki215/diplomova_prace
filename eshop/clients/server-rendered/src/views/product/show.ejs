@@ -2,7 +2,7 @@
 <%- include('../layouts/head', {seo, siteInfo}); %>
 
 <div class="p-product">
-  <div class="container py-5" *ngIf="product$ | async as product">
+  <div class="container py-5">
     <div class="row">
       <div class="col-12 col-sm-4">
         <img src="<%= product.image %>" class="w-100" />

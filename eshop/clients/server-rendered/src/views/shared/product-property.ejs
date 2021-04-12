@@ -1,9 +1,11 @@
 <div class="c-product-property">
   <div class="property p-3 text-center">
     <div class="name"><%= property.name %></div>
-    <div *ngIf="property?.ico" class="ico my-2">
+    <% if(property.ico) { %> 
+    <div class="ico my-2">
       <i class="fa <%= property.ico%>"></i>
     </div>
-    <div><small><%= property?.value %></small></div>
+    <% } %>
+    <div><small><%= property.value %></small></div>
   </div>
 </div>

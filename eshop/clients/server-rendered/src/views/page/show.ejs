@@ -3,11 +3,8 @@
 <div class="container py-4">
   <div class="row">
     <div class="col-12">
-      <ng-container *ngIf="page$ | async as page">
-        <h1 class="mb-3"><%= page.title %></h1>
-
-        <div><%- page.content %></div>
-      </ng-container>
+      <h1 class="mb-3"><%= page.title %></h1>
+      <div><%- page.content %></div>
     </div>
   </div>
 </div>

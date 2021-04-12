@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "dp-eshop": {
+      "hosting": {
+        "dp-eshop-sr": [
+          "dp-eshop-sr"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "dp-eshop"
+  }
+}
