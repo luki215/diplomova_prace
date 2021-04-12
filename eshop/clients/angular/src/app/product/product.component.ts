@@ -21,7 +21,8 @@ export class ProductComponent implements OnInit {
     this.product$ = this.route.paramMap.pipe(
       map((params) => params.get('slug') as string),
       switchMap((slug) => this.productsService.get(slug)),
-      tap((p) => this.seo.setSeo(p.seo))
+      tap((p) => this.seo.setSeo(p.seo)),
+      tap((p) => this.seo.setProductMicrodata(p))
     );
   }
 
