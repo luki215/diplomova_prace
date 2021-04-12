@@ -4,6 +4,8 @@
     <meta charset="utf-8" />
     <title><%= seo.title %></title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <%- include('../shared/seo', {seo}) -%>
+
     <script
       src="https://kit.fontawesome.com/059c233632.js"
       crossorigin="anonymous"
@@ -17,3 +19,5 @@
       <%- include('../shared/top-header') -%> <%- include('../shared/header')
       -%> <%- include('../shared/main-nav') -%>
     </header>
+  </body>
+</html>

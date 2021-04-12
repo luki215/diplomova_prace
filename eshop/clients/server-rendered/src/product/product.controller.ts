@@ -9,6 +9,7 @@ import { Cart } from 'src/shared/interfaces/cart.interface';
 import { CartService } from 'src/shared/services/cart.service';
 import { CategoriesService } from 'src/shared/services/categories.service';
 import { ProductsService } from 'src/shared/services/products.service';
+import { Product } from 'src/shared/interfaces/product.interface';
 export interface SharedViewData {
   seo: Seo;
   siteInfo: SiteInfo;
@@ -35,12 +36,53 @@ export class ProductController {
       this.categoriesService.getAll().toPromise(),
     ]);
 
+    const seo = {
+      ...product.seo,
+      jsonLD: this.getJsonLDFromProduct(product),
+    };
+
     return {
       product,
-      seo: product.seo,
+      seo: seo,
       siteInfo,
       cartItemsCount,
       categories,
     };
+  }
+
+  private getJsonLDFromProduct(product: Product) {
+    let itemStock;
+    switch (product.stockState.state) {
+      case 'available':
+        itemStock = 'InStock';
+        break;
+      case 'available-soon':
+        itemStock = 'PreOrder';
+        break;
+      case 'unavailable':
+        itemStock = 'OutOfStock';
+        break;
+    }
+
+    const today = new Date();
+
+    const jsonLD = {
+      '@context': 'https://schema.org/',
+      '@type': 'Product',
+      name: product.title,
+      image: product.image,
+      description: product.description,
+      offers: {
+        '@type': 'Offer',
+        priceCurrency: 'CZK',
+        price: product.price,
+        priceValidUntil: `${today.getFullYear()}-${
+          today.getMonth() + 1
+        }-${today.getDate()}`,
+        itemCondition: 'http://schema.org/NewCondition',
+        availability: `http://schema.org/${itemStock}`,
+      },
+    };
+    return JSON.stringify(jsonLD);
   }
 }
