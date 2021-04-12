@@ -37,7 +37,7 @@ export const api = functions.https.onRequest(expressServer);
 
 // we are not running from firebase => start on localhost
 if (!process.env.GCLOUD_PROJECT) {
-  const port = process.env.PORT || 3000;
+  const port = process.env.PORT || 4000;
 
   bootstrap(expressServer);
 
