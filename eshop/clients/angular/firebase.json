@@ -40,7 +40,7 @@
       "rewrites": [
         {
           "source": "**",
-          "function": "index.html"
+          "destination": "/index.html"
         }
       ]
     },
@@ -62,7 +62,7 @@
       "rewrites": [
         {
           "source": "**",
-          "function": "index.html"
+          "destination": "index.html"
         }
       ]
     }
