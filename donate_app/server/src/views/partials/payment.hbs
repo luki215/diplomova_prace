@@ -1,11 +1,12 @@
 <div class="payment">
     <h2>
-
         <a href="/?type=donation#donate" {{#if isDonation}}class="active" {{/if}}>
-            Dar farnosti</a>
+            Dar farnosti
+        </a>
         |
         <a href="/?type=sunday#donate" {{#unless isDonation}}class="active" {{/unless}}>
-            Nedělní sbírka</a>
+            Nedělní sbírka
+        </a>
     </h2>
 
     <form action="/#donate" method="GET">
@@ -40,7 +41,7 @@
         </div>
 
         {{#if isDonation}}
-        <div class="contact-form" [formGroup]="userInfo">
+        <div class="contact-form">
             <div class="form-control">
                 <input name="contact_form__name" id="contact-form__name" type="text" autocomplete="name"
                     placeholder="&nbsp;" value="{{query.contact_form__name}}">

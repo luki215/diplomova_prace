@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { combineLatest, Observable } from 'rxjs';
-import { combineAll, map, switchMap, tap } from 'rxjs/operators';
+import { map, switchMap, tap } from 'rxjs/operators';
 import { Category } from '../shared/interfaces/categories.interfaces';
 import { Product } from '../shared/interfaces/product.interface';
 import { Paginated } from '../shared/interfaces/utils.interface';
@@ -31,7 +31,7 @@ export class CategoriesComponent implements OnInit {
     this.category$ = this.route.paramMap.pipe(
       map((x) => x.get('slug') as string),
       switchMap((x) => this.categoriesService.get(x)),
-      tap((hp) => this.seo.setSeo(hp.seo))
+      tap((cat) => this.seo.setSeo(cat.seo))
     );
 
     this.products$ = combineLatest([

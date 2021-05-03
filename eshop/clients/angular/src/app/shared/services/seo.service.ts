@@ -41,7 +41,7 @@ export class SeoService {
         priceCurrency: 'CZK',
         price: product.price,
         priceValidUntil: `${today.getFullYear()}-${
-          today.getMonth() + 1
+          today.getMonth() + 2
         }-${today.getDate()}`,
         itemCondition: 'http://schema.org/NewCondition',
         availability: `http://schema.org/${itemStock}`,

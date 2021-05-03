@@ -1,55 +1,63 @@
 <h2>
-  <a [routerLink]="['.']" [queryParams]="{type: 'donation'}" [class.active]="type === 'donation'" fragment="donate">
-    Dar farnosti</a>
+  <a [routerLink]="['.']" [queryParams]="{ type: 'donation' }" [class.active]="type === 'donation'" fragment="donate">
+    Dar farnosti
+  </a>
   |
-  <a [routerLink]="['.']" [queryParams]="{type: 'sunday'}" [class.active]="type === 'sunday'" fragment="donate">
-    Nedělní sbírka</a>
-
+  <a [routerLink]="['.']" [queryParams]="{ type: 'sunday' }" [class.active]="type === 'sunday'" fragment="donate">
+    Nedělní sbírka
+  </a>
 </h2>
 
-<app-payment-amount-selector [amounts]="type === 'sunday' ? [20, 50, 100, 200] : [200, 300, 500, 1000]"
-  [formControl]="amountFC"></app-payment-amount-selector>
+<app-payment-amount-selector
+  [amounts]="type === 'sunday' ? [20, 50, 100, 200] : [200, 300, 500, 1000]"
+  [formControl]="amountFC"
+></app-payment-amount-selector>
 
 <div class="contact-form" *ngIf="type !== 'sunday'" [formGroup]="userInfo">
   <div class="form-control">
-    <input formControlName="name" id="contact-form__name" type="text" autocomplete="name" placeholder="&nbsp;">
+    <input formControlName="name" id="contact-form__name" type="text" autocomplete="name" placeholder="&nbsp;" />
     <label for="contact-form__name">Jméno a příjmení</label>
   </div>
 
   <div class="form-control">
-    <input formControlName="street" id="contact-form__street" type="text" autocomplete="street-address"
-      placeholder="&nbsp;">
+    <input
+      formControlName="street"
+      id="contact-form__street"
+      type="text"
+      autocomplete="street-address"
+      placeholder="&nbsp;"
+    />
     <label for="contact-form__street">Ulice</label>
   </div>
   <div class="form-control">
-    <input formControlName="city" id="contact-form__city" type="text" autocomplete="address-level2"
-      placeholder="&nbsp;">
+    <input
+      formControlName="city"
+      id="contact-form__city"
+      type="text"
+      autocomplete="address-level2"
+      placeholder="&nbsp;"
+    />
     <label for="contact-form__city">Město</label>
   </div>
   <div class="form-control">
-    <input formControlName="zip" id="contact-form__zip" type="text" autocomplete="postal-code" placeholder="&nbsp;">
+    <input formControlName="zip" id="contact-form__zip" type="text" autocomplete="postal-code" placeholder="&nbsp;" />
     <label for="contact-form__zip">PSČ</label>
   </div>
 </div>
 
-
-
 <div class="payment-info">
-
   <div class="qr-code" *ngIf="showQR">
-    <img [src]="imgSrc" alt="paymentCode"><br>
+    <img [src]="imgSrc" alt="paymentCode" /><br />
     <a [href]="imgSrc" download="KCMT_QR_platba" class="btn">Stáhnout QR kód</a>
   </div>
 
   <div class="account-info">
-    <span class="text-disabled">Číslo účtu:</span> {{config.accounts[type].account_print}}
-    <span class="text-disabled">Variabilní symbol:</span> {{config.accounts[type].vs}}
+    <span class="text-disabled">Číslo účtu:</span> {{ config.accounts[type].account_print }}
+    <span class="text-disabled">Variabilní symbol:</span> {{ config.accounts[type].vs }}
     <span class="text-disabled">Zpráva příjemci:</span>
-    <ng-container *ngIf="type==='donation'">
+    <ng-container *ngIf="type === 'donation'">
       do zprávy pro příjemce uveďte prosím jméno a adresu, abychom Vám mohli vystavit potvrzení o daru
     </ng-container>
-    <ng-container *ngIf="type==='sunday'">
-      NEDELNI SBIRKA
-    </ng-container>
+    <ng-container *ngIf="type === 'sunday'"> NEDELNI SBIRKA </ng-container>
   </div>
 </div>

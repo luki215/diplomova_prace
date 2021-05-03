@@ -6,8 +6,8 @@ const routesFile = "./routes.txt";
 
 const routes = [];
 
-const writeCategories = () => {
-  axios
+const writeCategories = async () => {
+  return axios
     .get(`${apiURL}/categories`)
     .then((res) => {
       res.data.forEach((cat) => {
@@ -17,32 +17,33 @@ const writeCategories = () => {
     .catch((e) => console.log(e));
 };
 
-const writeProducts = () => {
-  axios
+const writeProducts = async () => {
+  return axios
     .get(`${apiURL}/products?pageSize=9999`)
     .then((res) => {
       res.data.items.forEach((product) => {
         routes.push("product/" + product.slug);
       });
-      fs.writeFileSync(routesFile, routes.join(endOfLine), "utf8");
     })
     .catch((e) => console.log(e));
 };
 
-const writePages = () => {
-  axios
+const writePages = async () => {
+  return axios
     .get(`${apiURL}/static-page`)
     .then((res) => {
       res.data.forEach((page) => {
         routes.push("pages/" + page.slug);
       });
-      fs.writeFileSync(routesFile, routes.join(endOfLine), "utf8");
     })
     .catch((e) => console.log(e));
 };
 
-fs.writeFileSync(routesFile, routes.join(endOfLine), "utf8");
+async function run() {
+  await writeCategories();
+  await writePages();
+  await writeProducts();
+  fs.writeFileSync(routesFile, routes.join(endOfLine), "utf8");
+}
 
-writeCategories();
-writeProducts();
-writePages();
+run();

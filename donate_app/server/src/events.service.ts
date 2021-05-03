@@ -5,6 +5,6 @@ export class EventsService {
   constructor(private httpService: HttpService) {}
 
   public getEvents() {
-    return this.httpService.get('https://events-api.brezina.workers.dev/');
+    return this.httpService.get('http://localhost:4000');
   }
 }

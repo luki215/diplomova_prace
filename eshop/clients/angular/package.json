@@ -13,7 +13,7 @@
     "serve:ssr": "node dist/angular/server/main.js",
     "build:ssr": "ng build --prod && ng run angular:server:production",
     "prerender": "ng run angular:prerender",
-    "deploy": "yarn generate-routes && rm -rf functions/dist && yarn build:ssr && cp -R functions/dist/client functions/dist/SSR && mv functions/dist/SSR/browser/index.html functions/dist/SSR/browser/index.original.html && cp -R functions/dist/client/browser functions/dist/CSR && yarn prerender --routes-file scripts/routes.txt && yarn firebase deploy --only hosting,functions:ssr"
+    "deploy": "yarn generate-routes && rm -rf functions/dist && yarn build:ssr && cp -R functions/dist/client functions/dist/SSR && mv functions/dist/SSR/browser/index.html functions/dist/SSR/browser/index.original.html && cp -R functions/dist/client/browser functions/dist/CSR && yarn prerender --routes-file ./routes.txt && yarn firebase deploy --only hosting,functions:ssr"
   },
   "private": true,
   "dependencies": {

@@ -46,7 +46,6 @@ export class AppController {
       ? await this.getPaymentImg(amount, query, isDonation, paymentConfig)
       : false;
 
-    debugger;
     return {
       query,
       amountOptions,
