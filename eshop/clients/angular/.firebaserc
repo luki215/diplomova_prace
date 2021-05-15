@@ -1,26 +1,26 @@
 {
   "targets": {
-    "dp-eshop": {
+    "dp-eshop-2": {
       "hosting": {
         "SSR": [
-          "dp-eshop"
+          "dp-eshop-2"
         ],
         "CSR": [
-          "dp-eshop-csr"
+          "dp-eshop-csr-2"
         ],
         "prerender": [
-          "dp-eshop-prerender"
+          "dp-eshop-prerender-2"
         ],
         "server": [
-          "dp-eshop-sr"
+          "dp-eshop-sr-2"
         ],
         "api": [
-          "api-dp-eshop"
+          "api-dp-eshop-2"
         ]
       }
     }
   },
   "projects": {
-    "default": "dp-eshop"
+    "default": "dp-eshop-2"
   }
 }

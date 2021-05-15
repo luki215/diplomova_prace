@@ -3,8 +3,8 @@ import { Product } from 'src/shared/interfaces/product.interface';
 
 export const products: Product[] = [
   {
-    title: 'Clainebookahl Glomtom',
-    slug: 'Clainebookahl-Glomtom',
+    title: 'Rekili Weacci Dryasu',
+    slug: 'Rekili-Weacci-Dryasu',
     shortDesc:
       'Reveň vysazujeme na slunná místa do hluboce zkypřené a řádně vyhnojené půdy',
     description:
@@ -14,7 +14,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -24,7 +24,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 87 },
     seo: {
-      title: 'Clainebookahl Glomtom | Zahradnictví Březina',
+      title: 'Rekili Weacci Dryasu | Zahradnictví u Lukáše',
       description:
         'Reveň vysazujeme na slunná místa do hluboce zkypřené a řádně vyhnojené půdy',
       image:
@@ -40,8 +40,8 @@ export const products: Product[] = [
     ],
   },
   {
-    title: 'Cattelimons Clairiose',
-    slug: 'Cattelimons-Clairiose',
+    title: 'Kicahe Ikeraj Lurgis',
+    slug: 'Kicahe-Ikeraj-Lurgis',
     shortDesc: 'Zelený chřest má proti bilému četné přednosti.',
     description:
       "Pazoušky zeleného chřestu, který se pěstuje bez hrůbkování, jsou jemné, mají vyšší obsah vitaminů a při kuchyňské úpravě se nemusí tak dlouho vařit. Pro tento způsob pěstování jsou vhodnějši zahraniční odrůdy 'Arlette', 'Sláva Brunšviku', 'Sněhová koule', 'Mary Washington', 'Rany Argenteuilský' a výnosná 'Viola'. Pěstováné je ve srovnání s bilým chřestem jednodušši. Jednoleté až dvouleté sazenice se vysazuji na zrigolované a dobře vyhnojené záhony do mělkých brázdiček do hloubky 5-8 cm. Řady postači vzdálené od sebe 1,10-1,25 m; v řadách sázíme na 40 cm. Zelený chřest můžeme pěstovat i na těžších hlinitých půdách. Pazoušky chřestu sklízíme až třetí rok po výsadbě, když dosáhnou výšky 15-20 cm. Odřezáváme je nožem těsně u země. Sklizeň zeleného chřestu bývá o týden ranějši než u bilého chřestu. Urychlení a zvýšeni sklizně můžeme dosáhnout pod průhlednou fólií.",
@@ -50,7 +50,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -60,7 +60,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 50 },
     seo: {
-      title: 'Cattelimons Clairiose | Zahradnictví Březina',
+      title: 'Kicahe Ikeraj Lurgis | Zahradnictví u Lukáše',
       description: 'Zelený chřest má proti bilému četné přednosti.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (2).webp',
@@ -75,8 +75,8 @@ export const products: Product[] = [
     ],
   },
   {
-    title: 'Tasty Wooden Pizza',
-    slug: 'Tasty-Wooden-Pizza',
+    title: 'Noorpe Abwooz Adurom',
+    slug: 'Noorpe-Abwooz-Adurom',
     shortDesc: 'Mátu ponecháváme na jednom stanovišti jen tři roky.',
     description:
       "Mátu (odrůdy 'Multimentha' a 'Perpeta') pěstujeme na záhonech ve slunných polohách z oddělků starších rostlin. Oddělky vysazujeme mělce v polovině dubna do řádků vzdálených od sebe 40 cm, v řádcích na 20-30 cm. Půda, nejlépe lehčí nebo středně těžká, má být dobře zásobena humusem a živinami. Během vegetace vyžaduje máta hodně půdní vláhy, a proto je nutná častá zálivka. Nať se seřezává několik centimetrů nad zemí, a to v prvním roce jen jednou ročně, v dalších letech 2-3krát ročně, vždy před květem. Listy otrháme a sušíme na stinném a vzdušném místě. Pro kořenění masitých pokrmů používáme čerstvé listy. Protože máta není zcela zimovzdorná, musíme ji v místech chudých na sníh chránit nejlépe přikrývkou z chvojí, slamnatého hnoje nebo listí.",
@@ -85,7 +85,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -95,7 +95,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 67 },
     seo: {
-      title: 'Tasty Wooden Pizza | Zahradnictví Březina',
+      title: 'Noorpe Abwooz Adurom | Zahradnictví u Lukáše',
       description: 'Mátu ponecháváme na jednom stanovišti jen tři roky.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (3).webp',
@@ -114,8 +114,8 @@ export const products: Product[] = [
     ],
   },
   {
-    title: 'Ventalificter Onama',
-    slug: 'Ventalificter-Onama',
+    title: 'Fryois Guanch Sepati',
+    slug: 'Fryois-Guanch-Sepati',
     shortDesc: 'U nás lze artyčoky pěstovat jen v nejteplejších polohách.',
     description:
       'U nás lze artyčoky pěstovat jen v nejteplejších polohách. Tato až 1,5 m vysoká rostlina, podobná ušlechtilému bodláku, se u nás pěstuje jen velmi zřídka. Její 8-10 cm velké, dosud nerozkvetlé květní hlavice jsou velkou lahůdkou. Artyčoky jsou citlivé na mráz. Proto je lze s úspěchem pěstovat především ve slunných a chráněných polohách. Artyčoky pěstujeme ze sazenic, které získáme v dubnu oddělením od starších trsů. Sazenice vysazujeme na záhon zrigolovaný do hloubky 50 cm a dobře vyhnojený chlévským hnojem nebo kompostem a Cereritem (60 g/m?). Sázíme do jamek 20-30 cm hlubokých, zčásti vyplněných kompostem tak, aby sazenice byly 10 cm hluboko; spon volíme 80x80 cm až 100x100 cm. Sazenice si můžeme vypěstovat i ze semen, která vysejeme počátkem března po 2-3 do hrnků a umístíme ve vytápěném skleniku nebo pařeništi.',
@@ -124,7 +124,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -134,7 +134,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 55 },
     seo: {
-      title: 'Ventalificter Onama | Zahradnictví Březina',
+      title: 'Fryois Guanch Sepati | Zahradnictví u Lukáše',
       description: 'U nás lze artyčoky pěstovat jen v nejteplejších polohách.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (4).webp',
@@ -153,8 +153,8 @@ export const products: Product[] = [
     ],
   },
   {
-    title: 'Ociramma Clawine',
-    slug: 'Ociramma-Clawine',
+    title: 'Dahosi Jaymou Zonsma',
+    slug: 'Dahosi-Jaymou-Zonsma',
     shortDesc:
       'Listy libečku se používají ke kořenění polévek, omáček a k masu.',
     description:
@@ -164,7 +164,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -174,7 +174,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 94 },
     seo: {
-      title: 'Ociramma Clawine | Zahradnictví Březina',
+      title: 'Dahosi Jaymou Zonsma | Zahradnictví u Lukáše',
       description:
         'Non vel expedita dolor quis voluptate dignissimos aspernatur dolorem.',
       image:
@@ -194,8 +194,8 @@ export const products: Product[] = [
     ],
   },
   {
-    title: 'Awesome Soft Towels',
-    slug: 'Awesome-Soft-Towels',
+    title: 'Raropa Adyndi Itarif',
+    slug: 'Raropa-Adyndi-Itarif',
     shortDesc: 'Řeřichu zahradní lze používat po celý rok ke kořenění pokrmů',
     description:
       "Řeřicha je vhodná ke kořenění salátů, obložených chlebíčků a masitých pokrmů. Pěstování této u nás málo známé zeleniny je v západních a severských státech běžné. Řeřicha má velmi krátkou vegetační dobu, pouze 10-20 dní od zasetí do sklizně natě. Na záhonech ji pěstujeme od poloviny března do konce října nebo začátku listopadu. V letním období rychle vybíhá do květu a její užitkovost je malá. Také chuť v létě je velmi ostrá. Na půdu není řeřicha náročná. Semeno povolené odrůdy 'Dánská' vyséváme na záhony nebo na obruby po předchozim utužení půdy prkénkem do řádků vzdalených od sebe 10 cm a do hloubky 1-2 cm. Po výsevu povrch půdy opět utužíme.",
@@ -204,7 +204,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -213,7 +213,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 30 },
     seo: {
-      title: 'Awesome Soft Towels | Zahradnictví Březina',
+      title: 'Raropa Adyndi Itarif | Zahradnictví u Lukáše',
       description:
         'Řeřichu zahradní lze používat po celý rok ke kořenění pokrmů',
       image:
@@ -233,17 +233,17 @@ export const products: Product[] = [
     ],
   },
   {
-    title: 'Ergonomic Plastic Car',
-    slug: 'Ergonomic-Plastic-Car',
-    shortDesc: 'Saepe animi minima consequuntur mollitia.',
+    title: 'Tweetr Nifist Laciel',
+    slug: 'Tweetr-Nifist-Laciel',
+    shortDesc: 'Tymián vyžaduje slunnou a chráněnoy polohu',
     description:
-      'Ratione ea voluptatem pariatur harum ab. Sapiente et et dolore quae ratione. Autem quia laudantium ut aut laborum deleniti.\n \rAut quas voluptatem minus blanditiis. Vel tenetur aut ut. Est vel facere sit. Ea reprehenderit sit voluptatem sed ut sint voluptates quaerat. Veniam debitis qui consequatur libero tenetur qui sit ut.\n \rNecessitatibus voluptatum qui rerum quo. Sapiente ut illo soluta asperiores. Numquam quis eos labore aut ipsa fugiat ipsa. Aperiam sunt ut magni. Aspernatur nam qui cum voluptatem nesciunt.\n \rVeritatis nobis sunt et quia odio fugit vitae. Non qui exercitationem magni quia rerum fuga rerum sint rerum. Accusantium reiciendis rerum dicta et.',
+      "Tymián vyžaduje slunnou a chráněnoy polohu a lehči půdu bohatou živinami a vápníkem Odrůdy tymiánu 'Aroma', 'Mixta 'Lemona' (má citronovou vůni) pěstujeme dělením starých trsů, odrůdu 'Krajový' ze sazenic, které vypěstujeme v pařeništi (semeno vyséváme v březnu až dubnu). Sazenice vysazujeme na záhon ve sponu 30x15 cm, a to vždy 2-3 rostliny do jednoho důlku. Sázíme hlouběji, než byly rostliny v pařeništi, aby lépe zakořenily. Tymián můžeme pěstovat i jako obrubníkovou rostlinu; nesmí však být zastíněný. Nať tymiánu sklízíme v dalších letech dvakrát až tříkrát. Nesmíme ho sestřihávat příliš u země, aby zase dobře obrašil. Nesmíme jej sklízet ani pozdě na podzim, neboť pak by již špatně obrostl a snadno by přes zimu vymrzl. Nejpozdější lhůta sklizně je proto polovina září. Nať sušíme zavěšenou v malých svazcích nebo rozprostřenou na lískách na stinném a suchém místě. Používáme ji do čajů proti kašli. Syrový tymián lze použít jako přísadu do salátů. Přes zimu chráníme tymián v místech, kde není dostatek sněhu, přikrývkou z chvojí proti vymrznutí. Na jednom místě ponecháváme tymián 4-5 let. Na jaře jej každoročně přihnojíme kompostem a Cereritem.",
     category: {
       name: 'Růže',
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -253,8 +253,8 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available-soon', deliveryIn: 17 },
     seo: {
-      title: 'Ergonomic Plastic Car | Zahradnictví Březina',
-      description: 'Saepe animi minima consequuntur mollitia.',
+      title: 'Tweetr Nifist Laciel | Zahradnictví u Lukáše',
+      description: 'Tymián vyžaduje slunnou a chráněnoy polohu',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/rose-729509_1280.webp',
     },
@@ -268,18 +268,17 @@ export const products: Product[] = [
     ],
   },
   {
-    title: 'Biosteans Oblivia',
-    slug: 'Biosteans-Oblivia',
-    shortDesc:
-      'Tymián vyžaduje slunnou a chráněnoy polohu a lehči půdu bohatou živinami',
+    title: 'Sulatl Etamec Zygich',
+    slug: 'Sulatl-Etamec-Zygich',
+    shortDesc: 'Černý kořen je u nás dosud málo pěstovaná',
     description:
-      "Tymián vyžaduje slunnou a chráněnoy polohu a lehči půdu bohatou živinami a vápníkem Odrůdy tymiánu 'Aroma', 'Mixta Lemona' (má citronovou vůni) pěstujeme dělením starých trsů, odrůdu 'Krajový' ze sazenic, které vypěstujeme v pařeništi (semeno vyséváme v březnu až dubnu). Sazenice vysazujeme na záhon ve sponu 30x15 cm, a to vždy 2-3 rostliny do jednoho důlku. Sázíme hlouběji, než byly rostliny v pařeništi, aby lépe zakořenily. Tymián můžeme pěstovat i jako obrubníkovou rostlinu; nesmí však být zastíněný. Nať tymiánu sklízíme v dalších letech dvakrát až tříkrát. Nesmíme ho sestřihávat příliš u země, aby zase dobře obrašil. Nesmíme jej sklízet ani pozdě na podzim, neboť pak by již špatně obrostl a snadno by přes zimu vymrzl. Nejpozdější lhůta sklizně je proto polovina září. Nať sušíme zavěšenou v malých svazcích nebo rozprostřenou na lískách na stinném a suchém místě. Používáme ji do čajů proti kašli. Syrový tymián lze použít jako přísadu do salátů. Přes zimu chráníme tymián v místech, kde není dostatek sněhu, přikrývkou z chvojí proti vymrznutí. Na jednom místě ponecháváme tymián 4-5 let. Na jaře jej každoročně přihnojíme kompostem a Cereritem.",
+      'Černý kořen je u nás dosud málo pěstovaná zelenina Černý kořen, který má neobvyklý botanický název – hadí mord španělský, je vytrvalá hvězdnicovitá rostlina, vytvářející v prvním roce pěstování 20-30 cm dlouhý kořen (často i delší) s černou pokožkou a bílou dužninou, z níž po naříznutí vytéká bílá mlékovitá tekutina jako z kořenů pampelišky. Květní lodyhy se žlutými květenstvími vyrůstají při normálním vývoji až ve druhém roce, někdy však již v prvním roce. Černý kořen je jemná a lehce stravitelná zelenina. Proto je vhodný pro žaludečni nebo střevní dietu. Doporučuje se též pro nemocné cukrovkou a revmatismem.',
     category: {
       name: 'Růže',
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -289,9 +288,8 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 76 },
     seo: {
-      title: 'Biosteans Oblivia | Zahradnictví Březina',
-      description:
-        'Tymián vyžaduje slunnou a chráněnoy polohu a lehči půdu bohatou živinami',
+      title: 'Sulatl Etamec Zygich | Zahradnictví u Lukáše',
+      description: 'Černý kořen je u nás dosud málo pěstovaná',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (1).webp',
     },
@@ -305,17 +303,17 @@ export const products: Product[] = [
     ],
   },
   {
-    title: 'Gorgeous Cotton Hat',
-    slug: 'Gorgeous-Cotton-Hat',
-    shortDesc: 'Dolorem laborum incidunt adipisci et officiis dolorum.',
+    title: 'Hybdin Orlato Eculmi',
+    slug: 'Hybdin-Orlato-Eculmi',
+    shortDesc: 'Mrkev je velmi zdravá pro svůj vysoký obsah karotenu',
     description:
-      'Explicabo velit sit. Qui cumque nihil accusantium dolores. Minima consequuntur velit quia rem voluptatem nostrum necessitatibus corrupti. Non quia est laborum qui unde expedita quisquam ea. Molestiae ut aut porro ut omnis enim.\n \rHarum culpa sint libero id dicta dignissimos dolorum optio quis. Aut maiores doloremque. Sit est maxime. Aut facilis sed maiores quae eius. Facilis velit molestiae ea.\n \rIncidunt asperiores est. Autem officia earum accusantium omnis placeat. Soluta officiis quidem. Aut vel rerum fuga cumque.\n \rNecessitatibus quis qui laudantium distinctio impedit soluta quam. Sed perferendis rerum repellat vitae. Et sapiente error. Aut qui dignissimos cum qui mollitia necessitatibus totam sed. Natus commodi necessitatibus autem quam nam.',
+      'Mrkev patří mezi zeleniny bohaté karotenem (provitamin A), který velmi příznivě ovlivňuje výměnu látkovou v těle, přispívá k dobré činnosti srdce, sliznic, žláz a oční sítnice. Posiluje také odolnost těla proti infekčním chorobám. Vitaminy komplexu B obsažené v mrkvi spolupůsobí při ochraně nervů. Šťáva z mrkve podávaná malým dětem působí proti průjmům. Nejhodnotnější je mrkev požívaná za syrova (jemně rozmixovaná je nejúčinnější).',
     category: {
       name: 'Růže',
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -325,8 +323,8 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 73 },
     seo: {
-      title: 'Gorgeous Cotton Hat | Zahradnictví Březina',
-      description: 'Dolorem laborum incidunt adipisci et officiis dolorum.',
+      title: 'Hybdin Orlato Eculmi | Zahradnictví u Lukáše',
+      description: 'Mrkev je velmi zdravá pro svůj vysoký obsah karotenu',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (2).webp',
     },
@@ -344,18 +342,17 @@ export const products: Product[] = [
     ],
   },
   {
-    title: 'Incredible Fresh Shirt',
-    slug: 'Incredible-Fresh-Shirt',
-    shortDesc:
-      'Dolorum ipsum numquam rerum sit dicta nemo neque sint voluptatem.',
+    title: 'Fogion Pughte Ozorti',
+    slug: 'Fogion-Pughte-Ozorti',
+    shortDesc: 'Ředkev má podobné nároky na pěstování jako ředkvíčka',
     description:
-      'Aut deleniti est maxime et veritatis nobis quia. Nisi est dolore ea atque eos sed. Et ut aut commodi quam. Iste vitae itaque non delectus. Et reprehenderit illum debitis quo eaque odio harum.\n \rTempore ducimus sunt eius est. Necessitatibus et autem sint tempore labore cumque optio atque nam. Soluta voluptatem dolor quo quis quis. Sed quia alias repellat qui. Dolor maxime in perferendis pariatur.\n \rEaque sequi et. Ea quia eius consequatur voluptatum. Unde et est rerum. Magni est veritatis rerum.\n \rAsperiores omnis et saepe recusandae. Voluptas esse enim consequuntur necessitatibus est consequuntur. Qui consequatur autem dolore quia aspernatur ut minus omnis sed. Quis ipsa blanditiis. Nesciunt facere aut quasi et iste consequuntur.',
+      "Ředkev, která příznivě ovlivňuje trávení a používá se i při kašli, má proti ředkvičce větší bulvy (zejména zimní odrůdy) a potřebuje k jejich plnému vývinu delší dobu. Pro pěstování na jaře se koncem března nebo začátkem dubna používají rané odrůdy s kuželovitými kořeny – 'Polodlouhá bílá', žlutá 'Jantar' a červená 'Karmina'. Vysévají se na záhony do řádků vzdálených od sebe 20 cm, do hloubky 2 cm. Jednotí se na vzdálenost 8 cm. Lze je vysévat i v srpnu pro podzimní sklizeň. Pro delší uložení na zimu se v červenci | vysévá pozdní odrůda 'Kulatá černá' do řádků širokých 30 cm, a jednotí se na 12-15 cm. Šťáva této odrůdy s cukrem se doporučuje proti dětskému kašli. Pro mimořádně velké a kvalitní bulvy se pěstují tzv. japonské ředkve, např. 'Aspro' (až 40 cm dlouhá). Záhony před výsevem pohnojíme Cereritem, popřípadě superfosfátem a siranem draselným, po vyjednocení mírně ledkem vápenatým. Dávky hnojiv použijeme obdobné jako k ředkvičce. Během vegetace záhony s ředkví okopáváme a zavlažujeme.",
     category: {
       name: 'Růže',
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -365,9 +362,8 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 6 },
     seo: {
-      title: 'Incredible Fresh Shirt | Zahradnictví Březina',
-      description:
-        'Dolorum ipsum numquam rerum sit dicta nemo neque sint voluptatem.',
+      title: 'Fogion Pughte Ozorti | Zahradnictví u Lukáše',
+      description: 'Ředkev má podobné nároky na pěstování jako ředkvíčka',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (3).webp',
     },
@@ -392,7 +388,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -402,7 +398,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 33 },
     seo: {
-      title: 'Unbranded Fresh Fish | Zahradnictví Březina',
+      title: 'Unbranded Fresh Fish | Zahradnictví u Lukáše',
       description:
         'Iure qui maxime quisquam et unde dolores deleniti in provident.',
       image:
@@ -433,7 +429,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -443,7 +439,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available-soon', deliveryIn: 8 },
     seo: {
-      title: 'Generic Cotton Pizza | Zahradnictví Březina',
+      title: 'Generic Cotton Pizza | Zahradnictví u Lukáše',
       description:
         'Perspiciatis provident sit eum laborum corporis provident dignissimos quaerat aut.',
       image:
@@ -469,7 +465,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -478,7 +474,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 90 },
     seo: {
-      title: 'Ergonomic Frozen Fish | Zahradnictví Březina',
+      title: 'Ergonomic Frozen Fish | Zahradnictví u Lukáše',
       description: 'Facere mollitia velit aspernatur quibusdam quisquam earum.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project.webp',
@@ -507,7 +503,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -517,7 +513,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available-soon', deliveryIn: 15 },
     seo: {
-      title: 'Fantastic Rubber Gloves | Zahradnictví Březina',
+      title: 'Fantastic Rubber Gloves | Zahradnictví u Lukáše',
       description: 'Debitis architecto dolor est.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/rose-729509_1280.webp',
@@ -542,7 +538,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -552,7 +548,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 3 },
     seo: {
-      title: 'Unbranded Wooden Chicken | Zahradnictví Březina',
+      title: 'Unbranded Wooden Chicken | Zahradnictví u Lukáše',
       description: 'Ea ipsam cupiditate quibusdam quis eum temporibus.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (1).webp',
@@ -577,7 +573,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -587,7 +583,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 91 },
     seo: {
-      title: 'Practical Granite Cheese | Zahradnictví Březina',
+      title: 'Practical Granite Cheese | Zahradnictví u Lukáše',
       description: 'Deserunt quis sunt dignissimos excepturi quisquam soluta.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (2).webp',
@@ -617,7 +613,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -627,7 +623,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 5 },
     seo: {
-      title: 'Handcrafted Steel Keyboard | Zahradnictví Březina',
+      title: 'Handcrafted Steel Keyboard | Zahradnictví u Lukáše',
       description:
         'Similique corporis voluptatem voluptas repudiandae qui optio corrupti.',
       image:
@@ -657,7 +653,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -667,7 +663,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available-soon', deliveryIn: 17 },
     seo: {
-      title: 'Small Metal Pizza | Zahradnictví Březina',
+      title: 'Small Metal Pizza | Zahradnictví u Lukáše',
       description: 'Dolorem omnis molestias dolore deserunt.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (4).webp',
@@ -700,7 +696,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -710,7 +706,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 90 },
     seo: {
-      title: 'Intelligent Metal Gloves | Zahradnictví Březina',
+      title: 'Intelligent Metal Gloves | Zahradnictví u Lukáše',
       description: 'Sed voluptas vitae sit natus et illo delectus ut aut.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (5).webp',
@@ -739,7 +735,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -748,7 +744,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 45 },
     seo: {
-      title: 'Ergonomic Metal Chicken | Zahradnictví Březina',
+      title: 'Ergonomic Metal Chicken | Zahradnictví u Lukáše',
       description: 'Perspiciatis exercitationem harum.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project.webp',
@@ -773,7 +769,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -783,7 +779,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 43 },
     seo: {
-      title: 'Small Rubber Cheese | Zahradnictví Březina',
+      title: 'Small Rubber Cheese | Zahradnictví u Lukáše',
       description: 'Odit sed illum id ut ipsum cumque saepe voluptatem.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/rose-729509_1280.webp',
@@ -808,7 +804,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -818,7 +814,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 42 },
     seo: {
-      title: 'Handmade Plastic Towels | Zahradnictví Březina',
+      title: 'Handmade Plastic Towels | Zahradnictví u Lukáše',
       description:
         'Est quaerat repellendus ut accusantium saepe impedit optio.',
       image:
@@ -844,7 +840,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -854,7 +850,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 19 },
     seo: {
-      title: 'Intelligent Plastic Car | Zahradnictví Březina',
+      title: 'Intelligent Plastic Car | Zahradnictví u Lukáše',
       description: 'Animi qui sit ut.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (2).webp',
@@ -879,7 +875,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -889,7 +885,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 56 },
     seo: {
-      title: 'Ergonomic Rubber Sausages | Zahradnictví Březina',
+      title: 'Ergonomic Rubber Sausages | Zahradnictví u Lukáše',
       description: 'Consectetur molestiae vero dolore qui sed ex qui.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (3).webp',
@@ -915,7 +911,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -925,7 +921,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 15 },
     seo: {
-      title: 'Handmade Frozen Bacon | Zahradnictví Březina',
+      title: 'Handmade Frozen Bacon | Zahradnictví u Lukáše',
       description:
         'Dolorem quas voluptas fugiat et doloribus consequatur provident a dolorum.',
       image:
@@ -955,7 +951,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -965,7 +961,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 16 },
     seo: {
-      title: 'Fantastic Cotton Hat | Zahradnictví Březina',
+      title: 'Fantastic Cotton Hat | Zahradnictví u Lukáše',
       description: 'Ut vero accusantium magni illum modi.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (5).webp',
@@ -994,7 +990,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -1003,7 +999,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 17 },
     seo: {
-      title: 'Sleek Fresh Cheese | Zahradnictví Březina',
+      title: 'Sleek Fresh Cheese | Zahradnictví u Lukáše',
       description: 'Aut quis tempora.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project.webp',
@@ -1032,7 +1028,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -1042,7 +1038,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 22 },
     seo: {
-      title: 'Sleek Concrete Towels | Zahradnictví Březina',
+      title: 'Sleek Concrete Towels | Zahradnictví u Lukáše',
       description: 'Impedit praesentium cumque est et et vitae.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/rose-729509_1280.webp',
@@ -1067,7 +1063,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -1077,7 +1073,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 88 },
     seo: {
-      title: 'Sleek Fresh Soap | Zahradnictví Březina',
+      title: 'Sleek Fresh Soap | Zahradnictví u Lukáše',
       description: 'Qui autem natus provident vel ut expedita.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (1).webp',
@@ -1106,7 +1102,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -1116,7 +1112,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 75 },
     seo: {
-      title: 'Rustic Cotton Shoes | Zahradnictví Březina',
+      title: 'Rustic Cotton Shoes | Zahradnictví u Lukáše',
       description:
         'Labore quod rerum nostrum quas velit deleniti atque aperiam.',
       image:
@@ -1146,7 +1142,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -1156,7 +1152,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 78 },
     seo: {
-      title: 'Handcrafted Steel Chicken | Zahradnictví Březina',
+      title: 'Handcrafted Steel Chicken | Zahradnictví u Lukáše',
       description: 'Velit possimus ratione.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (3).webp',
@@ -1186,7 +1182,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -1196,7 +1192,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 17 },
     seo: {
-      title: 'Small Frozen Chips | Zahradnictví Březina',
+      title: 'Small Frozen Chips | Zahradnictví u Lukáše',
       description:
         'Sit aut eius occaecati deleniti velit repellendus ducimus incidunt iste.',
       image:
@@ -1222,7 +1218,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -1232,7 +1228,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available-soon', deliveryIn: 15 },
     seo: {
-      title: 'Practical Wooden Keyboard | Zahradnictví Březina',
+      title: 'Practical Wooden Keyboard | Zahradnictví u Lukáše',
       description: 'Aliquid quas occaecati est sed.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (5).webp',
@@ -1257,7 +1253,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -1266,7 +1262,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 84 },
     seo: {
-      title: 'Intelligent Soft Shirt | Zahradnictví Březina',
+      title: 'Intelligent Soft Shirt | Zahradnictví u Lukáše',
       description: 'Autem quaerat quidem iure reiciendis vero qui eveniet.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project.webp',
@@ -1295,7 +1291,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -1305,7 +1301,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 37 },
     seo: {
-      title: 'Licensed Metal Car | Zahradnictví Březina',
+      title: 'Licensed Metal Car | Zahradnictví u Lukáše',
       description: 'Temporibus fuga qui.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/rose-729509_1280.webp',
@@ -1330,7 +1326,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -1340,7 +1336,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 87 },
     seo: {
-      title: 'Awesome Concrete Fish | Zahradnictví Březina',
+      title: 'Awesome Concrete Fish | Zahradnictví u Lukáše',
       description: 'Et cum aut sit officiis assumenda enim aliquam quaerat.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (1).webp',
@@ -1365,7 +1361,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -1375,7 +1371,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 55 },
     seo: {
-      title: 'Handcrafted Metal Hat | Zahradnictví Březina',
+      title: 'Handcrafted Metal Hat | Zahradnictví u Lukáše',
       description: 'Quis est sed et rerum harum doloremque et.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (2).webp',
@@ -1404,7 +1400,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -1414,7 +1410,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 20 },
     seo: {
-      title: 'Fantastic Fresh Cheese | Zahradnictví Březina',
+      title: 'Fantastic Fresh Cheese | Zahradnictví u Lukáše',
       description:
         'Fuga rerum praesentium voluptas repellendus ut vitae omnis.',
       image:
@@ -1444,7 +1440,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -1454,7 +1450,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 72 },
     seo: {
-      title: 'Ergonomic Granite Cheese | Zahradnictví Březina',
+      title: 'Ergonomic Granite Cheese | Zahradnictví u Lukáše',
       description: 'Molestiae eum et delectus aut optio accusantium mollitia.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (4).webp',
@@ -1479,7 +1475,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -1489,7 +1485,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 84 },
     seo: {
-      title: 'Handcrafted Steel Fish | Zahradnictví Březina',
+      title: 'Handcrafted Steel Fish | Zahradnictví u Lukáše',
       description: 'Itaque nobis itaque hic.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (5).webp',
@@ -1514,7 +1510,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -1523,7 +1519,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 49 },
     seo: {
-      title: 'Sleek Granite Car | Zahradnictví Březina',
+      title: 'Sleek Granite Car | Zahradnictví u Lukáše',
       description: 'Possimus aperiam voluptate nemo est et quia.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project.webp',
@@ -1552,7 +1548,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -1562,7 +1558,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 90 },
     seo: {
-      title: 'Generic Frozen Fish | Zahradnictví Březina',
+      title: 'Generic Frozen Fish | Zahradnictví u Lukáše',
       description: 'Adipisci quis in quasi iusto facere velit.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/rose-729509_1280.webp',
@@ -1587,7 +1583,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -1597,7 +1593,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 7 },
     seo: {
-      title: 'Tasty Cotton Shirt | Zahradnictví Březina',
+      title: 'Tasty Cotton Shirt | Zahradnictví u Lukáše',
       description: 'Aut sint sed nam mollitia qui iste.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (1).webp',
@@ -1630,7 +1626,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -1640,7 +1636,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 9 },
     seo: {
-      title: 'Ergonomic Metal Gloves | Zahradnictví Březina',
+      title: 'Ergonomic Metal Gloves | Zahradnictví u Lukáše',
       description: 'Repellendus voluptates facilis.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (2).webp',
@@ -1673,7 +1669,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -1683,7 +1679,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 38 },
     seo: {
-      title: 'Handmade Metal Pizza | Zahradnictví Březina',
+      title: 'Handmade Metal Pizza | Zahradnictví u Lukáše',
       description: 'Molestiae et assumenda consequatur eum non.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (3).webp',
@@ -1712,7 +1708,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -1722,7 +1718,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available-soon', deliveryIn: 29 },
     seo: {
-      title: 'Practical Soft Hat | Zahradnictví Březina',
+      title: 'Practical Soft Hat | Zahradnictví u Lukáše',
       description: 'Voluptatum omnis id.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (4).webp',
@@ -1751,7 +1747,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -1761,7 +1757,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 28 },
     seo: {
-      title: 'Fantastic Granite Car | Zahradnictví Březina',
+      title: 'Fantastic Granite Car | Zahradnictví u Lukáše',
       description: 'Possimus dignissimos assumenda et.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (5).webp',
@@ -1790,7 +1786,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -1799,7 +1795,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available-soon', deliveryIn: 19 },
     seo: {
-      title: 'Practical Steel Sausages | Zahradnictví Březina',
+      title: 'Practical Steel Sausages | Zahradnictví u Lukáše',
       description: 'Fugiat provident ipsam aut sed saepe nihil culpa est quia.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project.webp',
@@ -1828,7 +1824,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -1838,7 +1834,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'unavailable' },
     seo: {
-      title: 'Licensed Rubber Ball | Zahradnictví Březina',
+      title: 'Licensed Rubber Ball | Zahradnictví u Lukáše',
       description:
         'Saepe voluptate rem dolorum hic ut sed esse ratione maxime.',
       image:
@@ -1868,7 +1864,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -1878,7 +1874,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available-soon', deliveryIn: 30 },
     seo: {
-      title: 'Practical Wooden Sausages | Zahradnictví Březina',
+      title: 'Practical Wooden Sausages | Zahradnictví u Lukáše',
       description: 'In eum ipsa sed.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (1).webp',
@@ -1907,7 +1903,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -1917,7 +1913,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 11 },
     seo: {
-      title: 'Tasty Plastic Tuna | Zahradnictví Březina',
+      title: 'Tasty Plastic Tuna | Zahradnictví u Lukáše',
       description: 'Molestiae et rerum sit exercitationem.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (2).webp',
@@ -1942,7 +1938,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -1952,7 +1948,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 65 },
     seo: {
-      title: 'Licensed Rubber Table | Zahradnictví Březina',
+      title: 'Licensed Rubber Table | Zahradnictví u Lukáše',
       description: 'Amet voluptatibus aperiam voluptas dolores.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (3).webp',
@@ -1977,7 +1973,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -1987,7 +1983,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 27 },
     seo: {
-      title: 'Awesome Metal Shoes | Zahradnictví Březina',
+      title: 'Awesome Metal Shoes | Zahradnictví u Lukáše',
       description: 'Aliquam ut consequatur.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (4).webp',
@@ -2012,7 +2008,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -2022,7 +2018,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 52 },
     seo: {
-      title: 'Incredible Soft Pizza | Zahradnictví Březina',
+      title: 'Incredible Soft Pizza | Zahradnictví u Lukáše',
       description: 'Rerum dolor soluta.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (5).webp',
@@ -2047,7 +2043,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -2056,7 +2052,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 21 },
     seo: {
-      title: 'Fantastic Fresh Fish | Zahradnictví Březina',
+      title: 'Fantastic Fresh Fish | Zahradnictví u Lukáše',
       description: 'Quod eum voluptates.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project.webp',
@@ -2081,7 +2077,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -2091,7 +2087,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 30 },
     seo: {
-      title: 'Fantastic Cotton Chicken | Zahradnictví Březina',
+      title: 'Fantastic Cotton Chicken | Zahradnictví u Lukáše',
       description: 'Explicabo ut sed.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/rose-729509_1280.webp',
@@ -2121,7 +2117,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -2131,7 +2127,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 22 },
     seo: {
-      title: 'Incredible Rubber Towels | Zahradnictví Březina',
+      title: 'Incredible Rubber Towels | Zahradnictví u Lukáše',
       description:
         'Eligendi omnis ut exercitationem voluptatum laborum alias beatae.',
       image:
@@ -2157,7 +2153,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -2167,7 +2163,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 87 },
     seo: {
-      title: 'Ergonomic Concrete Gloves | Zahradnictví Březina',
+      title: 'Ergonomic Concrete Gloves | Zahradnictví u Lukáše',
       description: 'Nesciunt consequatur quis vero vitae molestiae ut.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (2).webp',
@@ -2192,7 +2188,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -2202,7 +2198,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 76 },
     seo: {
-      title: 'Sleek Soft Salad | Zahradnictví Březina',
+      title: 'Sleek Soft Salad | Zahradnictví u Lukáše',
       description: 'Et cum harum assumenda.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (3).webp',
@@ -2227,7 +2223,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -2237,7 +2233,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 83 },
     seo: {
-      title: 'Handcrafted Rubber Car | Zahradnictví Březina',
+      title: 'Handcrafted Rubber Car | Zahradnictví u Lukáše',
       description: 'Et excepturi quia autem facere quia aperiam.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (4).webp',
@@ -2262,7 +2258,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -2272,7 +2268,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 3 },
     seo: {
-      title: 'Awesome Granite Salad | Zahradnictví Březina',
+      title: 'Awesome Granite Salad | Zahradnictví u Lukáše',
       description: 'Sunt quod magni.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (5).webp',
@@ -2297,7 +2293,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -2306,7 +2302,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 87 },
     seo: {
-      title: 'Ergonomic Cotton Bike | Zahradnictví Březina',
+      title: 'Ergonomic Cotton Bike | Zahradnictví u Lukáše',
       description: 'Odio necessitatibus molestias et ut.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project.webp',
@@ -2331,7 +2327,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -2341,7 +2337,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 56 },
     seo: {
-      title: 'Handmade Soft Pants | Zahradnictví Březina',
+      title: 'Handmade Soft Pants | Zahradnictví u Lukáše',
       description: 'Et asperiores non sit quis et totam.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/rose-729509_1280.webp',
@@ -2366,7 +2362,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -2376,7 +2372,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 93 },
     seo: {
-      title: 'Tasty Wooden Bacon | Zahradnictví Březina',
+      title: 'Tasty Wooden Bacon | Zahradnictví u Lukáše',
       description: 'Nobis sequi omnis corporis laborum nobis nisi.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (1).webp',
@@ -2406,7 +2402,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -2416,7 +2412,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 98 },
     seo: {
-      title: 'Handcrafted Soft Cheese | Zahradnictví Březina',
+      title: 'Handcrafted Soft Cheese | Zahradnictví u Lukáše',
       description:
         'Labore aperiam aliquid labore voluptatem earum rem dignissimos.',
       image:
@@ -2451,7 +2447,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -2461,7 +2457,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available-soon', deliveryIn: 9 },
     seo: {
-      title: 'Gorgeous Concrete Soap | Zahradnictví Březina',
+      title: 'Gorgeous Concrete Soap | Zahradnictví u Lukáše',
       description:
         'Non accusantium quae nesciunt molestiae molestiae voluptatem inventore.',
       image:
@@ -2491,7 +2487,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -2501,7 +2497,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 24 },
     seo: {
-      title: 'Gorgeous Rubber Bacon | Zahradnictví Březina',
+      title: 'Gorgeous Rubber Bacon | Zahradnictví u Lukáše',
       description:
         'Ut ut officia numquam distinctio blanditiis sequi occaecati.',
       image:
@@ -2531,7 +2527,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -2541,7 +2537,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 44 },
     seo: {
-      title: 'Gorgeous Soft Bacon | Zahradnictví Březina',
+      title: 'Gorgeous Soft Bacon | Zahradnictví u Lukáše',
       description: 'Aut est perspiciatis similique nulla.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (5).webp',
@@ -2566,7 +2562,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -2575,7 +2571,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 58 },
     seo: {
-      title: 'Rustic Soft Computer | Zahradnictví Březina',
+      title: 'Rustic Soft Computer | Zahradnictví u Lukáše',
       description: 'Incidunt hic sit cumque magnam natus soluta.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project.webp',
@@ -2600,7 +2596,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -2610,7 +2606,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available-soon', deliveryIn: 16 },
     seo: {
-      title: 'Generic Concrete Towels | Zahradnictví Březina',
+      title: 'Generic Concrete Towels | Zahradnictví u Lukáše',
       description: 'Itaque nam hic labore ab ipsa.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/rose-729509_1280.webp',
@@ -2639,7 +2635,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -2649,7 +2645,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 91 },
     seo: {
-      title: 'Rustic Wooden Sausages | Zahradnictví Březina',
+      title: 'Rustic Wooden Sausages | Zahradnictví u Lukáše',
       description: 'Voluptas repellat quasi facilis et voluptatem labore quae.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (1).webp',
@@ -2678,7 +2674,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -2688,7 +2684,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 53 },
     seo: {
-      title: 'Ergonomic Steel Chair | Zahradnictví Březina',
+      title: 'Ergonomic Steel Chair | Zahradnictví u Lukáše',
       description: 'Aut est facilis enim voluptatem animi et.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (2).webp',
@@ -2718,7 +2714,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -2728,7 +2724,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 50 },
     seo: {
-      title: 'Intelligent Cotton Chips | Zahradnictví Březina',
+      title: 'Intelligent Cotton Chips | Zahradnictví u Lukáše',
       description:
         'Ducimus aliquid quis quod similique non occaecati magnam nihil.',
       image:
@@ -2758,7 +2754,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -2768,7 +2764,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available-soon', deliveryIn: 28 },
     seo: {
-      title: 'Rustic Steel Table | Zahradnictví Březina',
+      title: 'Rustic Steel Table | Zahradnictví u Lukáše',
       description: 'Ad numquam delectus doloremque laboriosam.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (4).webp',
@@ -2798,7 +2794,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -2808,7 +2804,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 12 },
     seo: {
-      title: 'Fantastic Rubber Towels | Zahradnictví Březina',
+      title: 'Fantastic Rubber Towels | Zahradnictví u Lukáše',
       description:
         'Magni vitae ab accusantium voluptatem voluptatum molestiae nihil magnam tempora.',
       image:
@@ -2834,7 +2830,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -2843,7 +2839,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 8 },
     seo: {
-      title: 'Generic Frozen Shirt | Zahradnictví Březina',
+      title: 'Generic Frozen Shirt | Zahradnictví u Lukáše',
       description: 'At accusamus earum dolorem error.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project.webp',
@@ -2872,7 +2868,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -2882,7 +2878,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 42 },
     seo: {
-      title: 'Ergonomic Soft Chicken | Zahradnictví Březina',
+      title: 'Ergonomic Soft Chicken | Zahradnictví u Lukáše',
       description: 'Nemo eos tenetur delectus nesciunt iure quod illo.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/rose-729509_1280.webp',
@@ -2911,7 +2907,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -2921,7 +2917,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 43 },
     seo: {
-      title: 'Awesome Plastic Pizza | Zahradnictví Březina',
+      title: 'Awesome Plastic Pizza | Zahradnictví u Lukáše',
       description: 'Quam veniam nemo est et commodi et suscipit.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (1).webp',
@@ -2947,7 +2943,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -2957,7 +2953,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 77 },
     seo: {
-      title: 'Practical Granite Cheese | Zahradnictví Březina',
+      title: 'Practical Granite Cheese | Zahradnictví u Lukáše',
       description:
         'Placeat itaque nulla rerum et quis exercitationem quos ea quos.',
       image:
@@ -2987,7 +2983,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -2997,7 +2993,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 49 },
     seo: {
-      title: 'Handmade Metal Salad | Zahradnictví Březina',
+      title: 'Handmade Metal Salad | Zahradnictví u Lukáše',
       description: 'Eos ut vel quia vel.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (3).webp',
@@ -3030,7 +3026,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -3040,7 +3036,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 37 },
     seo: {
-      title: 'Intelligent Soft Car | Zahradnictví Březina',
+      title: 'Intelligent Soft Car | Zahradnictví u Lukáše',
       description: 'Quia repellendus et.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (4).webp',
@@ -3065,7 +3061,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -3075,7 +3071,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 72 },
     seo: {
-      title: 'Intelligent Concrete Pizza | Zahradnictví Březina',
+      title: 'Intelligent Concrete Pizza | Zahradnictví u Lukáše',
       description: 'Nihil qui laborum quia enim quo in saepe.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (5).webp',
@@ -3104,7 +3100,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -3113,7 +3109,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 54 },
     seo: {
-      title: 'Awesome Cotton Mouse | Zahradnictví Březina',
+      title: 'Awesome Cotton Mouse | Zahradnictví u Lukáše',
       description: 'Nam earum quasi voluptatibus id fuga error et.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project.webp',
@@ -3142,7 +3138,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -3152,7 +3148,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 28 },
     seo: {
-      title: 'Generic Frozen Computer | Zahradnictví Březina',
+      title: 'Generic Frozen Computer | Zahradnictví u Lukáše',
       description: 'Repudiandae omnis quasi.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/rose-729509_1280.webp',
@@ -3177,7 +3173,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -3187,7 +3183,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 98 },
     seo: {
-      title: 'Awesome Cotton Mouse | Zahradnictví Březina',
+      title: 'Awesome Cotton Mouse | Zahradnictví u Lukáše',
       description: 'Quia adipisci est id earum veniam ea optio.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (1).webp',
@@ -3216,7 +3212,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -3226,7 +3222,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 21 },
     seo: {
-      title: 'Handcrafted Granite Shoes | Zahradnictví Březina',
+      title: 'Handcrafted Granite Shoes | Zahradnictví u Lukáše',
       description: 'Hic dolores dolores ab ullam voluptatibus nobis aperiam.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (2).webp',
@@ -3255,7 +3251,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -3265,7 +3261,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 38 },
     seo: {
-      title: 'Unbranded Wooden Chair | Zahradnictví Březina',
+      title: 'Unbranded Wooden Chair | Zahradnictví u Lukáše',
       description: 'Atque voluptas doloribus laudantium aliquam iure.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (3).webp',
@@ -3290,7 +3286,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -3300,7 +3296,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'unavailable' },
     seo: {
-      title: 'Unbranded Soft Pizza | Zahradnictví Březina',
+      title: 'Unbranded Soft Pizza | Zahradnictví u Lukáše',
       description: 'Similique omnis nam.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (4).webp',
@@ -3329,7 +3325,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -3339,7 +3335,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 65 },
     seo: {
-      title: 'Incredible Steel Salad | Zahradnictví Březina',
+      title: 'Incredible Steel Salad | Zahradnictví u Lukáše',
       description: 'Qui ea autem et ex et numquam iure quia.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (5).webp',
@@ -3364,7 +3360,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -3373,7 +3369,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 91 },
     seo: {
-      title: 'Rustic Soft Bike | Zahradnictví Březina',
+      title: 'Rustic Soft Bike | Zahradnictví u Lukáše',
       description: 'Voluptas est est accusantium.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project.webp',
@@ -3398,7 +3394,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -3408,7 +3404,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 67 },
     seo: {
-      title: 'Unbranded Steel Fish | Zahradnictví Březina',
+      title: 'Unbranded Steel Fish | Zahradnictví u Lukáše',
       description: 'Soluta quaerat aut molestiae.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/rose-729509_1280.webp',
@@ -3434,7 +3430,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -3444,7 +3440,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 51 },
     seo: {
-      title: 'Fantastic Frozen Chicken | Zahradnictví Březina',
+      title: 'Fantastic Frozen Chicken | Zahradnictví u Lukáše',
       description:
         'Quos nihil distinctio porro architecto voluptatem at nesciunt molestiae adipisci.',
       image:
@@ -3470,7 +3466,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -3480,7 +3476,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 75 },
     seo: {
-      title: 'Tasty Fresh Chicken | Zahradnictví Březina',
+      title: 'Tasty Fresh Chicken | Zahradnictví u Lukáše',
       description: 'Eos aut non unde quas perferendis eligendi tenetur.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (2).webp',
@@ -3509,7 +3505,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -3519,7 +3515,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 85 },
     seo: {
-      title: 'Intelligent Frozen Computer | Zahradnictví Březina',
+      title: 'Intelligent Frozen Computer | Zahradnictví u Lukáše',
       description: 'Fugiat et velit quia.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (3).webp',
@@ -3544,7 +3540,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -3554,7 +3550,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 49 },
     seo: {
-      title: 'Generic Frozen Computer | Zahradnictví Březina',
+      title: 'Generic Frozen Computer | Zahradnictví u Lukáše',
       description: 'Veniam ea voluptatibus deleniti non vel deserunt nam.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (4).webp',
@@ -3583,7 +3579,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -3593,7 +3589,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 42 },
     seo: {
-      title: 'Sleek Plastic Towels | Zahradnictví Březina',
+      title: 'Sleek Plastic Towels | Zahradnictví u Lukáše',
       description: 'Quod repudiandae voluptates est.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (5).webp',
@@ -3618,7 +3614,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -3627,7 +3623,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 60 },
     seo: {
-      title: 'Handmade Granite Car | Zahradnictví Březina',
+      title: 'Handmade Granite Car | Zahradnictví u Lukáše',
       description: 'Molestias nihil sit ut inventore tempora quia.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project.webp',
@@ -3652,7 +3648,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -3662,7 +3658,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available-soon', deliveryIn: 19 },
     seo: {
-      title: 'Handcrafted Wooden Soap | Zahradnictví Březina',
+      title: 'Handcrafted Wooden Soap | Zahradnictví u Lukáše',
       description: 'Nihil dolorum quasi delectus qui.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/rose-729509_1280.webp',
@@ -3688,7 +3684,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -3698,7 +3694,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 82 },
     seo: {
-      title: 'Licensed Soft Salad | Zahradnictví Březina',
+      title: 'Licensed Soft Salad | Zahradnictví u Lukáše',
       description:
         'Nisi deleniti sequi nam expedita sint ea reprehenderit sunt voluptatem.',
       image:
@@ -3725,7 +3721,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -3735,7 +3731,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'unavailable' },
     seo: {
-      title: 'Rustic Steel Shirt | Zahradnictví Březina',
+      title: 'Rustic Steel Shirt | Zahradnictví u Lukáše',
       description:
         'Temporibus corrupti sequi officiis minima dolor alias corrupti blanditiis aut.',
       image:
@@ -3761,7 +3757,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -3771,7 +3767,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 10 },
     seo: {
-      title: 'Sleek Concrete Car | Zahradnictví Březina',
+      title: 'Sleek Concrete Car | Zahradnictví u Lukáše',
       description: 'Ab quis maiores pariatur iure consequuntur eum qui.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (3).webp',
@@ -3800,7 +3796,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -3810,7 +3806,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available-soon', deliveryIn: 14 },
     seo: {
-      title: 'Generic Wooden Pizza | Zahradnictví Březina',
+      title: 'Generic Wooden Pizza | Zahradnictví u Lukáše',
       description: 'Commodi voluptas aut qui sint.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (4).webp',
@@ -3836,7 +3832,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -3846,7 +3842,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'unavailable' },
     seo: {
-      title: 'Handcrafted Fresh Chair | Zahradnictví Březina',
+      title: 'Handcrafted Fresh Chair | Zahradnictví u Lukáše',
       description:
         'Vero laborum doloremque sit repudiandae rem voluptatem assumenda accusantium velit.',
       image:
@@ -3872,7 +3868,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -3881,7 +3877,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 56 },
     seo: {
-      title: 'Licensed Frozen Gloves | Zahradnictví Březina',
+      title: 'Licensed Frozen Gloves | Zahradnictví u Lukáše',
       description: 'Qui pariatur quis quis unde ratione et aut.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project.webp',
@@ -3914,7 +3910,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -3924,7 +3920,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 79 },
     seo: {
-      title: 'Rustic Soft Cheese | Zahradnictví Březina',
+      title: 'Rustic Soft Cheese | Zahradnictví u Lukáše',
       description: 'Et voluptas harum amet quibusdam dolor.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/rose-729509_1280.webp',
@@ -3949,7 +3945,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -3959,7 +3955,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 22 },
     seo: {
-      title: 'Handmade Wooden Bacon | Zahradnictví Březina',
+      title: 'Handmade Wooden Bacon | Zahradnictví u Lukáše',
       description: 'Nam et assumenda.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (1).webp',
@@ -3984,7 +3980,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -3994,7 +3990,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 59 },
     seo: {
-      title: 'Handcrafted Metal Chair | Zahradnictví Březina',
+      title: 'Handcrafted Metal Chair | Zahradnictví u Lukáše',
       description: 'Eos sed aut ullam quo at nisi quia.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (2).webp',
@@ -4019,7 +4015,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -4029,7 +4025,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 24 },
     seo: {
-      title: 'Handmade Concrete Bacon | Zahradnictví Březina',
+      title: 'Handmade Concrete Bacon | Zahradnictví u Lukáše',
       description: 'Dolorem ducimus magni cupiditate possimus aut.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (3).webp',
@@ -4054,7 +4050,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -4064,7 +4060,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 45 },
     seo: {
-      title: 'Practical Wooden Fish | Zahradnictví Březina',
+      title: 'Practical Wooden Fish | Zahradnictví u Lukáše',
       description: 'Voluptatem et nulla.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (4).webp',
@@ -4089,7 +4085,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -4099,7 +4095,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 57 },
     seo: {
-      title: 'Awesome Cotton Cheese | Zahradnictví Březina',
+      title: 'Awesome Cotton Cheese | Zahradnictví u Lukáše',
       description: 'Neque dicta veritatis aut nihil quia officiis quia.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (5).webp',
@@ -4124,7 +4120,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -4133,7 +4129,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 10 },
     seo: {
-      title: 'Awesome Concrete Soap | Zahradnictví Březina',
+      title: 'Awesome Concrete Soap | Zahradnictví u Lukáše',
       description: 'Nostrum sint saepe.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project.webp',
@@ -4158,7 +4154,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -4168,7 +4164,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 16 },
     seo: {
-      title: 'Small Concrete Chips | Zahradnictví Březina',
+      title: 'Small Concrete Chips | Zahradnictví u Lukáše',
       description: 'Quod deleniti modi sequi deleniti.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/rose-729509_1280.webp',
@@ -4193,7 +4189,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -4203,7 +4199,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 96 },
     seo: {
-      title: 'Fantastic Rubber Soap | Zahradnictví Březina',
+      title: 'Fantastic Rubber Soap | Zahradnictví u Lukáše',
       description: 'Et blanditiis fugiat delectus consequuntur fugiat.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (1).webp',
@@ -4232,7 +4228,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -4242,7 +4238,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 19 },
     seo: {
-      title: 'Refined Plastic Mouse | Zahradnictví Březina',
+      title: 'Refined Plastic Mouse | Zahradnictví u Lukáše',
       description: 'Quod possimus veniam placeat veritatis tempore est.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (2).webp',
@@ -4267,7 +4263,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -4277,7 +4273,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 15 },
     seo: {
-      title: 'Handcrafted Concrete Cheese | Zahradnictví Březina',
+      title: 'Handcrafted Concrete Cheese | Zahradnictví u Lukáše',
       description: 'Ut ut ut illum nobis dolorem.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (3).webp',
@@ -4306,7 +4302,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -4316,7 +4312,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available-soon', deliveryIn: 22 },
     seo: {
-      title: 'Practical Rubber Salad | Zahradnictví Březina',
+      title: 'Practical Rubber Salad | Zahradnictví u Lukáše',
       description: 'Dolore consequatur odio molestias quibusdam.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (4).webp',
@@ -4345,7 +4341,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -4355,7 +4351,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 94 },
     seo: {
-      title: 'Intelligent Plastic Salad | Zahradnictví Březina',
+      title: 'Intelligent Plastic Salad | Zahradnictví u Lukáše',
       description: 'Quidem aut recusandae.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (5).webp',
@@ -4384,7 +4380,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -4393,7 +4389,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 8 },
     seo: {
-      title: 'Handmade Concrete Chicken | Zahradnictví Březina',
+      title: 'Handmade Concrete Chicken | Zahradnictví u Lukáše',
       description: 'Molestiae voluptatem qui sed aut.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project.webp',
@@ -4422,7 +4418,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -4432,7 +4428,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 50 },
     seo: {
-      title: 'Sleek Rubber Table | Zahradnictví Březina',
+      title: 'Sleek Rubber Table | Zahradnictví u Lukáše',
       description: 'Qui itaque dicta numquam veniam qui amet.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/rose-729509_1280.webp',
@@ -4457,7 +4453,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -4467,7 +4463,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available-soon', deliveryIn: 11 },
     seo: {
-      title: 'Incredible Rubber Sausages | Zahradnictví Březina',
+      title: 'Incredible Rubber Sausages | Zahradnictví u Lukáše',
       description: 'Facere quisquam non saepe rerum ratione.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (1).webp',
@@ -4497,7 +4493,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -4507,7 +4503,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 77 },
     seo: {
-      title: 'Handcrafted Rubber Chicken | Zahradnictví Březina',
+      title: 'Handcrafted Rubber Chicken | Zahradnictví u Lukáše',
       description:
         'Autem voluptas dolore rerum magnam est aperiam molestias saepe.',
       image:
@@ -4533,7 +4529,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -4543,7 +4539,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 68 },
     seo: {
-      title: 'Small Soft Gloves | Zahradnictví Březina',
+      title: 'Small Soft Gloves | Zahradnictví u Lukáše',
       description: 'Est aut tempore quisquam blanditiis qui laudantium magnam.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (3).webp',
@@ -4569,7 +4565,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -4579,7 +4575,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 65 },
     seo: {
-      title: 'Ergonomic Soft Salad | Zahradnictví Březina',
+      title: 'Ergonomic Soft Salad | Zahradnictví u Lukáše',
       description:
         'Dolores consectetur itaque ipsum pariatur sint amet eligendi impedit et.',
       image:
@@ -4613,7 +4609,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -4623,7 +4619,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 51 },
     seo: {
-      title: 'Sleek Steel Hat | Zahradnictví Březina',
+      title: 'Sleek Steel Hat | Zahradnictví u Lukáše',
       description:
         'Harum voluptatem officiis unde quia officia non nihil libero.',
       image:
@@ -4650,7 +4646,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -4659,7 +4655,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 100 },
     seo: {
-      title: 'Small Soft Shoes | Zahradnictví Březina',
+      title: 'Small Soft Shoes | Zahradnictví u Lukáše',
       description:
         'Qui sunt reprehenderit sit sit repellendus tempore facilis dolore.',
       image:
@@ -4685,7 +4681,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -4695,7 +4691,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available-soon', deliveryIn: 23 },
     seo: {
-      title: 'Unbranded Wooden Keyboard | Zahradnictví Březina',
+      title: 'Unbranded Wooden Keyboard | Zahradnictví u Lukáše',
       description: 'Maxime expedita ea minima.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/rose-729509_1280.webp',
@@ -4720,7 +4716,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -4730,7 +4726,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available-soon', deliveryIn: 12 },
     seo: {
-      title: 'Generic Granite Ball | Zahradnictví Březina',
+      title: 'Generic Granite Ball | Zahradnictví u Lukáše',
       description: 'Tempora rerum aut dolore voluptas dolorem doloribus.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (1).webp',
@@ -4755,7 +4751,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -4765,7 +4761,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 47 },
     seo: {
-      title: 'Awesome Soft Hat | Zahradnictví Březina',
+      title: 'Awesome Soft Hat | Zahradnictví u Lukáše',
       description: 'Quo assumenda rerum qui eaque suscipit.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (2).webp',
@@ -4790,7 +4786,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -4800,7 +4796,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 12 },
     seo: {
-      title: 'Handmade Wooden Ball | Zahradnictví Březina',
+      title: 'Handmade Wooden Ball | Zahradnictví u Lukáše',
       description: 'Vero praesentium ipsam fuga quibusdam incidunt in.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (3).webp',
@@ -4829,7 +4825,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -4839,7 +4835,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 35 },
     seo: {
-      title: 'Rustic Soft Soap | Zahradnictví Březina',
+      title: 'Rustic Soft Soap | Zahradnictví u Lukáše',
       description: 'Quibusdam exercitationem ut.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (4).webp',
@@ -4864,7 +4860,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -4874,7 +4870,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 4 },
     seo: {
-      title: 'Incredible Frozen Car | Zahradnictví Březina',
+      title: 'Incredible Frozen Car | Zahradnictví u Lukáše',
       description: 'Rem quos consequatur sit inventore quia.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (5).webp',
@@ -4899,7 +4895,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -4908,7 +4904,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available-soon', deliveryIn: 30 },
     seo: {
-      title: 'Licensed Cotton Bacon | Zahradnictví Březina',
+      title: 'Licensed Cotton Bacon | Zahradnictví u Lukáše',
       description: 'Et repellat incidunt tempora.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project.webp',
@@ -4937,7 +4933,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -4947,7 +4943,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 90 },
     seo: {
-      title: 'Gorgeous Concrete Shirt | Zahradnictví Březina',
+      title: 'Gorgeous Concrete Shirt | Zahradnictví u Lukáše',
       description: 'Amet quas natus omnis et.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/rose-729509_1280.webp',
@@ -4976,7 +4972,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -4986,7 +4982,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 17 },
     seo: {
-      title: 'Fantastic Cotton Shirt | Zahradnictví Březina',
+      title: 'Fantastic Cotton Shirt | Zahradnictví u Lukáše',
       description:
         'Et odit sequi eligendi saepe et commodi quibusdam ullam quia.',
       image:
@@ -5016,7 +5012,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -5026,7 +5022,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 86 },
     seo: {
-      title: 'Unbranded Frozen Keyboard | Zahradnictví Březina',
+      title: 'Unbranded Frozen Keyboard | Zahradnictví u Lukáše',
       description: 'Repudiandae dignissimos quo aut non quia.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (2).webp',
@@ -5055,7 +5051,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -5065,7 +5061,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 57 },
     seo: {
-      title: 'Tasty Cotton Chicken | Zahradnictví Březina',
+      title: 'Tasty Cotton Chicken | Zahradnictví u Lukáše',
       description: 'Aut ut vel dolorum assumenda mollitia eaque.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (3).webp',
@@ -5094,7 +5090,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -5104,7 +5100,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 24 },
     seo: {
-      title: 'Small Plastic Pizza | Zahradnictví Březina',
+      title: 'Small Plastic Pizza | Zahradnictví u Lukáše',
       description: 'Delectus nemo consequuntur eius aut earum vel excepturi.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (4).webp',
@@ -5133,7 +5129,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -5143,7 +5139,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 100 },
     seo: {
-      title: 'Rustic Frozen Car | Zahradnictví Březina',
+      title: 'Rustic Frozen Car | Zahradnictví u Lukáše',
       description: 'Illo velit qui aut.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (5).webp',
@@ -5176,7 +5172,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -5185,7 +5181,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 94 },
     seo: {
-      title: 'Incredible Fresh Gloves | Zahradnictví Březina',
+      title: 'Incredible Fresh Gloves | Zahradnictví u Lukáše',
       description: 'Sunt tenetur adipisci dignissimos aspernatur ut sit quasi.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project.webp',
@@ -5210,7 +5206,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -5220,7 +5216,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 51 },
     seo: {
-      title: 'Intelligent Wooden Table | Zahradnictví Březina',
+      title: 'Intelligent Wooden Table | Zahradnictví u Lukáše',
       description: 'Et est repudiandae et asperiores sit.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/rose-729509_1280.webp',
@@ -5245,7 +5241,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -5255,7 +5251,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 40 },
     seo: {
-      title: 'Intelligent Soft Shirt | Zahradnictví Březina',
+      title: 'Intelligent Soft Shirt | Zahradnictví u Lukáše',
       description: 'Qui in beatae iusto non quae aut aperiam dicta non.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (1).webp',
@@ -5284,7 +5280,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -5294,7 +5290,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 24 },
     seo: {
-      title: 'Practical Fresh Table | Zahradnictví Březina',
+      title: 'Practical Fresh Table | Zahradnictví u Lukáše',
       description: 'Maiores maxime maiores ullam pariatur placeat quae et.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (2).webp',
@@ -5323,7 +5319,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -5333,7 +5329,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 46 },
     seo: {
-      title: 'Ergonomic Granite Soap | Zahradnictví Březina',
+      title: 'Ergonomic Granite Soap | Zahradnictví u Lukáše',
       description: 'Id enim consequatur et aut.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (3).webp',
@@ -5362,7 +5358,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -5372,7 +5368,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 76 },
     seo: {
-      title: 'Handcrafted Rubber Chair | Zahradnictví Březina',
+      title: 'Handcrafted Rubber Chair | Zahradnictví u Lukáše',
       description: 'Sit eum commodi.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (4).webp',
@@ -5401,7 +5397,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -5411,7 +5407,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 11 },
     seo: {
-      title: 'Rustic Wooden Towels | Zahradnictví Březina',
+      title: 'Rustic Wooden Towels | Zahradnictví u Lukáše',
       description: 'Dolore repudiandae qui assumenda.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (5).webp',
@@ -5440,7 +5436,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -5449,7 +5445,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available-soon', deliveryIn: 12 },
     seo: {
-      title: 'Licensed Fresh Chair | Zahradnictví Březina',
+      title: 'Licensed Fresh Chair | Zahradnictví u Lukáše',
       description: 'Magnam et id est.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project.webp',
@@ -5478,7 +5474,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -5488,7 +5484,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 24 },
     seo: {
-      title: 'Small Cotton Chair | Zahradnictví Březina',
+      title: 'Small Cotton Chair | Zahradnictví u Lukáše',
       description: 'Sunt tempore qui autem voluptatem ipsam ex quaerat.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/rose-729509_1280.webp',
@@ -5514,7 +5510,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -5524,7 +5520,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 46 },
     seo: {
-      title: 'Handcrafted Rubber Keyboard | Zahradnictví Březina',
+      title: 'Handcrafted Rubber Keyboard | Zahradnictví u Lukáše',
       description:
         'Placeat repellat doloribus et rerum et voluptas nesciunt libero itaque.',
       image:
@@ -5554,7 +5550,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -5564,7 +5560,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 79 },
     seo: {
-      title: 'Incredible Concrete Chicken | Zahradnictví Březina',
+      title: 'Incredible Concrete Chicken | Zahradnictví u Lukáše',
       description: 'Qui ratione non dolorum quisquam consequatur.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (2).webp',
@@ -5593,7 +5589,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -5603,7 +5599,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available-soon', deliveryIn: 12 },
     seo: {
-      title: 'Sleek Concrete Gloves | Zahradnictví Březina',
+      title: 'Sleek Concrete Gloves | Zahradnictví u Lukáše',
       description: 'Consectetur rerum quae.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (3).webp',
@@ -5633,7 +5629,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -5643,7 +5639,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 57 },
     seo: {
-      title: 'Unbranded Plastic Car | Zahradnictví Březina',
+      title: 'Unbranded Plastic Car | Zahradnictví u Lukáše',
       description:
         'Repellendus eveniet modi rerum dolores enim illo dolore vel eveniet.',
       image:
@@ -5669,7 +5665,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -5679,7 +5675,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 36 },
     seo: {
-      title: 'Intelligent Fresh Shoes | Zahradnictví Březina',
+      title: 'Intelligent Fresh Shoes | Zahradnictví u Lukáše',
       description: 'Mollitia quaerat sint aperiam veritatis.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (5).webp',
@@ -5704,7 +5700,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -5713,7 +5709,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 49 },
     seo: {
-      title: 'Awesome Steel Gloves | Zahradnictví Březina',
+      title: 'Awesome Steel Gloves | Zahradnictví u Lukáše',
       description: 'Omnis minima sunt et voluptas officia.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project.webp',
@@ -5738,7 +5734,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -5748,7 +5744,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available-soon', deliveryIn: 7 },
     seo: {
-      title: 'Generic Plastic Gloves | Zahradnictví Březina',
+      title: 'Generic Plastic Gloves | Zahradnictví u Lukáše',
       description: 'Quia asperiores quibusdam.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/rose-729509_1280.webp',
@@ -5777,7 +5773,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -5787,7 +5783,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 68 },
     seo: {
-      title: 'Practical Plastic Cheese | Zahradnictví Březina',
+      title: 'Practical Plastic Cheese | Zahradnictví u Lukáše',
       description: 'Sint a delectus.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (1).webp',
@@ -5813,7 +5809,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -5823,7 +5819,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 98 },
     seo: {
-      title: 'Licensed Fresh Computer | Zahradnictví Březina',
+      title: 'Licensed Fresh Computer | Zahradnictví u Lukáše',
       description:
         'Consectetur quos incidunt quidem fugiat cumque dignissimos perferendis mollitia repellat.',
       image:
@@ -5853,7 +5849,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -5863,7 +5859,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 25 },
     seo: {
-      title: 'Sleek Cotton Soap | Zahradnictví Březina',
+      title: 'Sleek Cotton Soap | Zahradnictví u Lukáše',
       description: 'Aut ut voluptatem facere assumenda placeat enim.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (3).webp',
@@ -5888,7 +5884,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -5898,7 +5894,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 42 },
     seo: {
-      title: 'Refined Granite Car | Zahradnictví Březina',
+      title: 'Refined Granite Car | Zahradnictví u Lukáše',
       description: 'Deserunt unde ducimus.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (4).webp',
@@ -5924,7 +5920,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -5934,7 +5930,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available-soon', deliveryIn: 21 },
     seo: {
-      title: 'Awesome Plastic Shirt | Zahradnictví Březina',
+      title: 'Awesome Plastic Shirt | Zahradnictví u Lukáše',
       description:
         'Deleniti eligendi qui omnis facilis fugit sed quis repudiandae.',
       image:
@@ -5965,7 +5961,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -5974,7 +5970,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 9 },
     seo: {
-      title: 'Generic Wooden Car | Zahradnictví Březina',
+      title: 'Generic Wooden Car | Zahradnictví u Lukáše',
       description:
         'Assumenda libero quia vitae exercitationem tenetur delectus et amet.',
       image:
@@ -6004,7 +6000,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -6014,7 +6010,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 87 },
     seo: {
-      title: 'Tasty Concrete Bacon | Zahradnictví Březina',
+      title: 'Tasty Concrete Bacon | Zahradnictví u Lukáše',
       description:
         'Voluptatem qui nemo sit repellat temporibus et et dolore nam.',
       image:
@@ -6040,7 +6036,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -6050,7 +6046,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 37 },
     seo: {
-      title: 'Sleek Cotton Soap | Zahradnictví Březina',
+      title: 'Sleek Cotton Soap | Zahradnictví u Lukáše',
       description: 'Quibusdam odio earum.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (1).webp',
@@ -6075,7 +6071,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -6085,7 +6081,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 22 },
     seo: {
-      title: 'Incredible Concrete Car | Zahradnictví Březina',
+      title: 'Incredible Concrete Car | Zahradnictví u Lukáše',
       description: 'Maiores et id explicabo fugit sint odio occaecati.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (2).webp',
@@ -6110,7 +6106,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -6120,7 +6116,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 19 },
     seo: {
-      title: 'Fantastic Rubber Keyboard | Zahradnictví Březina',
+      title: 'Fantastic Rubber Keyboard | Zahradnictví u Lukáše',
       description: 'Voluptates odit commodi et dolorem neque ducimus.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (3).webp',
@@ -6149,7 +6145,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -6159,7 +6155,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 42 },
     seo: {
-      title: 'Sleek Plastic Tuna | Zahradnictví Březina',
+      title: 'Sleek Plastic Tuna | Zahradnictví u Lukáše',
       description: 'Repellendus sit veritatis quae reiciendis minima.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (4).webp',
@@ -6185,7 +6181,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -6195,7 +6191,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 47 },
     seo: {
-      title: 'Intelligent Rubber Shirt | Zahradnictví Březina',
+      title: 'Intelligent Rubber Shirt | Zahradnictví u Lukáše',
       description:
         'Et voluptas vel voluptatem fuga qui dolores aspernatur voluptates.',
       image:
@@ -6221,7 +6217,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -6230,7 +6226,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available-soon', deliveryIn: 26 },
     seo: {
-      title: 'Sleek Steel Cheese | Zahradnictví Březina',
+      title: 'Sleek Steel Cheese | Zahradnictví u Lukáše',
       description: 'Enim inventore autem illum delectus laudantium.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project.webp',
@@ -6255,7 +6251,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -6265,7 +6261,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 20 },
     seo: {
-      title: 'Licensed Concrete Bike | Zahradnictví Březina',
+      title: 'Licensed Concrete Bike | Zahradnictví u Lukáše',
       description: 'Temporibus iste sequi consequatur rerum sit.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/rose-729509_1280.webp',
@@ -6290,7 +6286,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -6300,7 +6296,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 80 },
     seo: {
-      title: 'Handmade Soft Fish | Zahradnictví Březina',
+      title: 'Handmade Soft Fish | Zahradnictví u Lukáše',
       description: 'Consequatur eaque et ea distinctio tenetur temporibus.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (1).webp',
@@ -6329,7 +6325,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -6339,7 +6335,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 99 },
     seo: {
-      title: 'Practical Soft Cheese | Zahradnictví Březina',
+      title: 'Practical Soft Cheese | Zahradnictví u Lukáše',
       description: 'Ratione et fugit reprehenderit et error.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (2).webp',
@@ -6368,7 +6364,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -6378,7 +6374,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 60 },
     seo: {
-      title: 'Incredible Rubber Tuna | Zahradnictví Březina',
+      title: 'Incredible Rubber Tuna | Zahradnictví u Lukáše',
       description: 'Aut delectus incidunt deleniti modi quia hic non nisi.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (3).webp',
@@ -6403,7 +6399,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -6413,7 +6409,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 78 },
     seo: {
-      title: 'Intelligent Concrete Chair | Zahradnictví Březina',
+      title: 'Intelligent Concrete Chair | Zahradnictví u Lukáše',
       description: 'Perferendis nesciunt dolorem ut.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (4).webp',
@@ -6438,7 +6434,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -6448,7 +6444,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available-soon', deliveryIn: 11 },
     seo: {
-      title: 'Ergonomic Metal Hat | Zahradnictví Březina',
+      title: 'Ergonomic Metal Hat | Zahradnictví u Lukáše',
       description: 'Fugit doloremque quod ad sit corrupti ut quisquam.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (5).webp',
@@ -6477,7 +6473,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -6486,7 +6482,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 95 },
     seo: {
-      title: 'Practical Fresh Ball | Zahradnictví Březina',
+      title: 'Practical Fresh Ball | Zahradnictví u Lukáše',
       description: 'Reiciendis illo eius debitis.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project.webp',
@@ -6512,7 +6508,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -6522,7 +6518,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 23 },
     seo: {
-      title: 'Practical Soft Computer | Zahradnictví Březina',
+      title: 'Practical Soft Computer | Zahradnictví u Lukáše',
       description:
         'Architecto consequatur quidem dolores quis possimus eveniet consequatur adipisci.',
       image:
@@ -6552,7 +6548,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -6562,7 +6558,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 7 },
     seo: {
-      title: 'Rustic Rubber Pants | Zahradnictví Březina',
+      title: 'Rustic Rubber Pants | Zahradnictví u Lukáše',
       description: 'Nemo molestiae voluptatem iste laboriosam.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (1).webp',
@@ -6588,7 +6584,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -6598,7 +6594,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 29 },
     seo: {
-      title: 'Generic Plastic Salad | Zahradnictví Březina',
+      title: 'Generic Plastic Salad | Zahradnictví u Lukáše',
       description:
         'Sint explicabo commodi est voluptatem perspiciatis sed dolores quam veritatis.',
       image:
@@ -6625,7 +6621,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -6635,7 +6631,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 34 },
     seo: {
-      title: 'Awesome Granite Mouse | Zahradnictví Březina',
+      title: 'Awesome Granite Mouse | Zahradnictví u Lukáše',
       description:
         'Maiores maiores libero itaque officia atque aperiam animi minus sint.',
       image:
@@ -6662,7 +6658,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -6672,7 +6668,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available-soon', deliveryIn: 18 },
     seo: {
-      title: 'Fantastic Steel Fish | Zahradnictví Březina',
+      title: 'Fantastic Steel Fish | Zahradnictví u Lukáše',
       description:
         'Nulla optio possimus earum aperiam libero assumenda aut tempora omnis.',
       image:
@@ -6698,7 +6694,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -6708,7 +6704,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 82 },
     seo: {
-      title: 'Tasty Granite Salad | Zahradnictví Březina',
+      title: 'Tasty Granite Salad | Zahradnictví u Lukáše',
       description: 'Voluptatem ipsa ipsam.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (5).webp',
@@ -6738,7 +6734,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -6747,7 +6743,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'unavailable' },
     seo: {
-      title: 'Handcrafted Plastic Ball | Zahradnictví Březina',
+      title: 'Handcrafted Plastic Ball | Zahradnictví u Lukáše',
       description:
         'Ipsam pariatur laborum sint impedit ut quia eius fugiat deserunt.',
       image:
@@ -6773,7 +6769,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -6783,7 +6779,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 3 },
     seo: {
-      title: 'Refined Frozen Soap | Zahradnictví Březina',
+      title: 'Refined Frozen Soap | Zahradnictví u Lukáše',
       description: 'Qui velit minima.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/rose-729509_1280.webp',
@@ -6809,7 +6805,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -6819,7 +6815,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available-soon', deliveryIn: 17 },
     seo: {
-      title: 'Sleek Cotton Car | Zahradnictví Březina',
+      title: 'Sleek Cotton Car | Zahradnictví u Lukáše',
       description:
         'Porro ut ut est necessitatibus magni repellendus corrupti nisi.',
       image:
@@ -6845,7 +6841,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -6855,7 +6851,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 85 },
     seo: {
-      title: 'Generic Cotton Pizza | Zahradnictví Březina',
+      title: 'Generic Cotton Pizza | Zahradnictví u Lukáše',
       description: 'Totam ea minus.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (2).webp',
@@ -6884,7 +6880,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -6894,7 +6890,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available-soon', deliveryIn: 9 },
     seo: {
-      title: 'Unbranded Rubber Chair | Zahradnictví Březina',
+      title: 'Unbranded Rubber Chair | Zahradnictví u Lukáše',
       description: 'Rerum est voluptatibus facilis aut error non.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (3).webp',
@@ -6923,7 +6919,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -6933,7 +6929,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 49 },
     seo: {
-      title: 'Handmade Steel Keyboard | Zahradnictví Březina',
+      title: 'Handmade Steel Keyboard | Zahradnictví u Lukáše',
       description: 'Minima doloremque qui libero praesentium enim soluta.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (4).webp',
@@ -6958,7 +6954,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -6968,7 +6964,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 69 },
     seo: {
-      title: 'Handcrafted Rubber Bike | Zahradnictví Březina',
+      title: 'Handcrafted Rubber Bike | Zahradnictví u Lukáše',
       description:
         'Sed perspiciatis et facere dolorem et perferendis ut autem.',
       image:
@@ -6995,7 +6991,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -7004,7 +7000,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 9 },
     seo: {
-      title: 'Ergonomic Rubber Shoes | Zahradnictví Březina',
+      title: 'Ergonomic Rubber Shoes | Zahradnictví u Lukáše',
       description:
         'Aperiam quibusdam cumque dolores exercitationem id repellendus officiis.',
       image:
@@ -7030,7 +7026,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -7040,7 +7036,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'unavailable' },
     seo: {
-      title: 'Handmade Soft Ball | Zahradnictví Březina',
+      title: 'Handmade Soft Ball | Zahradnictví u Lukáše',
       description: 'Ipsam fugit perferendis odio sed aut deleniti sed.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/rose-729509_1280.webp',
@@ -7065,7 +7061,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -7075,7 +7071,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 10 },
     seo: {
-      title: 'Handcrafted Cotton Bike | Zahradnictví Březina',
+      title: 'Handcrafted Cotton Bike | Zahradnictví u Lukáše',
       description: 'Est nostrum voluptas velit et repellat ducimus et.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (1).webp',
@@ -7104,7 +7100,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -7114,7 +7110,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 40 },
     seo: {
-      title: 'Rustic Fresh Pizza | Zahradnictví Březina',
+      title: 'Rustic Fresh Pizza | Zahradnictví u Lukáše',
       description: 'Quia earum omnis magni et autem rerum fuga dolore.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (2).webp',
@@ -7144,7 +7140,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -7154,7 +7150,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 16 },
     seo: {
-      title: 'Intelligent Rubber Table | Zahradnictví Březina',
+      title: 'Intelligent Rubber Table | Zahradnictví u Lukáše',
       description:
         'Et beatae voluptatibus repellendus eaque illo dolores consequatur labore id.',
       image:
@@ -7180,7 +7176,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -7190,7 +7186,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available-soon', deliveryIn: 7 },
     seo: {
-      title: 'Awesome Cotton Bacon | Zahradnictví Březina',
+      title: 'Awesome Cotton Bacon | Zahradnictví u Lukáše',
       description: 'Sunt sit qui maiores quod eos dolor qui nihil.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (4).webp',
@@ -7215,7 +7211,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -7225,7 +7221,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 22 },
     seo: {
-      title: 'Incredible Fresh Shirt | Zahradnictví Březina',
+      title: 'Incredible Fresh Shirt | Zahradnictví u Lukáše',
       description: 'Vel accusamus repellat aspernatur sunt.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (5).webp',
@@ -7250,7 +7246,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -7259,7 +7255,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 75 },
     seo: {
-      title: 'Incredible Soft Gloves | Zahradnictví Březina',
+      title: 'Incredible Soft Gloves | Zahradnictví u Lukáše',
       description:
         'Sunt sunt voluptate a voluptate illum sunt aut libero eaque.',
       image:
@@ -7285,7 +7281,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -7295,7 +7291,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 55 },
     seo: {
-      title: 'Generic Soft Soap | Zahradnictví Březina',
+      title: 'Generic Soft Soap | Zahradnictví u Lukáše',
       description: 'Adipisci et natus quam iste ut.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/rose-729509_1280.webp',
@@ -7324,7 +7320,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -7334,7 +7330,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 86 },
     seo: {
-      title: 'Tasty Cotton Shirt | Zahradnictví Březina',
+      title: 'Tasty Cotton Shirt | Zahradnictví u Lukáše',
       description:
         'Accusantium facere omnis voluptas sunt facere ipsa architecto.',
       image:
@@ -7360,7 +7356,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -7370,7 +7366,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 53 },
     seo: {
-      title: 'Gorgeous Soft Computer | Zahradnictví Březina',
+      title: 'Gorgeous Soft Computer | Zahradnictví u Lukáše',
       description: 'Non blanditiis recusandae autem in hic sunt labore.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (2).webp',
@@ -7400,7 +7396,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -7410,7 +7406,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available-soon', deliveryIn: 11 },
     seo: {
-      title: 'Sleek Metal Sausages | Zahradnictví Březina',
+      title: 'Sleek Metal Sausages | Zahradnictví u Lukáše',
       description:
         'Ut soluta excepturi fuga voluptas qui dolorem iure fuga labore.',
       image:
@@ -7440,7 +7436,7 @@ export const products: Product[] = [
       slug: 'ruze',
       background: 'https://api-dp-eshop.web.app/images/cat/ruze.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -7450,7 +7446,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 81 },
     seo: {
-      title: 'Handmade Wooden Pants | Zahradnictví Březina',
+      title: 'Handmade Wooden Pants | Zahradnictví u Lukáše',
       description: 'Quae quaerat expedita ab quam.',
       image:
         'https://api-dp-eshop.web.app/images/products/ruze/New Project (4).webp',
@@ -7475,7 +7471,7 @@ export const products: Product[] = [
       slug: 'trvalky',
       background: 'https://api-dp-eshop.web.app/images/cat/trvalky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -7485,7 +7481,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 91 },
     seo: {
-      title: 'Licensed Concrete Hat | Zahradnictví Březina',
+      title: 'Licensed Concrete Hat | Zahradnictví u Lukáše',
       description: 'Provident et non maxime tenetur alias dolores.',
       image:
         'https://api-dp-eshop.web.app/images/products/trvalky/marguerite-5959944_1280.webp',
@@ -7515,7 +7511,7 @@ export const products: Product[] = [
       slug: 'trvalky',
       background: 'https://api-dp-eshop.web.app/images/cat/trvalky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -7525,7 +7521,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 46 },
     seo: {
-      title: 'Rustic Granite Shirt | Zahradnictví Březina',
+      title: 'Rustic Granite Shirt | Zahradnictví u Lukáše',
       description:
         'Voluptatibus quam aut et sit molestiae tenetur nostrum dolor aperiam.',
       image:
@@ -7560,7 +7556,7 @@ export const products: Product[] = [
       slug: 'trvalky',
       background: 'https://api-dp-eshop.web.app/images/cat/trvalky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -7570,7 +7566,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'unavailable' },
     seo: {
-      title: 'Ergonomic Soft Salad | Zahradnictví Březina',
+      title: 'Ergonomic Soft Salad | Zahradnictví u Lukáše',
       description:
         'Voluptatem voluptas optio voluptatem sint voluptatibus autem non commodi.',
       image:
@@ -7600,7 +7596,7 @@ export const products: Product[] = [
       slug: 'trvalky',
       background: 'https://api-dp-eshop.web.app/images/cat/trvalky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -7610,7 +7606,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available-soon', deliveryIn: 16 },
     seo: {
-      title: 'Fantastic Granite Chicken | Zahradnictví Březina',
+      title: 'Fantastic Granite Chicken | Zahradnictví u Lukáše',
       description: 'Molestiae quasi beatae placeat ipsam.',
       image:
         'https://api-dp-eshop.web.app/images/products/trvalky/marguerite-5959944_1280.webp',
@@ -7639,7 +7635,7 @@ export const products: Product[] = [
       slug: 'trvalky',
       background: 'https://api-dp-eshop.web.app/images/cat/trvalky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -7649,7 +7645,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available-soon', deliveryIn: 8 },
     seo: {
-      title: 'Refined Plastic Bike | Zahradnictví Březina',
+      title: 'Refined Plastic Bike | Zahradnictví u Lukáše',
       description: 'Quis incidunt laboriosam illum consequatur asperiores.',
       image:
         'https://api-dp-eshop.web.app/images/products/trvalky/marguerite-5959944_1280.webp',
@@ -7679,7 +7675,7 @@ export const products: Product[] = [
       slug: 'trvalky',
       background: 'https://api-dp-eshop.web.app/images/cat/trvalky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -7689,7 +7685,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 8 },
     seo: {
-      title: 'Refined Rubber Soap | Zahradnictví Březina',
+      title: 'Refined Rubber Soap | Zahradnictví u Lukáše',
       description:
         'Qui fugiat est accusamus debitis voluptatem aut excepturi veniam.',
       image:
@@ -7719,7 +7715,7 @@ export const products: Product[] = [
       slug: 'trvalky',
       background: 'https://api-dp-eshop.web.app/images/cat/trvalky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -7729,7 +7725,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 56 },
     seo: {
-      title: 'Rustic Wooden Pizza | Zahradnictví Březina',
+      title: 'Rustic Wooden Pizza | Zahradnictví u Lukáše',
       description: 'Quia corrupti architecto omnis.',
       image:
         'https://api-dp-eshop.web.app/images/products/trvalky/marguerite-5959944_1280.webp',
@@ -7754,7 +7750,7 @@ export const products: Product[] = [
       slug: 'trvalky',
       background: 'https://api-dp-eshop.web.app/images/cat/trvalky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -7764,7 +7760,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'unavailable' },
     seo: {
-      title: 'Licensed Granite Pizza | Zahradnictví Březina',
+      title: 'Licensed Granite Pizza | Zahradnictví u Lukáše',
       description: 'Sit totam qui expedita.',
       image:
         'https://api-dp-eshop.web.app/images/products/trvalky/marguerite-5959944_1280.webp',
@@ -7789,7 +7785,7 @@ export const products: Product[] = [
       slug: 'trvalky',
       background: 'https://api-dp-eshop.web.app/images/cat/trvalky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -7799,7 +7795,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 19 },
     seo: {
-      title: 'Refined Steel Table | Zahradnictví Březina',
+      title: 'Refined Steel Table | Zahradnictví u Lukáše',
       description: 'Esse quos autem rerum dolore voluptates libero quam quam.',
       image:
         'https://api-dp-eshop.web.app/images/products/trvalky/marguerite-5959944_1280.webp',
@@ -7828,7 +7824,7 @@ export const products: Product[] = [
       slug: 'trvalky',
       background: 'https://api-dp-eshop.web.app/images/cat/trvalky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -7838,7 +7834,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 97 },
     seo: {
-      title: 'Gorgeous Cotton Ball | Zahradnictví Březina',
+      title: 'Gorgeous Cotton Ball | Zahradnictví u Lukáše',
       description: 'Iure iste et eaque.',
       image:
         'https://api-dp-eshop.web.app/images/products/trvalky/marguerite-5959944_1280.webp',
@@ -7867,7 +7863,7 @@ export const products: Product[] = [
       slug: 'trvalky',
       background: 'https://api-dp-eshop.web.app/images/cat/trvalky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -7877,7 +7873,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 80 },
     seo: {
-      title: 'Incredible Granite Shoes | Zahradnictví Březina',
+      title: 'Incredible Granite Shoes | Zahradnictví u Lukáše',
       description: 'Velit nulla quis et quod.',
       image:
         'https://api-dp-eshop.web.app/images/products/trvalky/marguerite-5959944_1280.webp',
@@ -7902,7 +7898,7 @@ export const products: Product[] = [
       slug: 'trvalky',
       background: 'https://api-dp-eshop.web.app/images/cat/trvalky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -7912,7 +7908,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 86 },
     seo: {
-      title: 'Rustic Rubber Shirt | Zahradnictví Březina',
+      title: 'Rustic Rubber Shirt | Zahradnictví u Lukáše',
       description:
         'Voluptatum sunt quisquam et ea sunt ut dolores ipsum natus.',
       image:
@@ -7938,7 +7934,7 @@ export const products: Product[] = [
       slug: 'trvalky',
       background: 'https://api-dp-eshop.web.app/images/cat/trvalky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -7948,7 +7944,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 21 },
     seo: {
-      title: 'Practical Concrete Cheese | Zahradnictví Březina',
+      title: 'Practical Concrete Cheese | Zahradnictví u Lukáše',
       description:
         'Sed consequatur nulla ut omnis minima perferendis eos iure.',
       image:
@@ -7978,7 +7974,7 @@ export const products: Product[] = [
       slug: 'trvalky',
       background: 'https://api-dp-eshop.web.app/images/cat/trvalky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -7988,7 +7984,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 67 },
     seo: {
-      title: 'Gorgeous Rubber Gloves | Zahradnictví Březina',
+      title: 'Gorgeous Rubber Gloves | Zahradnictví u Lukáše',
       description: 'Atque laudantium omnis id est quis illo debitis quo est.',
       image:
         'https://api-dp-eshop.web.app/images/products/trvalky/marguerite-5959944_1280.webp',
@@ -8013,7 +8009,7 @@ export const products: Product[] = [
       slug: 'trvalky',
       background: 'https://api-dp-eshop.web.app/images/cat/trvalky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -8023,7 +8019,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 78 },
     seo: {
-      title: 'Small Granite Bike | Zahradnictví Březina',
+      title: 'Small Granite Bike | Zahradnictví u Lukáše',
       description: 'Hic quas et at asperiores placeat enim quos.',
       image:
         'https://api-dp-eshop.web.app/images/products/trvalky/marguerite-5959944_1280.webp',
@@ -8056,7 +8052,7 @@ export const products: Product[] = [
       slug: 'trvalky',
       background: 'https://api-dp-eshop.web.app/images/cat/trvalky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -8066,7 +8062,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 25 },
     seo: {
-      title: 'Practical Wooden Ball | Zahradnictví Březina',
+      title: 'Practical Wooden Ball | Zahradnictví u Lukáše',
       description: 'Consequatur rem nesciunt eaque est ut qui ipsam assumenda.',
       image:
         'https://api-dp-eshop.web.app/images/products/trvalky/marguerite-5959944_1280.webp',
@@ -8095,7 +8091,7 @@ export const products: Product[] = [
       slug: 'trvalky',
       background: 'https://api-dp-eshop.web.app/images/cat/trvalky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -8105,7 +8101,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 21 },
     seo: {
-      title: 'Tasty Wooden Salad | Zahradnictví Březina',
+      title: 'Tasty Wooden Salad | Zahradnictví u Lukáše',
       description: 'Eum nihil omnis est nihil.',
       image:
         'https://api-dp-eshop.web.app/images/products/trvalky/marguerite-5959944_1280.webp',
@@ -8130,7 +8126,7 @@ export const products: Product[] = [
       slug: 'trvalky',
       background: 'https://api-dp-eshop.web.app/images/cat/trvalky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -8140,7 +8136,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 34 },
     seo: {
-      title: 'Refined Cotton Bike | Zahradnictví Březina',
+      title: 'Refined Cotton Bike | Zahradnictví u Lukáše',
       description: 'Sequi est libero quia.',
       image:
         'https://api-dp-eshop.web.app/images/products/trvalky/marguerite-5959944_1280.webp',
@@ -8170,7 +8166,7 @@ export const products: Product[] = [
       slug: 'trvalky',
       background: 'https://api-dp-eshop.web.app/images/cat/trvalky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -8180,7 +8176,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 63 },
     seo: {
-      title: 'Handmade Granite Ball | Zahradnictví Březina',
+      title: 'Handmade Granite Ball | Zahradnictví u Lukáše',
       description:
         'Reprehenderit dolor labore cum sunt doloremque non enim aut eos.',
       image:
@@ -8206,7 +8202,7 @@ export const products: Product[] = [
       slug: 'trvalky',
       background: 'https://api-dp-eshop.web.app/images/cat/trvalky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -8216,7 +8212,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 87 },
     seo: {
-      title: 'Licensed Rubber Chicken | Zahradnictví Březina',
+      title: 'Licensed Rubber Chicken | Zahradnictví u Lukáše',
       description: 'Architecto ipsa itaque.',
       image:
         'https://api-dp-eshop.web.app/images/products/trvalky/marguerite-5959944_1280.webp',
@@ -8242,7 +8238,7 @@ export const products: Product[] = [
       slug: 'trvalky',
       background: 'https://api-dp-eshop.web.app/images/cat/trvalky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -8252,7 +8248,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'unavailable' },
     seo: {
-      title: 'Handcrafted Steel Hat | Zahradnictví Březina',
+      title: 'Handcrafted Steel Hat | Zahradnictví u Lukáše',
       description:
         'Quis fugit impedit accusantium delectus molestiae aut architecto vero.',
       image:
@@ -8286,7 +8282,7 @@ export const products: Product[] = [
       slug: 'trvalky',
       background: 'https://api-dp-eshop.web.app/images/cat/trvalky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -8296,7 +8292,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 8 },
     seo: {
-      title: 'Fantastic Fresh Chicken | Zahradnictví Březina',
+      title: 'Fantastic Fresh Chicken | Zahradnictví u Lukáše',
       description: 'Cupiditate provident in neque neque nam.',
       image:
         'https://api-dp-eshop.web.app/images/products/trvalky/marguerite-5959944_1280.webp',
@@ -8326,7 +8322,7 @@ export const products: Product[] = [
       slug: 'trvalky',
       background: 'https://api-dp-eshop.web.app/images/cat/trvalky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -8336,7 +8332,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available-soon', deliveryIn: 17 },
     seo: {
-      title: 'Rustic Metal Chicken | Zahradnictví Březina',
+      title: 'Rustic Metal Chicken | Zahradnictví u Lukáše',
       description:
         'Quam debitis necessitatibus voluptatem numquam pariatur praesentium.',
       image:
@@ -8363,7 +8359,7 @@ export const products: Product[] = [
       slug: 'trvalky',
       background: 'https://api-dp-eshop.web.app/images/cat/trvalky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -8373,7 +8369,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 87 },
     seo: {
-      title: 'Sleek Soft Tuna | Zahradnictví Březina',
+      title: 'Sleek Soft Tuna | Zahradnictví u Lukáše',
       description:
         'Saepe necessitatibus asperiores explicabo et quo voluptatum ad veritatis blanditiis.',
       image:
@@ -8399,7 +8395,7 @@ export const products: Product[] = [
       slug: 'trvalky',
       background: 'https://api-dp-eshop.web.app/images/cat/trvalky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -8409,7 +8405,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 39 },
     seo: {
-      title: 'Generic Rubber Sausages | Zahradnictví Březina',
+      title: 'Generic Rubber Sausages | Zahradnictví u Lukáše',
       description: 'Voluptatem error minima voluptas molestiae autem nisi.',
       image:
         'https://api-dp-eshop.web.app/images/products/trvalky/marguerite-5959944_1280.webp',
@@ -8442,7 +8438,7 @@ export const products: Product[] = [
       slug: 'trvalky',
       background: 'https://api-dp-eshop.web.app/images/cat/trvalky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -8452,7 +8448,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 43 },
     seo: {
-      title: 'Handmade Metal Pants | Zahradnictví Březina',
+      title: 'Handmade Metal Pants | Zahradnictví u Lukáše',
       description: 'Voluptas aut aut numquam nesciunt quae ratione.',
       image:
         'https://api-dp-eshop.web.app/images/products/trvalky/marguerite-5959944_1280.webp',
@@ -8481,7 +8477,7 @@ export const products: Product[] = [
       slug: 'trvalky',
       background: 'https://api-dp-eshop.web.app/images/cat/trvalky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -8491,7 +8487,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 19 },
     seo: {
-      title: 'Practical Metal Bacon | Zahradnictví Březina',
+      title: 'Practical Metal Bacon | Zahradnictví u Lukáše',
       description: 'Labore aut aut officia ut voluptate esse.',
       image:
         'https://api-dp-eshop.web.app/images/products/trvalky/marguerite-5959944_1280.webp',
@@ -8521,7 +8517,7 @@ export const products: Product[] = [
       slug: 'trvalky',
       background: 'https://api-dp-eshop.web.app/images/cat/trvalky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -8531,7 +8527,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 3 },
     seo: {
-      title: 'Refined Cotton Towels | Zahradnictví Březina',
+      title: 'Refined Cotton Towels | Zahradnictví u Lukáše',
       description:
         'Et dolorem voluptas beatae officia sed et laboriosam dolores natus.',
       image:
@@ -8561,7 +8557,7 @@ export const products: Product[] = [
       slug: 'trvalky',
       background: 'https://api-dp-eshop.web.app/images/cat/trvalky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -8571,7 +8567,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available-soon', deliveryIn: 10 },
     seo: {
-      title: 'Licensed Steel Car | Zahradnictví Březina',
+      title: 'Licensed Steel Car | Zahradnictví u Lukáše',
       description: 'Quasi autem dolorem perferendis ab perferendis.',
       image:
         'https://api-dp-eshop.web.app/images/products/trvalky/marguerite-5959944_1280.webp',
@@ -8597,7 +8593,7 @@ export const products: Product[] = [
       slug: 'trvalky',
       background: 'https://api-dp-eshop.web.app/images/cat/trvalky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -8607,7 +8603,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 65 },
     seo: {
-      title: 'Generic Metal Bacon | Zahradnictví Březina',
+      title: 'Generic Metal Bacon | Zahradnictví u Lukáše',
       description:
         'Corrupti sed minima amet distinctio voluptatem dolorem dolorum.',
       image:
@@ -8637,7 +8633,7 @@ export const products: Product[] = [
       slug: 'trvalky',
       background: 'https://api-dp-eshop.web.app/images/cat/trvalky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -8647,7 +8643,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available-soon', deliveryIn: 16 },
     seo: {
-      title: 'Practical Soft Towels | Zahradnictví Březina',
+      title: 'Practical Soft Towels | Zahradnictví u Lukáše',
       description: 'Qui rerum ut provident suscipit.',
       image:
         'https://api-dp-eshop.web.app/images/products/trvalky/marguerite-5959944_1280.webp',
@@ -8672,7 +8668,7 @@ export const products: Product[] = [
       slug: 'trvalky',
       background: 'https://api-dp-eshop.web.app/images/cat/trvalky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -8682,7 +8678,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 69 },
     seo: {
-      title: 'Rustic Concrete Sausages | Zahradnictví Březina',
+      title: 'Rustic Concrete Sausages | Zahradnictví u Lukáše',
       description: 'Ut in maxime omnis voluptatem cupiditate officiis dolores.',
       image:
         'https://api-dp-eshop.web.app/images/products/trvalky/marguerite-5959944_1280.webp',
@@ -8711,7 +8707,7 @@ export const products: Product[] = [
       slug: 'trvalky',
       background: 'https://api-dp-eshop.web.app/images/cat/trvalky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -8721,7 +8717,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 13 },
     seo: {
-      title: 'Sleek Soft Sausages | Zahradnictví Březina',
+      title: 'Sleek Soft Sausages | Zahradnictví u Lukáše',
       description: 'Velit nulla quia rerum doloremque id.',
       image:
         'https://api-dp-eshop.web.app/images/products/trvalky/marguerite-5959944_1280.webp',
@@ -8750,7 +8746,7 @@ export const products: Product[] = [
       slug: 'trvalky',
       background: 'https://api-dp-eshop.web.app/images/cat/trvalky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -8760,7 +8756,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 53 },
     seo: {
-      title: 'Incredible Soft Sausages | Zahradnictví Březina',
+      title: 'Incredible Soft Sausages | Zahradnictví u Lukáše',
       description: 'Est atque rerum officia rerum sed.',
       image:
         'https://api-dp-eshop.web.app/images/products/trvalky/marguerite-5959944_1280.webp',
@@ -8789,7 +8785,7 @@ export const products: Product[] = [
       slug: 'trvalky',
       background: 'https://api-dp-eshop.web.app/images/cat/trvalky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -8799,7 +8795,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 6 },
     seo: {
-      title: 'Refined Soft Mouse | Zahradnictví Březina',
+      title: 'Refined Soft Mouse | Zahradnictví u Lukáše',
       description: 'Nihil sit et autem nulla eum alias.',
       image:
         'https://api-dp-eshop.web.app/images/products/trvalky/marguerite-5959944_1280.webp',
@@ -8824,7 +8820,7 @@ export const products: Product[] = [
       slug: 'trvalky',
       background: 'https://api-dp-eshop.web.app/images/cat/trvalky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -8834,7 +8830,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 61 },
     seo: {
-      title: 'Licensed Wooden Chips | Zahradnictví Březina',
+      title: 'Licensed Wooden Chips | Zahradnictví u Lukáše',
       description: 'Ratione odio quasi.',
       image:
         'https://api-dp-eshop.web.app/images/products/trvalky/marguerite-5959944_1280.webp',
@@ -8859,7 +8855,7 @@ export const products: Product[] = [
       slug: 'trvalky',
       background: 'https://api-dp-eshop.web.app/images/cat/trvalky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -8869,7 +8865,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available-soon', deliveryIn: 19 },
     seo: {
-      title: 'Licensed Frozen Shirt | Zahradnictví Březina',
+      title: 'Licensed Frozen Shirt | Zahradnictví u Lukáše',
       description: 'Reiciendis maxime nihil a eos magnam.',
       image:
         'https://api-dp-eshop.web.app/images/products/trvalky/marguerite-5959944_1280.webp',
@@ -8894,7 +8890,7 @@ export const products: Product[] = [
       slug: 'trvalky',
       background: 'https://api-dp-eshop.web.app/images/cat/trvalky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -8904,7 +8900,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'unavailable' },
     seo: {
-      title: 'Practical Fresh Fish | Zahradnictví Březina',
+      title: 'Practical Fresh Fish | Zahradnictví u Lukáše',
       description: 'Consequatur quasi atque molestiae quasi temporibus.',
       image:
         'https://api-dp-eshop.web.app/images/products/trvalky/marguerite-5959944_1280.webp',
@@ -8929,7 +8925,7 @@ export const products: Product[] = [
       slug: 'trvalky',
       background: 'https://api-dp-eshop.web.app/images/cat/trvalky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -8939,7 +8935,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 34 },
     seo: {
-      title: 'Fantastic Concrete Gloves | Zahradnictví Březina',
+      title: 'Fantastic Concrete Gloves | Zahradnictví u Lukáše',
       description: 'Eius ducimus ipsum vero.',
       image:
         'https://api-dp-eshop.web.app/images/products/trvalky/marguerite-5959944_1280.webp',
@@ -8972,7 +8968,7 @@ export const products: Product[] = [
       slug: 'trvalky',
       background: 'https://api-dp-eshop.web.app/images/cat/trvalky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -8982,7 +8978,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 40 },
     seo: {
-      title: 'Incredible Frozen Towels | Zahradnictví Březina',
+      title: 'Incredible Frozen Towels | Zahradnictví u Lukáše',
       description: 'Molestiae quasi suscipit.',
       image:
         'https://api-dp-eshop.web.app/images/products/trvalky/marguerite-5959944_1280.webp',
@@ -9008,7 +9004,7 @@ export const products: Product[] = [
       slug: 'trvalky',
       background: 'https://api-dp-eshop.web.app/images/cat/trvalky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -9018,7 +9014,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'unavailable' },
     seo: {
-      title: 'Refined Concrete Fish | Zahradnictví Březina',
+      title: 'Refined Concrete Fish | Zahradnictví u Lukáše',
       description:
         'Itaque consequuntur voluptatum et temporibus repellendus error tempore.',
       image:
@@ -9044,7 +9040,7 @@ export const products: Product[] = [
       slug: 'trvalky',
       background: 'https://api-dp-eshop.web.app/images/cat/trvalky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -9054,7 +9050,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 55 },
     seo: {
-      title: 'Practical Soft Shoes | Zahradnictví Březina',
+      title: 'Practical Soft Shoes | Zahradnictví u Lukáše',
       description: 'Sequi quis saepe velit quo nemo.',
       image:
         'https://api-dp-eshop.web.app/images/products/trvalky/marguerite-5959944_1280.webp',
@@ -9079,7 +9075,7 @@ export const products: Product[] = [
       slug: 'trvalky',
       background: 'https://api-dp-eshop.web.app/images/cat/trvalky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -9089,7 +9085,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 61 },
     seo: {
-      title: 'Incredible Steel Fish | Zahradnictví Březina',
+      title: 'Incredible Steel Fish | Zahradnictví u Lukáše',
       description: 'Non aliquid sit est numquam impedit.',
       image:
         'https://api-dp-eshop.web.app/images/products/trvalky/marguerite-5959944_1280.webp',
@@ -9118,7 +9114,7 @@ export const products: Product[] = [
       slug: 'trvalky',
       background: 'https://api-dp-eshop.web.app/images/cat/trvalky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -9128,7 +9124,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 26 },
     seo: {
-      title: 'Intelligent Fresh Car | Zahradnictví Březina',
+      title: 'Intelligent Fresh Car | Zahradnictví u Lukáše',
       description: 'Quas perferendis ab ut.',
       image:
         'https://api-dp-eshop.web.app/images/products/trvalky/marguerite-5959944_1280.webp',
@@ -9157,7 +9153,7 @@ export const products: Product[] = [
       slug: 'trvalky',
       background: 'https://api-dp-eshop.web.app/images/cat/trvalky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -9167,7 +9163,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'unavailable' },
     seo: {
-      title: 'Gorgeous Cotton Chicken | Zahradnictví Březina',
+      title: 'Gorgeous Cotton Chicken | Zahradnictví u Lukáše',
       description: 'Adipisci voluptatem et qui qui impedit.',
       image:
         'https://api-dp-eshop.web.app/images/products/trvalky/marguerite-5959944_1280.webp',
@@ -9192,7 +9188,7 @@ export const products: Product[] = [
       slug: 'trvalky',
       background: 'https://api-dp-eshop.web.app/images/cat/trvalky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -9202,7 +9198,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available-soon', deliveryIn: 13 },
     seo: {
-      title: 'Tasty Granite Ball | Zahradnictví Březina',
+      title: 'Tasty Granite Ball | Zahradnictví u Lukáše',
       description: 'Qui deleniti voluptas reprehenderit dolor quisquam.',
       image:
         'https://api-dp-eshop.web.app/images/products/trvalky/marguerite-5959944_1280.webp',
@@ -9228,7 +9224,7 @@ export const products: Product[] = [
       slug: 'trvalky',
       background: 'https://api-dp-eshop.web.app/images/cat/trvalky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -9238,7 +9234,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 80 },
     seo: {
-      title: 'Small Soft Hat | Zahradnictví Březina',
+      title: 'Small Soft Hat | Zahradnictví u Lukáše',
       description:
         'Sit minima quia fugit veritatis repellendus quo saepe mollitia eos.',
       image:
@@ -9264,7 +9260,7 @@ export const products: Product[] = [
       slug: 'trvalky',
       background: 'https://api-dp-eshop.web.app/images/cat/trvalky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -9274,7 +9270,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 3 },
     seo: {
-      title: 'Tasty Frozen Cheese | Zahradnictví Březina',
+      title: 'Tasty Frozen Cheese | Zahradnictví u Lukáše',
       description: 'Dolorem repudiandae et voluptate voluptas alias impedit.',
       image:
         'https://api-dp-eshop.web.app/images/products/trvalky/marguerite-5959944_1280.webp',
@@ -9308,7 +9304,7 @@ export const products: Product[] = [
       slug: 'trvalky',
       background: 'https://api-dp-eshop.web.app/images/cat/trvalky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -9318,7 +9314,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 12 },
     seo: {
-      title: 'Handmade Rubber Chicken | Zahradnictví Březina',
+      title: 'Handmade Rubber Chicken | Zahradnictví u Lukáše',
       description:
         'Voluptas id cumque et repellendus quasi qui consequatur maiores.',
       image:
@@ -9345,7 +9341,7 @@ export const products: Product[] = [
       slug: 'trvalky',
       background: 'https://api-dp-eshop.web.app/images/cat/trvalky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -9355,7 +9351,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 63 },
     seo: {
-      title: 'Handcrafted Rubber Computer | Zahradnictví Březina',
+      title: 'Handcrafted Rubber Computer | Zahradnictví u Lukáše',
       description:
         'Velit sunt iste repellendus expedita laboriosam optio delectus.',
       image:
@@ -9385,7 +9381,7 @@ export const products: Product[] = [
       slug: 'bylinky',
       background: 'https://api-dp-eshop.web.app/images/cat/bylinky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -9395,7 +9391,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 19 },
     seo: {
-      title: 'Small Plastic Cheese | Zahradnictví Březina',
+      title: 'Small Plastic Cheese | Zahradnictví u Lukáše',
       description: 'Velit quidem in.',
       image:
         'https://api-dp-eshop.web.app/images/products/bylinky/marguerite-5959944_1280.webp',
@@ -9424,7 +9420,7 @@ export const products: Product[] = [
       slug: 'bylinky',
       background: 'https://api-dp-eshop.web.app/images/cat/bylinky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -9434,7 +9430,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 95 },
     seo: {
-      title: 'Licensed Concrete Shoes | Zahradnictví Březina',
+      title: 'Licensed Concrete Shoes | Zahradnictví u Lukáše',
       description: 'In labore sed ex molestiae consequatur sint.',
       image:
         'https://api-dp-eshop.web.app/images/products/bylinky/marguerite-5959944_1280.webp',
@@ -9459,7 +9455,7 @@ export const products: Product[] = [
       slug: 'bylinky',
       background: 'https://api-dp-eshop.web.app/images/cat/bylinky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -9469,7 +9465,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available-soon', deliveryIn: 10 },
     seo: {
-      title: 'Refined Soft Mouse | Zahradnictví Březina',
+      title: 'Refined Soft Mouse | Zahradnictví u Lukáše',
       description: 'In aut quia voluptatem mollitia eius autem.',
       image:
         'https://api-dp-eshop.web.app/images/products/bylinky/marguerite-5959944_1280.webp',
@@ -9494,7 +9490,7 @@ export const products: Product[] = [
       slug: 'bylinky',
       background: 'https://api-dp-eshop.web.app/images/cat/bylinky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -9504,7 +9500,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 39 },
     seo: {
-      title: 'Fantastic Soft Pizza | Zahradnictví Březina',
+      title: 'Fantastic Soft Pizza | Zahradnictví u Lukáše',
       description:
         'Magnam nihil consectetur non quia a aut velit voluptatem ut.',
       image:
@@ -9534,7 +9530,7 @@ export const products: Product[] = [
       slug: 'bylinky',
       background: 'https://api-dp-eshop.web.app/images/cat/bylinky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -9544,7 +9540,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 35 },
     seo: {
-      title: 'Practical Rubber Mouse | Zahradnictví Březina',
+      title: 'Practical Rubber Mouse | Zahradnictví u Lukáše',
       description: 'Voluptatem quas quia et aut iure.',
       image:
         'https://api-dp-eshop.web.app/images/products/bylinky/marguerite-5959944_1280.webp',
@@ -9573,7 +9569,7 @@ export const products: Product[] = [
       slug: 'bylinky',
       background: 'https://api-dp-eshop.web.app/images/cat/bylinky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -9583,7 +9579,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 100 },
     seo: {
-      title: 'Small Granite Car | Zahradnictví Březina',
+      title: 'Small Granite Car | Zahradnictví u Lukáše',
       description: 'Velit hic cumque maxime corrupti at aliquid.',
       image:
         'https://api-dp-eshop.web.app/images/products/bylinky/marguerite-5959944_1280.webp',
@@ -9612,7 +9608,7 @@ export const products: Product[] = [
       slug: 'bylinky',
       background: 'https://api-dp-eshop.web.app/images/cat/bylinky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -9622,7 +9618,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 4 },
     seo: {
-      title: 'Licensed Concrete Shirt | Zahradnictví Březina',
+      title: 'Licensed Concrete Shirt | Zahradnictví u Lukáše',
       description: 'Quia eos incidunt ea inventore at.',
       image:
         'https://api-dp-eshop.web.app/images/products/bylinky/marguerite-5959944_1280.webp',
@@ -9656,7 +9652,7 @@ export const products: Product[] = [
       slug: 'bylinky',
       background: 'https://api-dp-eshop.web.app/images/cat/bylinky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -9666,7 +9662,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 46 },
     seo: {
-      title: 'Rustic Concrete Fish | Zahradnictví Březina',
+      title: 'Rustic Concrete Fish | Zahradnictví u Lukáše',
       description:
         'Neque sint corporis consectetur velit perferendis iure quis minus.',
       image:
@@ -9693,7 +9689,7 @@ export const products: Product[] = [
       slug: 'bylinky',
       background: 'https://api-dp-eshop.web.app/images/cat/bylinky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -9703,7 +9699,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 18 },
     seo: {
-      title: 'Small Steel Bike | Zahradnictví Březina',
+      title: 'Small Steel Bike | Zahradnictví u Lukáše',
       description:
         'Ea quisquam consequatur qui natus nihil voluptatem est tempore.',
       image:
@@ -9733,7 +9729,7 @@ export const products: Product[] = [
       slug: 'bylinky',
       background: 'https://api-dp-eshop.web.app/images/cat/bylinky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -9743,7 +9739,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 89 },
     seo: {
-      title: 'Licensed Granite Mouse | Zahradnictví Březina',
+      title: 'Licensed Granite Mouse | Zahradnictví u Lukáše',
       description: 'Non eveniet commodi ut id et.',
       image:
         'https://api-dp-eshop.web.app/images/products/bylinky/marguerite-5959944_1280.webp',
@@ -9768,7 +9764,7 @@ export const products: Product[] = [
       slug: 'bylinky',
       background: 'https://api-dp-eshop.web.app/images/cat/bylinky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -9778,7 +9774,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available-soon', deliveryIn: 16 },
     seo: {
-      title: 'Tasty Soft Bike | Zahradnictví Březina',
+      title: 'Tasty Soft Bike | Zahradnictví u Lukáše',
       description: 'Quas aut et.',
       image:
         'https://api-dp-eshop.web.app/images/products/bylinky/marguerite-5959944_1280.webp',
@@ -9808,7 +9804,7 @@ export const products: Product[] = [
       slug: 'bylinky',
       background: 'https://api-dp-eshop.web.app/images/cat/bylinky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -9818,7 +9814,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available-soon', deliveryIn: 28 },
     seo: {
-      title: 'Practical Soft Bacon | Zahradnictví Březina',
+      title: 'Practical Soft Bacon | Zahradnictví u Lukáše',
       description:
         'Voluptas quia qui dolorem cupiditate laboriosam qui non ut dolorem.',
       image:
@@ -9844,7 +9840,7 @@ export const products: Product[] = [
       slug: 'bylinky',
       background: 'https://api-dp-eshop.web.app/images/cat/bylinky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -9854,7 +9850,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 25 },
     seo: {
-      title: 'Ergonomic Plastic Sausages | Zahradnictví Březina',
+      title: 'Ergonomic Plastic Sausages | Zahradnictví u Lukáše',
       description: 'Sed molestias officiis fuga tempore velit nisi sit nisi.',
       image:
         'https://api-dp-eshop.web.app/images/products/bylinky/marguerite-5959944_1280.webp',
@@ -9883,7 +9879,7 @@ export const products: Product[] = [
       slug: 'bylinky',
       background: 'https://api-dp-eshop.web.app/images/cat/bylinky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -9893,7 +9889,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 73 },
     seo: {
-      title: 'Intelligent Granite Soap | Zahradnictví Březina',
+      title: 'Intelligent Granite Soap | Zahradnictví u Lukáše',
       description: 'Est laborum ut.',
       image:
         'https://api-dp-eshop.web.app/images/products/bylinky/marguerite-5959944_1280.webp',
@@ -9922,7 +9918,7 @@ export const products: Product[] = [
       slug: 'bylinky',
       background: 'https://api-dp-eshop.web.app/images/cat/bylinky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -9932,7 +9928,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 23 },
     seo: {
-      title: 'Rustic Cotton Computer | Zahradnictví Březina',
+      title: 'Rustic Cotton Computer | Zahradnictví u Lukáše',
       description: 'In est non soluta.',
       image:
         'https://api-dp-eshop.web.app/images/products/bylinky/marguerite-5959944_1280.webp',
@@ -9961,7 +9957,7 @@ export const products: Product[] = [
       slug: 'bylinky',
       background: 'https://api-dp-eshop.web.app/images/cat/bylinky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -9971,7 +9967,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 90 },
     seo: {
-      title: 'Ergonomic Fresh Fish | Zahradnictví Březina',
+      title: 'Ergonomic Fresh Fish | Zahradnictví u Lukáše',
       description: 'Sapiente quo porro eius numquam.',
       image:
         'https://api-dp-eshop.web.app/images/products/bylinky/marguerite-5959944_1280.webp',
@@ -10000,7 +9996,7 @@ export const products: Product[] = [
       slug: 'bylinky',
       background: 'https://api-dp-eshop.web.app/images/cat/bylinky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -10010,7 +10006,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 64 },
     seo: {
-      title: 'Refined Frozen Shoes | Zahradnictví Březina',
+      title: 'Refined Frozen Shoes | Zahradnictví u Lukáše',
       description: 'Quos eos eveniet quia molestiae enim facere doloribus.',
       image:
         'https://api-dp-eshop.web.app/images/products/bylinky/marguerite-5959944_1280.webp',
@@ -10035,7 +10031,7 @@ export const products: Product[] = [
       slug: 'bylinky',
       background: 'https://api-dp-eshop.web.app/images/cat/bylinky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -10045,7 +10041,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 89 },
     seo: {
-      title: 'Practical Granite Table | Zahradnictví Březina',
+      title: 'Practical Granite Table | Zahradnictví u Lukáše',
       description: 'Quis aut aspernatur sunt impedit est aspernatur.',
       image:
         'https://api-dp-eshop.web.app/images/products/bylinky/marguerite-5959944_1280.webp',
@@ -10074,7 +10070,7 @@ export const products: Product[] = [
       slug: 'bylinky',
       background: 'https://api-dp-eshop.web.app/images/cat/bylinky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -10084,7 +10080,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 10 },
     seo: {
-      title: 'Handcrafted Steel Pants | Zahradnictví Březina',
+      title: 'Handcrafted Steel Pants | Zahradnictví u Lukáše',
       description: 'Aut consequuntur unde ut nihil.',
       image:
         'https://api-dp-eshop.web.app/images/products/bylinky/marguerite-5959944_1280.webp',
@@ -10109,7 +10105,7 @@ export const products: Product[] = [
       slug: 'bylinky',
       background: 'https://api-dp-eshop.web.app/images/cat/bylinky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -10119,7 +10115,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 35 },
     seo: {
-      title: 'Ergonomic Rubber Chips | Zahradnictví Březina',
+      title: 'Ergonomic Rubber Chips | Zahradnictví u Lukáše',
       description: 'Voluptate nesciunt ab.',
       image:
         'https://api-dp-eshop.web.app/images/products/bylinky/marguerite-5959944_1280.webp',
@@ -10148,7 +10144,7 @@ export const products: Product[] = [
       slug: 'bylinky',
       background: 'https://api-dp-eshop.web.app/images/cat/bylinky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -10158,7 +10154,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 99 },
     seo: {
-      title: 'Incredible Concrete Computer | Zahradnictví Březina',
+      title: 'Incredible Concrete Computer | Zahradnictví u Lukáše',
       description: 'Voluptatibus nesciunt est cumque temporibus ducimus.',
       image:
         'https://api-dp-eshop.web.app/images/products/bylinky/marguerite-5959944_1280.webp',
@@ -10191,7 +10187,7 @@ export const products: Product[] = [
       slug: 'bylinky',
       background: 'https://api-dp-eshop.web.app/images/cat/bylinky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -10201,7 +10197,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 11 },
     seo: {
-      title: 'Rustic Concrete Table | Zahradnictví Březina',
+      title: 'Rustic Concrete Table | Zahradnictví u Lukáše',
       description: 'Quia perspiciatis pariatur qui voluptates dicta.',
       image:
         'https://api-dp-eshop.web.app/images/products/bylinky/marguerite-5959944_1280.webp',
@@ -10230,7 +10226,7 @@ export const products: Product[] = [
       slug: 'bylinky',
       background: 'https://api-dp-eshop.web.app/images/cat/bylinky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -10240,7 +10236,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 93 },
     seo: {
-      title: 'Refined Fresh Hat | Zahradnictví Březina',
+      title: 'Refined Fresh Hat | Zahradnictví u Lukáše',
       description: 'Ut laborum aut.',
       image:
         'https://api-dp-eshop.web.app/images/products/bylinky/marguerite-5959944_1280.webp',
@@ -10269,7 +10265,7 @@ export const products: Product[] = [
       slug: 'bylinky',
       background: 'https://api-dp-eshop.web.app/images/cat/bylinky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -10279,7 +10275,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 94 },
     seo: {
-      title: 'Tasty Fresh Computer | Zahradnictví Březina',
+      title: 'Tasty Fresh Computer | Zahradnictví u Lukáše',
       description: 'Est dolor voluptate consequatur quis.',
       image:
         'https://api-dp-eshop.web.app/images/products/bylinky/marguerite-5959944_1280.webp',
@@ -10305,7 +10301,7 @@ export const products: Product[] = [
       slug: 'bylinky',
       background: 'https://api-dp-eshop.web.app/images/cat/bylinky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -10315,7 +10311,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available-soon', deliveryIn: 13 },
     seo: {
-      title: 'Tasty Steel Ball | Zahradnictví Březina',
+      title: 'Tasty Steel Ball | Zahradnictví u Lukáše',
       description:
         'Ut ut voluptatum error nihil esse iusto quidem accusantium incidunt.',
       image:
@@ -10345,7 +10341,7 @@ export const products: Product[] = [
       slug: 'bylinky',
       background: 'https://api-dp-eshop.web.app/images/cat/bylinky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -10355,7 +10351,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 22 },
     seo: {
-      title: 'Gorgeous Granite Chair | Zahradnictví Březina',
+      title: 'Gorgeous Granite Chair | Zahradnictví u Lukáše',
       description: 'Soluta alias quis ut quo.',
       image:
         'https://api-dp-eshop.web.app/images/products/bylinky/marguerite-5959944_1280.webp',
@@ -10380,7 +10376,7 @@ export const products: Product[] = [
       slug: 'bylinky',
       background: 'https://api-dp-eshop.web.app/images/cat/bylinky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -10390,7 +10386,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 94 },
     seo: {
-      title: 'Tasty Metal Table | Zahradnictví Březina',
+      title: 'Tasty Metal Table | Zahradnictví u Lukáše',
       description: 'Quia eos ea sit eos ratione consequuntur.',
       image:
         'https://api-dp-eshop.web.app/images/products/bylinky/marguerite-5959944_1280.webp',
@@ -10419,7 +10415,7 @@ export const products: Product[] = [
       slug: 'bylinky',
       background: 'https://api-dp-eshop.web.app/images/cat/bylinky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -10429,7 +10425,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 9 },
     seo: {
-      title: 'Gorgeous Steel Cheese | Zahradnictví Březina',
+      title: 'Gorgeous Steel Cheese | Zahradnictví u Lukáše',
       description: 'Non culpa qui.',
       image:
         'https://api-dp-eshop.web.app/images/products/bylinky/marguerite-5959944_1280.webp',
@@ -10458,7 +10454,7 @@ export const products: Product[] = [
       slug: 'bylinky',
       background: 'https://api-dp-eshop.web.app/images/cat/bylinky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -10468,7 +10464,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 29 },
     seo: {
-      title: 'Rustic Rubber Shoes | Zahradnictví Březina',
+      title: 'Rustic Rubber Shoes | Zahradnictví u Lukáše',
       description:
         'Necessitatibus cumque nobis quis non exercitationem non saepe.',
       image:
@@ -10494,7 +10490,7 @@ export const products: Product[] = [
       slug: 'bylinky',
       background: 'https://api-dp-eshop.web.app/images/cat/bylinky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -10504,7 +10500,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 50 },
     seo: {
-      title: 'Gorgeous Rubber Chair | Zahradnictví Březina',
+      title: 'Gorgeous Rubber Chair | Zahradnictví u Lukáše',
       description: 'Commodi voluptate blanditiis.',
       image:
         'https://api-dp-eshop.web.app/images/products/bylinky/marguerite-5959944_1280.webp',
@@ -10537,7 +10533,7 @@ export const products: Product[] = [
       slug: 'bylinky',
       background: 'https://api-dp-eshop.web.app/images/cat/bylinky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -10547,7 +10543,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 61 },
     seo: {
-      title: 'Ergonomic Cotton Gloves | Zahradnictví Březina',
+      title: 'Ergonomic Cotton Gloves | Zahradnictví u Lukáše',
       description: 'Aperiam sapiente sed consequatur animi.',
       image:
         'https://api-dp-eshop.web.app/images/products/bylinky/marguerite-5959944_1280.webp',
@@ -10576,7 +10572,7 @@ export const products: Product[] = [
       slug: 'bylinky',
       background: 'https://api-dp-eshop.web.app/images/cat/bylinky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -10586,7 +10582,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 15 },
     seo: {
-      title: 'Intelligent Granite Chicken | Zahradnictví Březina',
+      title: 'Intelligent Granite Chicken | Zahradnictví u Lukáše',
       description: 'Excepturi tempora mollitia voluptatibus.',
       image:
         'https://api-dp-eshop.web.app/images/products/bylinky/marguerite-5959944_1280.webp',
@@ -10615,7 +10611,7 @@ export const products: Product[] = [
       slug: 'bylinky',
       background: 'https://api-dp-eshop.web.app/images/cat/bylinky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -10625,7 +10621,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 7 },
     seo: {
-      title: 'Gorgeous Fresh Car | Zahradnictví Březina',
+      title: 'Gorgeous Fresh Car | Zahradnictví u Lukáše',
       description: 'Ut molestias quia iusto inventore.',
       image:
         'https://api-dp-eshop.web.app/images/products/bylinky/marguerite-5959944_1280.webp',
@@ -10651,7 +10647,7 @@ export const products: Product[] = [
       slug: 'bylinky',
       background: 'https://api-dp-eshop.web.app/images/cat/bylinky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -10661,7 +10657,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 54 },
     seo: {
-      title: 'Licensed Rubber Gloves | Zahradnictví Březina',
+      title: 'Licensed Rubber Gloves | Zahradnictví u Lukáše',
       description:
         'Neque dolores eveniet ipsa consequatur excepturi consequuntur sint non quis.',
       image:
@@ -10691,7 +10687,7 @@ export const products: Product[] = [
       slug: 'bylinky',
       background: 'https://api-dp-eshop.web.app/images/cat/bylinky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -10701,7 +10697,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 74 },
     seo: {
-      title: 'Tasty Steel Mouse | Zahradnictví Březina',
+      title: 'Tasty Steel Mouse | Zahradnictví u Lukáše',
       description: 'Assumenda labore in consequatur libero at.',
       image:
         'https://api-dp-eshop.web.app/images/products/bylinky/marguerite-5959944_1280.webp',
@@ -10727,7 +10723,7 @@ export const products: Product[] = [
       slug: 'bylinky',
       background: 'https://api-dp-eshop.web.app/images/cat/bylinky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -10737,7 +10733,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 80 },
     seo: {
-      title: 'Licensed Cotton Shirt | Zahradnictví Březina',
+      title: 'Licensed Cotton Shirt | Zahradnictví u Lukáše',
       description:
         'Tempore molestias et sequi dolor molestiae consequatur qui omnis rem.',
       image:
@@ -10767,7 +10763,7 @@ export const products: Product[] = [
       slug: 'bylinky',
       background: 'https://api-dp-eshop.web.app/images/cat/bylinky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -10777,7 +10773,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 14 },
     seo: {
-      title: 'Unbranded Concrete Chicken | Zahradnictví Březina',
+      title: 'Unbranded Concrete Chicken | Zahradnictví u Lukáše',
       description: 'Minus nihil repellat qui laborum facilis.',
       image:
         'https://api-dp-eshop.web.app/images/products/bylinky/marguerite-5959944_1280.webp',
@@ -10806,7 +10802,7 @@ export const products: Product[] = [
       slug: 'bylinky',
       background: 'https://api-dp-eshop.web.app/images/cat/bylinky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -10816,7 +10812,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'unavailable' },
     seo: {
-      title: 'Sleek Metal Car | Zahradnictví Březina',
+      title: 'Sleek Metal Car | Zahradnictví u Lukáše',
       description: 'Cumque est veritatis nihil laborum eum dolores.',
       image:
         'https://api-dp-eshop.web.app/images/products/bylinky/marguerite-5959944_1280.webp',
@@ -10841,7 +10837,7 @@ export const products: Product[] = [
       slug: 'bylinky',
       background: 'https://api-dp-eshop.web.app/images/cat/bylinky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -10851,7 +10847,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 90 },
     seo: {
-      title: 'Refined Fresh Fish | Zahradnictví Březina',
+      title: 'Refined Fresh Fish | Zahradnictví u Lukáše',
       description:
         'Laudantium necessitatibus nemo ipsum dolor magni minima autem.',
       image:
@@ -10877,7 +10873,7 @@ export const products: Product[] = [
       slug: 'bylinky',
       background: 'https://api-dp-eshop.web.app/images/cat/bylinky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -10887,7 +10883,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 43 },
     seo: {
-      title: 'Small Steel Pants | Zahradnictví Březina',
+      title: 'Small Steel Pants | Zahradnictví u Lukáše',
       description: 'Veritatis tempore aut.',
       image:
         'https://api-dp-eshop.web.app/images/products/bylinky/marguerite-5959944_1280.webp',
@@ -10912,7 +10908,7 @@ export const products: Product[] = [
       slug: 'bylinky',
       background: 'https://api-dp-eshop.web.app/images/cat/bylinky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -10922,7 +10918,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 78 },
     seo: {
-      title: 'Unbranded Concrete Shoes | Zahradnictví Březina',
+      title: 'Unbranded Concrete Shoes | Zahradnictví u Lukáše',
       description: 'Qui ducimus et ex exercitationem sed laboriosam.',
       image:
         'https://api-dp-eshop.web.app/images/products/bylinky/marguerite-5959944_1280.webp',
@@ -10951,7 +10947,7 @@ export const products: Product[] = [
       slug: 'bylinky',
       background: 'https://api-dp-eshop.web.app/images/cat/bylinky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -10961,7 +10957,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 48 },
     seo: {
-      title: 'Gorgeous Rubber Sausages | Zahradnictví Březina',
+      title: 'Gorgeous Rubber Sausages | Zahradnictví u Lukáše',
       description: 'Animi rem eveniet consequatur odio.',
       image:
         'https://api-dp-eshop.web.app/images/products/bylinky/marguerite-5959944_1280.webp',
@@ -10990,7 +10986,7 @@ export const products: Product[] = [
       slug: 'bylinky',
       background: 'https://api-dp-eshop.web.app/images/cat/bylinky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -11000,7 +10996,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 92 },
     seo: {
-      title: 'Gorgeous Concrete Hat | Zahradnictví Březina',
+      title: 'Gorgeous Concrete Hat | Zahradnictví u Lukáše',
       description: 'Neque rerum aperiam ut voluptate nihil repellat.',
       image:
         'https://api-dp-eshop.web.app/images/products/bylinky/marguerite-5959944_1280.webp',
@@ -11025,7 +11021,7 @@ export const products: Product[] = [
       slug: 'bylinky',
       background: 'https://api-dp-eshop.web.app/images/cat/bylinky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -11035,7 +11031,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 85 },
     seo: {
-      title: 'Fantastic Plastic Bike | Zahradnictví Březina',
+      title: 'Fantastic Plastic Bike | Zahradnictví u Lukáše',
       description: 'Omnis praesentium non ipsum.',
       image:
         'https://api-dp-eshop.web.app/images/products/bylinky/marguerite-5959944_1280.webp',
@@ -11060,7 +11056,7 @@ export const products: Product[] = [
       slug: 'bylinky',
       background: 'https://api-dp-eshop.web.app/images/cat/bylinky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -11070,7 +11066,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 54 },
     seo: {
-      title: 'Tasty Metal Sausages | Zahradnictví Březina',
+      title: 'Tasty Metal Sausages | Zahradnictví u Lukáše',
       description: 'Sit inventore delectus quae facilis totam sit.',
       image:
         'https://api-dp-eshop.web.app/images/products/bylinky/marguerite-5959944_1280.webp',
@@ -11104,7 +11100,7 @@ export const products: Product[] = [
       slug: 'bylinky',
       background: 'https://api-dp-eshop.web.app/images/cat/bylinky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -11114,7 +11110,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 14 },
     seo: {
-      title: 'Gorgeous Wooden Bike | Zahradnictví Březina',
+      title: 'Gorgeous Wooden Bike | Zahradnictví u Lukáše',
       description:
         'Sapiente quis commodi saepe alias laboriosam iure eum est officiis.',
       image:
@@ -11140,7 +11136,7 @@ export const products: Product[] = [
       slug: 'bylinky',
       background: 'https://api-dp-eshop.web.app/images/cat/bylinky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -11150,7 +11146,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available-soon', deliveryIn: 17 },
     seo: {
-      title: 'Practical Wooden Table | Zahradnictví Březina',
+      title: 'Practical Wooden Table | Zahradnictví u Lukáše',
       description:
         'Molestias provident animi voluptatem omnis aliquid saepe in.',
       image:
@@ -11176,7 +11172,7 @@ export const products: Product[] = [
       slug: 'bylinky',
       background: 'https://api-dp-eshop.web.app/images/cat/bylinky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -11186,7 +11182,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 61 },
     seo: {
-      title: 'Incredible Concrete Shirt | Zahradnictví Březina',
+      title: 'Incredible Concrete Shirt | Zahradnictví u Lukáše',
       description: 'Quas molestias voluptas suscipit totam omnis.',
       image:
         'https://api-dp-eshop.web.app/images/products/bylinky/marguerite-5959944_1280.webp',
@@ -11211,7 +11207,7 @@ export const products: Product[] = [
       slug: 'bylinky',
       background: 'https://api-dp-eshop.web.app/images/cat/bylinky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -11221,7 +11217,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 87 },
     seo: {
-      title: 'Sleek Granite Sausages | Zahradnictví Březina',
+      title: 'Sleek Granite Sausages | Zahradnictví u Lukáše',
       description: 'Beatae eveniet quis amet omnis rerum.',
       image:
         'https://api-dp-eshop.web.app/images/products/bylinky/marguerite-5959944_1280.webp',
@@ -11250,7 +11246,7 @@ export const products: Product[] = [
       slug: 'bylinky',
       background: 'https://api-dp-eshop.web.app/images/cat/bylinky.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -11260,7 +11256,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'unavailable' },
     seo: {
-      title: 'Handmade Steel Mouse | Zahradnictví Březina',
+      title: 'Handmade Steel Mouse | Zahradnictví u Lukáše',
       description: 'Ducimus maxime unde.',
       image:
         'https://api-dp-eshop.web.app/images/products/bylinky/marguerite-5959944_1280.webp',
@@ -11289,7 +11285,7 @@ export const products: Product[] = [
       slug: 'travy',
       background: 'https://api-dp-eshop.web.app/images/cat/trava.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -11299,7 +11295,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 23 },
     seo: {
-      title: 'Ergonomic Plastic Table | Zahradnictví Březina',
+      title: 'Ergonomic Plastic Table | Zahradnictví u Lukáše',
       description: 'Et ullam deleniti enim ut.',
       image:
         'https://api-dp-eshop.web.app/images/products/travy/marguerite-5959944_1280.webp',
@@ -11324,7 +11320,7 @@ export const products: Product[] = [
       slug: 'travy',
       background: 'https://api-dp-eshop.web.app/images/cat/trava.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -11334,7 +11330,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available-soon', deliveryIn: 25 },
     seo: {
-      title: 'Gorgeous Cotton Keyboard | Zahradnictví Březina',
+      title: 'Gorgeous Cotton Keyboard | Zahradnictví u Lukáše',
       description: 'Tempore facilis possimus necessitatibus.',
       image:
         'https://api-dp-eshop.web.app/images/products/travy/marguerite-5959944_1280.webp',
@@ -11359,7 +11355,7 @@ export const products: Product[] = [
       slug: 'travy',
       background: 'https://api-dp-eshop.web.app/images/cat/trava.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -11369,7 +11365,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 24 },
     seo: {
-      title: 'Handmade Concrete Mouse | Zahradnictví Březina',
+      title: 'Handmade Concrete Mouse | Zahradnictví u Lukáše',
       description: 'Corporis vel sunt labore consequatur.',
       image:
         'https://api-dp-eshop.web.app/images/products/travy/marguerite-5959944_1280.webp',
@@ -11394,7 +11390,7 @@ export const products: Product[] = [
       slug: 'travy',
       background: 'https://api-dp-eshop.web.app/images/cat/trava.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -11404,7 +11400,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 28 },
     seo: {
-      title: 'Tasty Cotton Bacon | Zahradnictví Březina',
+      title: 'Tasty Cotton Bacon | Zahradnictví u Lukáše',
       description: 'Quia et ratione sit ut ducimus sed.',
       image:
         'https://api-dp-eshop.web.app/images/products/travy/marguerite-5959944_1280.webp',
@@ -11433,7 +11429,7 @@ export const products: Product[] = [
       slug: 'travy',
       background: 'https://api-dp-eshop.web.app/images/cat/trava.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -11443,7 +11439,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'unavailable' },
     seo: {
-      title: 'Intelligent Cotton Pants | Zahradnictví Březina',
+      title: 'Intelligent Cotton Pants | Zahradnictví u Lukáše',
       description: 'Odit fugit consequuntur numquam provident consequatur hic.',
       image:
         'https://api-dp-eshop.web.app/images/products/travy/marguerite-5959944_1280.webp',
@@ -11468,7 +11464,7 @@ export const products: Product[] = [
       slug: 'travy',
       background: 'https://api-dp-eshop.web.app/images/cat/trava.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -11478,7 +11474,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 91 },
     seo: {
-      title: 'Ergonomic Fresh Hat | Zahradnictví Březina',
+      title: 'Ergonomic Fresh Hat | Zahradnictví u Lukáše',
       description: 'Suscipit iure quo maiores qui neque.',
       image:
         'https://api-dp-eshop.web.app/images/products/travy/marguerite-5959944_1280.webp',
@@ -11508,7 +11504,7 @@ export const products: Product[] = [
       slug: 'travy',
       background: 'https://api-dp-eshop.web.app/images/cat/trava.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -11518,7 +11514,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available-soon', deliveryIn: 15 },
     seo: {
-      title: 'Refined Granite Ball | Zahradnictví Březina',
+      title: 'Refined Granite Ball | Zahradnictví u Lukáše',
       description:
         'Minus deleniti error magni voluptatem qui harum itaque est unde.',
       image:
@@ -11548,7 +11544,7 @@ export const products: Product[] = [
       slug: 'travy',
       background: 'https://api-dp-eshop.web.app/images/cat/trava.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -11558,7 +11554,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 85 },
     seo: {
-      title: 'Refined Plastic Towels | Zahradnictví Březina',
+      title: 'Refined Plastic Towels | Zahradnictví u Lukáše',
       description: 'Ut iure maiores consequatur labore voluptas minus error.',
       image:
         'https://api-dp-eshop.web.app/images/products/travy/marguerite-5959944_1280.webp',
@@ -11583,7 +11579,7 @@ export const products: Product[] = [
       slug: 'travy',
       background: 'https://api-dp-eshop.web.app/images/cat/trava.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -11593,7 +11589,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 58 },
     seo: {
-      title: 'Licensed Metal Pants | Zahradnictví Březina',
+      title: 'Licensed Metal Pants | Zahradnictví u Lukáše',
       description: 'Molestiae temporibus ea ea.',
       image:
         'https://api-dp-eshop.web.app/images/products/travy/marguerite-5959944_1280.webp',
@@ -11623,7 +11619,7 @@ export const products: Product[] = [
       slug: 'travy',
       background: 'https://api-dp-eshop.web.app/images/cat/trava.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -11633,7 +11629,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 14 },
     seo: {
-      title: 'Refined Wooden Keyboard | Zahradnictví Březina',
+      title: 'Refined Wooden Keyboard | Zahradnictví u Lukáše',
       description:
         'Nostrum hic omnis minima quisquam aspernatur placeat tempora velit.',
       image:
@@ -11659,7 +11655,7 @@ export const products: Product[] = [
       slug: 'travy',
       background: 'https://api-dp-eshop.web.app/images/cat/trava.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -11669,7 +11665,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 96 },
     seo: {
-      title: 'Rustic Fresh Car | Zahradnictví Březina',
+      title: 'Rustic Fresh Car | Zahradnictví u Lukáše',
       description: 'Nemo alias sit et saepe ut quis totam vero quis.',
       image:
         'https://api-dp-eshop.web.app/images/products/travy/marguerite-5959944_1280.webp',
@@ -11694,7 +11690,7 @@ export const products: Product[] = [
       slug: 'travy',
       background: 'https://api-dp-eshop.web.app/images/cat/trava.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -11704,7 +11700,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 41 },
     seo: {
-      title: 'Tasty Concrete Soap | Zahradnictví Březina',
+      title: 'Tasty Concrete Soap | Zahradnictví u Lukáše',
       description: 'Voluptatem distinctio et ipsa sit sunt nesciunt.',
       image:
         'https://api-dp-eshop.web.app/images/products/travy/marguerite-5959944_1280.webp',
@@ -11733,7 +11729,7 @@ export const products: Product[] = [
       slug: 'travy',
       background: 'https://api-dp-eshop.web.app/images/cat/trava.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -11743,7 +11739,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 24 },
     seo: {
-      title: 'Gorgeous Concrete Car | Zahradnictví Březina',
+      title: 'Gorgeous Concrete Car | Zahradnictví u Lukáše',
       description: 'Deserunt reiciendis quos aliquid molestiae tempore.',
       image:
         'https://api-dp-eshop.web.app/images/products/travy/marguerite-5959944_1280.webp',
@@ -11768,7 +11764,7 @@ export const products: Product[] = [
       slug: 'travy',
       background: 'https://api-dp-eshop.web.app/images/cat/trava.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -11778,7 +11774,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available-soon', deliveryIn: 18 },
     seo: {
-      title: 'Licensed Granite Tuna | Zahradnictví Březina',
+      title: 'Licensed Granite Tuna | Zahradnictví u Lukáše',
       description: 'Impedit labore incidunt nisi.',
       image:
         'https://api-dp-eshop.web.app/images/products/travy/marguerite-5959944_1280.webp',
@@ -11807,7 +11803,7 @@ export const products: Product[] = [
       slug: 'travy',
       background: 'https://api-dp-eshop.web.app/images/cat/trava.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -11817,7 +11813,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 77 },
     seo: {
-      title: 'Gorgeous Steel Table | Zahradnictví Březina',
+      title: 'Gorgeous Steel Table | Zahradnictví u Lukáše',
       description: 'Eius ut aliquam omnis quo optio ut consequatur beatae.',
       image:
         'https://api-dp-eshop.web.app/images/products/travy/marguerite-5959944_1280.webp',
@@ -11846,7 +11842,7 @@ export const products: Product[] = [
       slug: 'travy',
       background: 'https://api-dp-eshop.web.app/images/cat/trava.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -11856,7 +11852,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 85 },
     seo: {
-      title: 'Rustic Soft Hat | Zahradnictví Březina',
+      title: 'Rustic Soft Hat | Zahradnictví u Lukáše',
       description: 'In ut ea aperiam.',
       image:
         'https://api-dp-eshop.web.app/images/products/travy/marguerite-5959944_1280.webp',
@@ -11885,7 +11881,7 @@ export const products: Product[] = [
       slug: 'travy',
       background: 'https://api-dp-eshop.web.app/images/cat/trava.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -11895,7 +11891,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 99 },
     seo: {
-      title: 'Fantastic Cotton Mouse | Zahradnictví Březina',
+      title: 'Fantastic Cotton Mouse | Zahradnictví u Lukáše',
       description: 'Numquam suscipit quidem quos atque assumenda autem.',
       image:
         'https://api-dp-eshop.web.app/images/products/travy/marguerite-5959944_1280.webp',
@@ -11924,7 +11920,7 @@ export const products: Product[] = [
       slug: 'travy',
       background: 'https://api-dp-eshop.web.app/images/cat/trava.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -11934,7 +11930,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 54 },
     seo: {
-      title: 'Rustic Granite Chair | Zahradnictví Březina',
+      title: 'Rustic Granite Chair | Zahradnictví u Lukáše',
       description:
         'Explicabo aut aut facere et esse asperiores vero qui dolor.',
       image:
@@ -11964,7 +11960,7 @@ export const products: Product[] = [
       slug: 'travy',
       background: 'https://api-dp-eshop.web.app/images/cat/trava.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -11974,7 +11970,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 73 },
     seo: {
-      title: 'Unbranded Rubber Shoes | Zahradnictví Březina',
+      title: 'Unbranded Rubber Shoes | Zahradnictví u Lukáše',
       description: 'Asperiores et enim repudiandae dolore.',
       image:
         'https://api-dp-eshop.web.app/images/products/travy/marguerite-5959944_1280.webp',
@@ -11999,7 +11995,7 @@ export const products: Product[] = [
       slug: 'travy',
       background: 'https://api-dp-eshop.web.app/images/cat/trava.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -12009,7 +12005,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 38 },
     seo: {
-      title: 'Practical Concrete Bike | Zahradnictví Březina',
+      title: 'Practical Concrete Bike | Zahradnictví u Lukáše',
       description: 'Ipsam eaque eligendi velit.',
       image:
         'https://api-dp-eshop.web.app/images/products/travy/marguerite-5959944_1280.webp',
@@ -12042,7 +12038,7 @@ export const products: Product[] = [
       slug: 'travy',
       background: 'https://api-dp-eshop.web.app/images/cat/trava.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -12052,7 +12048,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 4 },
     seo: {
-      title: 'Practical Plastic Shirt | Zahradnictví Březina',
+      title: 'Practical Plastic Shirt | Zahradnictví u Lukáše',
       description: 'Voluptates est qui repudiandae ea velit est.',
       image:
         'https://api-dp-eshop.web.app/images/products/travy/marguerite-5959944_1280.webp',
@@ -12077,7 +12073,7 @@ export const products: Product[] = [
       slug: 'travy',
       background: 'https://api-dp-eshop.web.app/images/cat/trava.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -12087,7 +12083,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 37 },
     seo: {
-      title: 'Ergonomic Cotton Hat | Zahradnictví Březina',
+      title: 'Ergonomic Cotton Hat | Zahradnictví u Lukáše',
       description: 'Consequatur iure nihil sunt.',
       image:
         'https://api-dp-eshop.web.app/images/products/travy/marguerite-5959944_1280.webp',
@@ -12116,7 +12112,7 @@ export const products: Product[] = [
       slug: 'travy',
       background: 'https://api-dp-eshop.web.app/images/cat/trava.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -12126,7 +12122,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 24 },
     seo: {
-      title: 'Gorgeous Fresh Car | Zahradnictví Březina',
+      title: 'Gorgeous Fresh Car | Zahradnictví u Lukáše',
       description: 'Ex veniam quis non assumenda et natus.',
       image:
         'https://api-dp-eshop.web.app/images/products/travy/marguerite-5959944_1280.webp',
@@ -12159,7 +12155,7 @@ export const products: Product[] = [
       slug: 'travy',
       background: 'https://api-dp-eshop.web.app/images/cat/trava.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -12169,7 +12165,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available-soon', deliveryIn: 13 },
     seo: {
-      title: 'Unbranded Cotton Chips | Zahradnictví Březina',
+      title: 'Unbranded Cotton Chips | Zahradnictví u Lukáše',
       description: 'Voluptatem et sint.',
       image:
         'https://api-dp-eshop.web.app/images/products/travy/marguerite-5959944_1280.webp',
@@ -12195,7 +12191,7 @@ export const products: Product[] = [
       slug: 'travy',
       background: 'https://api-dp-eshop.web.app/images/cat/trava.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -12205,7 +12201,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 21 },
     seo: {
-      title: 'Ergonomic Metal Towels | Zahradnictví Březina',
+      title: 'Ergonomic Metal Towels | Zahradnictví u Lukáše',
       description:
         'Labore et temporibus perferendis qui odit voluptatem iusto saepe omnis.',
       image:
@@ -12235,7 +12231,7 @@ export const products: Product[] = [
       slug: 'travy',
       background: 'https://api-dp-eshop.web.app/images/cat/trava.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -12245,7 +12241,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 10 },
     seo: {
-      title: 'Gorgeous Concrete Fish | Zahradnictví Březina',
+      title: 'Gorgeous Concrete Fish | Zahradnictví u Lukáše',
       description: 'Ad rerum voluptatem minus iusto soluta.',
       image:
         'https://api-dp-eshop.web.app/images/products/travy/marguerite-5959944_1280.webp',
@@ -12270,7 +12266,7 @@ export const products: Product[] = [
       slug: 'travy',
       background: 'https://api-dp-eshop.web.app/images/cat/trava.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -12280,7 +12276,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available-soon', deliveryIn: 10 },
     seo: {
-      title: 'Rustic Plastic Keyboard | Zahradnictví Březina',
+      title: 'Rustic Plastic Keyboard | Zahradnictví u Lukáše',
       description: 'Nisi quia est.',
       image:
         'https://api-dp-eshop.web.app/images/products/travy/marguerite-5959944_1280.webp',
@@ -12305,7 +12301,7 @@ export const products: Product[] = [
       slug: 'travy',
       background: 'https://api-dp-eshop.web.app/images/cat/trava.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -12315,7 +12311,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 73 },
     seo: {
-      title: 'Refined Metal Chicken | Zahradnictví Březina',
+      title: 'Refined Metal Chicken | Zahradnictví u Lukáše',
       description: 'Sit impedit in qui quia nihil dignissimos.',
       image:
         'https://api-dp-eshop.web.app/images/products/travy/marguerite-5959944_1280.webp',
@@ -12340,7 +12336,7 @@ export const products: Product[] = [
       slug: 'travy',
       background: 'https://api-dp-eshop.web.app/images/cat/trava.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -12350,7 +12346,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 19 },
     seo: {
-      title: 'Tasty Wooden Tuna | Zahradnictví Březina',
+      title: 'Tasty Wooden Tuna | Zahradnictví u Lukáše',
       description: 'Hic excepturi quas sunt perspiciatis.',
       image:
         'https://api-dp-eshop.web.app/images/products/travy/marguerite-5959944_1280.webp',
@@ -12375,7 +12371,7 @@ export const products: Product[] = [
       slug: 'travy',
       background: 'https://api-dp-eshop.web.app/images/cat/trava.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -12385,7 +12381,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 5 },
     seo: {
-      title: 'Refined Steel Gloves | Zahradnictví Březina',
+      title: 'Refined Steel Gloves | Zahradnictví u Lukáše',
       description: 'Exercitationem aut atque eveniet asperiores iste iure.',
       image:
         'https://api-dp-eshop.web.app/images/products/travy/marguerite-5959944_1280.webp',
@@ -12410,7 +12406,7 @@ export const products: Product[] = [
       slug: 'travy',
       background: 'https://api-dp-eshop.web.app/images/cat/trava.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -12420,7 +12416,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'unavailable' },
     seo: {
-      title: 'Handmade Wooden Sausages | Zahradnictví Březina',
+      title: 'Handmade Wooden Sausages | Zahradnictví u Lukáše',
       description: 'Ut minima perferendis et.',
       image:
         'https://api-dp-eshop.web.app/images/products/travy/marguerite-5959944_1280.webp',
@@ -12449,7 +12445,7 @@ export const products: Product[] = [
       slug: 'travy',
       background: 'https://api-dp-eshop.web.app/images/cat/trava.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -12459,7 +12455,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 7 },
     seo: {
-      title: 'Awesome Plastic Mouse | Zahradnictví Březina',
+      title: 'Awesome Plastic Mouse | Zahradnictví u Lukáše',
       description:
         'Sed voluptatibus aliquid voluptas dolorem voluptas sequi qui.',
       image:
@@ -12485,7 +12481,7 @@ export const products: Product[] = [
       slug: 'travy',
       background: 'https://api-dp-eshop.web.app/images/cat/trava.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -12495,7 +12491,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 11 },
     seo: {
-      title: 'Refined Frozen Pants | Zahradnictví Březina',
+      title: 'Refined Frozen Pants | Zahradnictví u Lukáše',
       description: 'Rerum nisi laudantium ea aut alias quis.',
       image:
         'https://api-dp-eshop.web.app/images/products/travy/marguerite-5959944_1280.webp',
@@ -12524,7 +12520,7 @@ export const products: Product[] = [
       slug: 'travy',
       background: 'https://api-dp-eshop.web.app/images/cat/trava.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -12534,7 +12530,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'unavailable' },
     seo: {
-      title: 'Rustic Wooden Shoes | Zahradnictví Březina',
+      title: 'Rustic Wooden Shoes | Zahradnictví u Lukáše',
       description: 'Nemo facilis voluptatibus aut sit vel commodi delectus.',
       image:
         'https://api-dp-eshop.web.app/images/products/travy/marguerite-5959944_1280.webp',
@@ -12563,7 +12559,7 @@ export const products: Product[] = [
       slug: 'travy',
       background: 'https://api-dp-eshop.web.app/images/cat/trava.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -12573,7 +12569,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 50 },
     seo: {
-      title: 'Incredible Cotton Table | Zahradnictví Březina',
+      title: 'Incredible Cotton Table | Zahradnictví u Lukáše',
       description: 'Pariatur veniam dolores.',
       image:
         'https://api-dp-eshop.web.app/images/products/travy/marguerite-5959944_1280.webp',
@@ -12602,7 +12598,7 @@ export const products: Product[] = [
       slug: 'travy',
       background: 'https://api-dp-eshop.web.app/images/cat/trava.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -12612,7 +12608,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 86 },
     seo: {
-      title: 'Rustic Soft Car | Zahradnictví Březina',
+      title: 'Rustic Soft Car | Zahradnictví u Lukáše',
       description: 'Saepe qui magnam eaque sequi.',
       image:
         'https://api-dp-eshop.web.app/images/products/travy/marguerite-5959944_1280.webp',
@@ -12641,7 +12637,7 @@ export const products: Product[] = [
       slug: 'travy',
       background: 'https://api-dp-eshop.web.app/images/cat/trava.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -12651,7 +12647,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 70 },
     seo: {
-      title: 'Awesome Fresh Pizza | Zahradnictví Březina',
+      title: 'Awesome Fresh Pizza | Zahradnictví u Lukáše',
       description: 'Exercitationem odit voluptate quod nam vel.',
       image:
         'https://api-dp-eshop.web.app/images/products/travy/marguerite-5959944_1280.webp',
@@ -12677,7 +12673,7 @@ export const products: Product[] = [
       slug: 'travy',
       background: 'https://api-dp-eshop.web.app/images/cat/trava.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -12687,7 +12683,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available-soon', deliveryIn: 25 },
     seo: {
-      title: 'Fantastic Fresh Soap | Zahradnictví Březina',
+      title: 'Fantastic Fresh Soap | Zahradnictví u Lukáše',
       description:
         'Distinctio omnis dolores nobis aperiam dolorem molestias molestiae autem.',
       image:
@@ -12717,7 +12713,7 @@ export const products: Product[] = [
       slug: 'travy',
       background: 'https://api-dp-eshop.web.app/images/cat/trava.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -12727,7 +12723,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 87 },
     seo: {
-      title: 'Sleek Fresh Hat | Zahradnictví Březina',
+      title: 'Sleek Fresh Hat | Zahradnictví u Lukáše',
       description: 'Eum voluptas earum exercitationem eveniet nihil.',
       image:
         'https://api-dp-eshop.web.app/images/products/travy/marguerite-5959944_1280.webp',
@@ -12752,7 +12748,7 @@ export const products: Product[] = [
       slug: 'travy',
       background: 'https://api-dp-eshop.web.app/images/cat/trava.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -12762,7 +12758,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 91 },
     seo: {
-      title: 'Refined Granite Fish | Zahradnictví Březina',
+      title: 'Refined Granite Fish | Zahradnictví u Lukáše',
       description: 'Optio vel in non aut.',
       image:
         'https://api-dp-eshop.web.app/images/products/travy/marguerite-5959944_1280.webp',
@@ -12787,7 +12783,7 @@ export const products: Product[] = [
       slug: 'travy',
       background: 'https://api-dp-eshop.web.app/images/cat/trava.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -12797,7 +12793,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available-soon', deliveryIn: 16 },
     seo: {
-      title: 'Intelligent Wooden Chicken | Zahradnictví Březina',
+      title: 'Intelligent Wooden Chicken | Zahradnictví u Lukáše',
       description: 'Ab a nesciunt cumque omnis ut.',
       image:
         'https://api-dp-eshop.web.app/images/products/travy/marguerite-5959944_1280.webp',
@@ -12822,7 +12818,7 @@ export const products: Product[] = [
       slug: 'travy',
       background: 'https://api-dp-eshop.web.app/images/cat/trava.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -12832,7 +12828,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available-soon', deliveryIn: 22 },
     seo: {
-      title: 'Incredible Metal Chips | Zahradnictví Březina',
+      title: 'Incredible Metal Chips | Zahradnictví u Lukáše',
       description: 'Quo tempore distinctio qui eum voluptate ea vel quas.',
       image:
         'https://api-dp-eshop.web.app/images/products/travy/marguerite-5959944_1280.webp',
@@ -12857,7 +12853,7 @@ export const products: Product[] = [
       slug: 'travy',
       background: 'https://api-dp-eshop.web.app/images/cat/trava.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -12867,7 +12863,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available-soon', deliveryIn: 13 },
     seo: {
-      title: 'Fantastic Steel Chicken | Zahradnictví Březina',
+      title: 'Fantastic Steel Chicken | Zahradnictví u Lukáše',
       description:
         'Alias porro et consectetur et temporibus voluptate laboriosam.',
       image:
@@ -12893,7 +12889,7 @@ export const products: Product[] = [
       slug: 'travy',
       background: 'https://api-dp-eshop.web.app/images/cat/trava.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -12903,7 +12899,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 41 },
     seo: {
-      title: 'Fantastic Rubber Pizza | Zahradnictví Březina',
+      title: 'Fantastic Rubber Pizza | Zahradnictví u Lukáše',
       description: 'Aut qui sed inventore.',
       image:
         'https://api-dp-eshop.web.app/images/products/travy/marguerite-5959944_1280.webp',
@@ -12932,7 +12928,7 @@ export const products: Product[] = [
       slug: 'travy',
       background: 'https://api-dp-eshop.web.app/images/cat/trava.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -12942,7 +12938,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 90 },
     seo: {
-      title: 'Intelligent Steel Hat | Zahradnictví Březina',
+      title: 'Intelligent Steel Hat | Zahradnictví u Lukáše',
       description: 'Non suscipit perspiciatis quas est qui quia perferendis.',
       image:
         'https://api-dp-eshop.web.app/images/products/travy/marguerite-5959944_1280.webp',
@@ -12968,7 +12964,7 @@ export const products: Product[] = [
       slug: 'travy',
       background: 'https://api-dp-eshop.web.app/images/cat/trava.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -12978,7 +12974,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 98 },
     seo: {
-      title: 'Awesome Fresh Chips | Zahradnictví Březina',
+      title: 'Awesome Fresh Chips | Zahradnictví u Lukáše',
       description:
         'Aut laudantium cum repellendus ut eum sed assumenda doloremque suscipit.',
       image:
@@ -13008,7 +13004,7 @@ export const products: Product[] = [
       slug: 'travy',
       background: 'https://api-dp-eshop.web.app/images/cat/trava.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -13018,7 +13014,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 62 },
     seo: {
-      title: 'Small Cotton Fish | Zahradnictví Březina',
+      title: 'Small Cotton Fish | Zahradnictví u Lukáše',
       description: 'Mollitia nesciunt voluptatem et.',
       image:
         'https://api-dp-eshop.web.app/images/products/travy/marguerite-5959944_1280.webp',
@@ -13043,7 +13039,7 @@ export const products: Product[] = [
       slug: 'travy',
       background: 'https://api-dp-eshop.web.app/images/cat/trava.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -13053,7 +13049,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 95 },
     seo: {
-      title: 'Gorgeous Granite Pants | Zahradnictví Březina',
+      title: 'Gorgeous Granite Pants | Zahradnictví u Lukáše',
       description:
         'Voluptatem qui earum voluptatem sint dolorem quia cupiditate.',
       image:
@@ -13079,7 +13075,7 @@ export const products: Product[] = [
       slug: 'travy',
       background: 'https://api-dp-eshop.web.app/images/cat/trava.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -13089,7 +13085,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available-soon', deliveryIn: 10 },
     seo: {
-      title: 'Fantastic Plastic Computer | Zahradnictví Březina',
+      title: 'Fantastic Plastic Computer | Zahradnictví u Lukáše',
       description: 'Corporis magnam at.',
       image:
         'https://api-dp-eshop.web.app/images/products/travy/marguerite-5959944_1280.webp',
@@ -13118,7 +13114,7 @@ export const products: Product[] = [
       slug: 'travy',
       background: 'https://api-dp-eshop.web.app/images/cat/trava.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -13128,7 +13124,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'unavailable' },
     seo: {
-      title: 'Gorgeous Steel Mouse | Zahradnictví Březina',
+      title: 'Gorgeous Steel Mouse | Zahradnictví u Lukáše',
       description: 'Mollitia soluta ut minus.',
       image:
         'https://api-dp-eshop.web.app/images/products/travy/marguerite-5959944_1280.webp',
@@ -13153,7 +13149,7 @@ export const products: Product[] = [
       slug: 'substraty-hnojiva',
       background: 'https://api-dp-eshop.web.app/images/cat/substraty.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -13163,7 +13159,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 56 },
     seo: {
-      title: 'Practical Metal Fish | Zahradnictví Březina',
+      title: 'Practical Metal Fish | Zahradnictví u Lukáše',
       description: 'Aut non dolor rerum quasi qui laborum.',
       image:
         'https://api-dp-eshop.web.app/images/products/substraty-hnojiva/New Project (3).webp',
@@ -13192,7 +13188,7 @@ export const products: Product[] = [
       slug: 'substraty-hnojiva',
       background: 'https://api-dp-eshop.web.app/images/cat/substraty.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -13202,7 +13198,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 72 },
     seo: {
-      title: 'Awesome Metal Keyboard | Zahradnictví Březina',
+      title: 'Awesome Metal Keyboard | Zahradnictví u Lukáše',
       description: 'Magni ipsum accusamus et voluptatem dolores vero et.',
       image:
         'https://api-dp-eshop.web.app/images/products/substraty-hnojiva/marguerite-5959944_1280.webp',
@@ -13231,7 +13227,7 @@ export const products: Product[] = [
       slug: 'substraty-hnojiva',
       background: 'https://api-dp-eshop.web.app/images/cat/substraty.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -13241,7 +13237,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 86 },
     seo: {
-      title: 'Intelligent Steel Sausages | Zahradnictví Březina',
+      title: 'Intelligent Steel Sausages | Zahradnictví u Lukáše',
       description: 'Ut deleniti consequatur aut ut repudiandae aut omnis.',
       image:
         'https://api-dp-eshop.web.app/images/products/substraty-hnojiva/New Project (3).webp',
@@ -13266,7 +13262,7 @@ export const products: Product[] = [
       slug: 'substraty-hnojiva',
       background: 'https://api-dp-eshop.web.app/images/cat/substraty.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -13276,7 +13272,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 92 },
     seo: {
-      title: 'Refined Concrete Gloves | Zahradnictví Březina',
+      title: 'Refined Concrete Gloves | Zahradnictví u Lukáše',
       description: 'Asperiores mollitia ut veniam enim.',
       image:
         'https://api-dp-eshop.web.app/images/products/substraty-hnojiva/marguerite-5959944_1280.webp',
@@ -13305,7 +13301,7 @@ export const products: Product[] = [
       slug: 'substraty-hnojiva',
       background: 'https://api-dp-eshop.web.app/images/cat/substraty.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -13315,7 +13311,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 32 },
     seo: {
-      title: 'Incredible Concrete Soap | Zahradnictví Březina',
+      title: 'Incredible Concrete Soap | Zahradnictví u Lukáše',
       description: 'Enim perferendis voluptas ut rerum placeat nesciunt.',
       image:
         'https://api-dp-eshop.web.app/images/products/substraty-hnojiva/New Project (3).webp',
@@ -13345,7 +13341,7 @@ export const products: Product[] = [
       slug: 'substraty-hnojiva',
       background: 'https://api-dp-eshop.web.app/images/cat/substraty.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -13355,7 +13351,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 36 },
     seo: {
-      title: 'Small Rubber Cheese | Zahradnictví Březina',
+      title: 'Small Rubber Cheese | Zahradnictví u Lukáše',
       description:
         'Quas optio quos magni laudantium rerum ullam fugit dolore modi.',
       image:
@@ -13386,7 +13382,7 @@ export const products: Product[] = [
       slug: 'substraty-hnojiva',
       background: 'https://api-dp-eshop.web.app/images/cat/substraty.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -13396,7 +13392,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 5 },
     seo: {
-      title: 'Refined Metal Soap | Zahradnictví Březina',
+      title: 'Refined Metal Soap | Zahradnictví u Lukáše',
       description:
         'Sed consequatur vero sunt est voluptatum possimus ipsa ad nulla.',
       image:
@@ -13422,7 +13418,7 @@ export const products: Product[] = [
       slug: 'substraty-hnojiva',
       background: 'https://api-dp-eshop.web.app/images/cat/substraty.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -13432,7 +13428,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 30 },
     seo: {
-      title: 'Sleek Wooden Hat | Zahradnictví Březina',
+      title: 'Sleek Wooden Hat | Zahradnictví u Lukáše',
       description: 'Placeat consequatur quis minus enim quae autem et a.',
       image:
         'https://api-dp-eshop.web.app/images/products/substraty-hnojiva/marguerite-5959944_1280.webp',
@@ -13457,7 +13453,7 @@ export const products: Product[] = [
       slug: 'substraty-hnojiva',
       background: 'https://api-dp-eshop.web.app/images/cat/substraty.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -13467,7 +13463,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available-soon', deliveryIn: 11 },
     seo: {
-      title: 'Rustic Metal Sausages | Zahradnictví Březina',
+      title: 'Rustic Metal Sausages | Zahradnictví u Lukáše',
       description: 'Dolores voluptas deserunt autem optio quis ratione.',
       image:
         'https://api-dp-eshop.web.app/images/products/substraty-hnojiva/New Project (3).webp',
@@ -13496,7 +13492,7 @@ export const products: Product[] = [
       slug: 'substraty-hnojiva',
       background: 'https://api-dp-eshop.web.app/images/cat/substraty.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -13506,7 +13502,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 61 },
     seo: {
-      title: 'Rustic Plastic Pizza | Zahradnictví Březina',
+      title: 'Rustic Plastic Pizza | Zahradnictví u Lukáše',
       description: 'Sed occaecati et.',
       image:
         'https://api-dp-eshop.web.app/images/products/substraty-hnojiva/marguerite-5959944_1280.webp',
@@ -13531,7 +13527,7 @@ export const products: Product[] = [
       slug: 'substraty-hnojiva',
       background: 'https://api-dp-eshop.web.app/images/cat/substraty.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -13541,7 +13537,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 95 },
     seo: {
-      title: 'Rustic Metal Chair | Zahradnictví Březina',
+      title: 'Rustic Metal Chair | Zahradnictví u Lukáše',
       description: 'Reprehenderit in dolorem et est.',
       image:
         'https://api-dp-eshop.web.app/images/products/substraty-hnojiva/New Project (3).webp',
@@ -13570,7 +13566,7 @@ export const products: Product[] = [
       slug: 'substraty-hnojiva',
       background: 'https://api-dp-eshop.web.app/images/cat/substraty.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -13580,7 +13576,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 67 },
     seo: {
-      title: 'Tasty Rubber Pants | Zahradnictví Březina',
+      title: 'Tasty Rubber Pants | Zahradnictví u Lukáše',
       description: 'Soluta qui omnis voluptas molestiae est dolores.',
       image:
         'https://api-dp-eshop.web.app/images/products/substraty-hnojiva/marguerite-5959944_1280.webp',
@@ -13613,7 +13609,7 @@ export const products: Product[] = [
       slug: 'substraty-hnojiva',
       background: 'https://api-dp-eshop.web.app/images/cat/substraty.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -13623,7 +13619,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 17 },
     seo: {
-      title: 'Fantastic Wooden Car | Zahradnictví Březina',
+      title: 'Fantastic Wooden Car | Zahradnictví u Lukáše',
       description: 'Non quisquam in facere.',
       image:
         'https://api-dp-eshop.web.app/images/products/substraty-hnojiva/New Project (3).webp',
@@ -13649,7 +13645,7 @@ export const products: Product[] = [
       slug: 'substraty-hnojiva',
       background: 'https://api-dp-eshop.web.app/images/cat/substraty.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -13659,7 +13655,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 66 },
     seo: {
-      title: 'Incredible Rubber Soap | Zahradnictví Březina',
+      title: 'Incredible Rubber Soap | Zahradnictví u Lukáše',
       description:
         'Omnis reprehenderit voluptatibus ex praesentium laudantium deleniti molestias velit veritatis.',
       image:
@@ -13685,7 +13681,7 @@ export const products: Product[] = [
       slug: 'substraty-hnojiva',
       background: 'https://api-dp-eshop.web.app/images/cat/substraty.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -13695,7 +13691,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 75 },
     seo: {
-      title: 'Unbranded Plastic Computer | Zahradnictví Březina',
+      title: 'Unbranded Plastic Computer | Zahradnictví u Lukáše',
       description:
         'Ex dolorum et blanditiis libero est quaerat commodi soluta.',
       image:
@@ -13725,7 +13721,7 @@ export const products: Product[] = [
       slug: 'substraty-hnojiva',
       background: 'https://api-dp-eshop.web.app/images/cat/substraty.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -13735,7 +13731,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 3 },
     seo: {
-      title: 'Handcrafted Granite Computer | Zahradnictví Březina',
+      title: 'Handcrafted Granite Computer | Zahradnictví u Lukáše',
       description: 'Et et incidunt eaque.',
       image:
         'https://api-dp-eshop.web.app/images/products/substraty-hnojiva/marguerite-5959944_1280.webp',
@@ -13764,7 +13760,7 @@ export const products: Product[] = [
       slug: 'substraty-hnojiva',
       background: 'https://api-dp-eshop.web.app/images/cat/substraty.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -13774,7 +13770,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 15 },
     seo: {
-      title: 'Awesome Granite Car | Zahradnictví Březina',
+      title: 'Awesome Granite Car | Zahradnictví u Lukáše',
       description: 'Fuga modi laborum qui eum omnis.',
       image:
         'https://api-dp-eshop.web.app/images/products/substraty-hnojiva/New Project (3).webp',
@@ -13799,7 +13795,7 @@ export const products: Product[] = [
       slug: 'substraty-hnojiva',
       background: 'https://api-dp-eshop.web.app/images/cat/substraty.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -13809,7 +13805,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 76 },
     seo: {
-      title: 'Rustic Steel Computer | Zahradnictví Březina',
+      title: 'Rustic Steel Computer | Zahradnictví u Lukáše',
       description: 'Fugiat odit fuga nam maiores hic molestias.',
       image:
         'https://api-dp-eshop.web.app/images/products/substraty-hnojiva/marguerite-5959944_1280.webp',
@@ -13838,7 +13834,7 @@ export const products: Product[] = [
       slug: 'substraty-hnojiva',
       background: 'https://api-dp-eshop.web.app/images/cat/substraty.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -13848,7 +13844,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 11 },
     seo: {
-      title: 'Gorgeous Fresh Ball | Zahradnictví Březina',
+      title: 'Gorgeous Fresh Ball | Zahradnictví u Lukáše',
       description:
         'Velit quasi odio eum accusantium dolores recusandae libero.',
       image:
@@ -13874,7 +13870,7 @@ export const products: Product[] = [
       slug: 'substraty-hnojiva',
       background: 'https://api-dp-eshop.web.app/images/cat/substraty.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -13884,7 +13880,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 80 },
     seo: {
-      title: 'Handmade Granite Chips | Zahradnictví Březina',
+      title: 'Handmade Granite Chips | Zahradnictví u Lukáše',
       description: 'Quisquam aut corporis et cupiditate voluptas odio quia.',
       image:
         'https://api-dp-eshop.web.app/images/products/substraty-hnojiva/marguerite-5959944_1280.webp',
@@ -13909,7 +13905,7 @@ export const products: Product[] = [
       slug: 'substraty-hnojiva',
       background: 'https://api-dp-eshop.web.app/images/cat/substraty.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -13919,7 +13915,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 55 },
     seo: {
-      title: 'Refined Concrete Soap | Zahradnictví Březina',
+      title: 'Refined Concrete Soap | Zahradnictví u Lukáše',
       description: 'Ea soluta hic facere ad molestiae illum.',
       image:
         'https://api-dp-eshop.web.app/images/products/substraty-hnojiva/New Project (3).webp',
@@ -13944,7 +13940,7 @@ export const products: Product[] = [
       slug: 'substraty-hnojiva',
       background: 'https://api-dp-eshop.web.app/images/cat/substraty.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -13954,7 +13950,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 33 },
     seo: {
-      title: 'Fantastic Plastic Soap | Zahradnictví Březina',
+      title: 'Fantastic Plastic Soap | Zahradnictví u Lukáše',
       description: 'Sint enim possimus.',
       image:
         'https://api-dp-eshop.web.app/images/products/substraty-hnojiva/marguerite-5959944_1280.webp',
@@ -13983,7 +13979,7 @@ export const products: Product[] = [
       slug: 'substraty-hnojiva',
       background: 'https://api-dp-eshop.web.app/images/cat/substraty.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -13993,7 +13989,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 75 },
     seo: {
-      title: 'Gorgeous Plastic Shirt | Zahradnictví Březina',
+      title: 'Gorgeous Plastic Shirt | Zahradnictví u Lukáše',
       description: 'Laborum sit ut molestiae eos fugiat.',
       image:
         'https://api-dp-eshop.web.app/images/products/substraty-hnojiva/New Project (3).webp',
@@ -14018,7 +14014,7 @@ export const products: Product[] = [
       slug: 'substraty-hnojiva',
       background: 'https://api-dp-eshop.web.app/images/cat/substraty.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -14028,7 +14024,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 5 },
     seo: {
-      title: 'Generic Plastic Bike | Zahradnictví Březina',
+      title: 'Generic Plastic Bike | Zahradnictví u Lukáše',
       description: 'Inventore ex nostrum alias.',
       image:
         'https://api-dp-eshop.web.app/images/products/substraty-hnojiva/marguerite-5959944_1280.webp',
@@ -14057,7 +14053,7 @@ export const products: Product[] = [
       slug: 'substraty-hnojiva',
       background: 'https://api-dp-eshop.web.app/images/cat/substraty.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -14067,7 +14063,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 98 },
     seo: {
-      title: 'Gorgeous Cotton Bacon | Zahradnictví Březina',
+      title: 'Gorgeous Cotton Bacon | Zahradnictví u Lukáše',
       description: 'Asperiores voluptatem commodi voluptas eum atque.',
       image:
         'https://api-dp-eshop.web.app/images/products/substraty-hnojiva/New Project (3).webp',
@@ -14096,7 +14092,7 @@ export const products: Product[] = [
       slug: 'substraty-hnojiva',
       background: 'https://api-dp-eshop.web.app/images/cat/substraty.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -14106,7 +14102,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 41 },
     seo: {
-      title: 'Unbranded Rubber Salad | Zahradnictví Březina',
+      title: 'Unbranded Rubber Salad | Zahradnictví u Lukáše',
       description: 'Totam et non ut ex hic architecto vel quo.',
       image:
         'https://api-dp-eshop.web.app/images/products/substraty-hnojiva/marguerite-5959944_1280.webp',
@@ -14131,7 +14127,7 @@ export const products: Product[] = [
       slug: 'substraty-hnojiva',
       background: 'https://api-dp-eshop.web.app/images/cat/substraty.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -14141,7 +14137,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 30 },
     seo: {
-      title: 'Ergonomic Cotton Car | Zahradnictví Březina',
+      title: 'Ergonomic Cotton Car | Zahradnictví u Lukáše',
       description: 'Est tempora ut sit.',
       image:
         'https://api-dp-eshop.web.app/images/products/substraty-hnojiva/New Project (3).webp',
@@ -14166,7 +14162,7 @@ export const products: Product[] = [
       slug: 'substraty-hnojiva',
       background: 'https://api-dp-eshop.web.app/images/cat/substraty.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -14176,7 +14172,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 9 },
     seo: {
-      title: 'Handcrafted Granite Towels | Zahradnictví Březina',
+      title: 'Handcrafted Granite Towels | Zahradnictví u Lukáše',
       description: 'Quia et aliquid harum quaerat iure temporibus voluptatem.',
       image:
         'https://api-dp-eshop.web.app/images/products/substraty-hnojiva/marguerite-5959944_1280.webp',
@@ -14210,7 +14206,7 @@ export const products: Product[] = [
       slug: 'substraty-hnojiva',
       background: 'https://api-dp-eshop.web.app/images/cat/substraty.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -14220,7 +14216,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available-soon', deliveryIn: 9 },
     seo: {
-      title: 'Sleek Metal Salad | Zahradnictví Březina',
+      title: 'Sleek Metal Salad | Zahradnictví u Lukáše',
       description:
         'Tempora reiciendis pariatur sequi veritatis voluptatem esse est sed voluptatem.',
       image:
@@ -14250,7 +14246,7 @@ export const products: Product[] = [
       slug: 'substraty-hnojiva',
       background: 'https://api-dp-eshop.web.app/images/cat/substraty.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -14260,7 +14256,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 34 },
     seo: {
-      title: 'Fantastic Fresh Table | Zahradnictví Březina',
+      title: 'Fantastic Fresh Table | Zahradnictví u Lukáše',
       description: 'Odit hic aspernatur maxime quia aut in ab.',
       image:
         'https://api-dp-eshop.web.app/images/products/substraty-hnojiva/marguerite-5959944_1280.webp',
@@ -14289,7 +14285,7 @@ export const products: Product[] = [
       slug: 'substraty-hnojiva',
       background: 'https://api-dp-eshop.web.app/images/cat/substraty.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -14299,7 +14295,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 77 },
     seo: {
-      title: 'Gorgeous Granite Table | Zahradnictví Březina',
+      title: 'Gorgeous Granite Table | Zahradnictví u Lukáše',
       description: 'Quia qui quis itaque.',
       image:
         'https://api-dp-eshop.web.app/images/products/substraty-hnojiva/New Project (3).webp',
@@ -14328,7 +14324,7 @@ export const products: Product[] = [
       slug: 'substraty-hnojiva',
       background: 'https://api-dp-eshop.web.app/images/cat/substraty.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -14338,7 +14334,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 14 },
     seo: {
-      title: 'Small Granite Tuna | Zahradnictví Březina',
+      title: 'Small Granite Tuna | Zahradnictví u Lukáše',
       description: 'Minima facilis incidunt sequi.',
       image:
         'https://api-dp-eshop.web.app/images/products/substraty-hnojiva/marguerite-5959944_1280.webp',
@@ -14363,7 +14359,7 @@ export const products: Product[] = [
       slug: 'substraty-hnojiva',
       background: 'https://api-dp-eshop.web.app/images/cat/substraty.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -14373,7 +14369,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 94 },
     seo: {
-      title: 'Licensed Frozen Hat | Zahradnictví Březina',
+      title: 'Licensed Frozen Hat | Zahradnictví u Lukáše',
       description: 'Omnis sit maxime cum.',
       image:
         'https://api-dp-eshop.web.app/images/products/substraty-hnojiva/New Project (3).webp',
@@ -14403,7 +14399,7 @@ export const products: Product[] = [
       slug: 'substraty-hnojiva',
       background: 'https://api-dp-eshop.web.app/images/cat/substraty.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -14413,7 +14409,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available-soon', deliveryIn: 13 },
     seo: {
-      title: 'Incredible Metal Chips | Zahradnictví Březina',
+      title: 'Incredible Metal Chips | Zahradnictví u Lukáše',
       description:
         'Molestiae itaque officiis ducimus accusamus et sed sint voluptatem molestias.',
       image:
@@ -14443,7 +14439,7 @@ export const products: Product[] = [
       slug: 'substraty-hnojiva',
       background: 'https://api-dp-eshop.web.app/images/cat/substraty.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -14453,7 +14449,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 5 },
     seo: {
-      title: 'Practical Soft Gloves | Zahradnictví Březina',
+      title: 'Practical Soft Gloves | Zahradnictví u Lukáše',
       description: 'Non voluptatem autem cumque quis modi iusto in.',
       image:
         'https://api-dp-eshop.web.app/images/products/substraty-hnojiva/New Project (3).webp',
@@ -14482,7 +14478,7 @@ export const products: Product[] = [
       slug: 'substraty-hnojiva',
       background: 'https://api-dp-eshop.web.app/images/cat/substraty.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -14492,7 +14488,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 19 },
     seo: {
-      title: 'Practical Plastic Shoes | Zahradnictví Březina',
+      title: 'Practical Plastic Shoes | Zahradnictví u Lukáše',
       description: 'Assumenda aperiam sed ipsam nam eius ea ut.',
       image:
         'https://api-dp-eshop.web.app/images/products/substraty-hnojiva/marguerite-5959944_1280.webp',
@@ -14521,7 +14517,7 @@ export const products: Product[] = [
       slug: 'substraty-hnojiva',
       background: 'https://api-dp-eshop.web.app/images/cat/substraty.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -14531,7 +14527,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 74 },
     seo: {
-      title: 'Fantastic Plastic Pants | Zahradnictví Březina',
+      title: 'Fantastic Plastic Pants | Zahradnictví u Lukáše',
       description: 'Aspernatur magnam saepe dolor ipsum sit.',
       image:
         'https://api-dp-eshop.web.app/images/products/substraty-hnojiva/New Project (3).webp',
@@ -14564,7 +14560,7 @@ export const products: Product[] = [
       slug: 'substraty-hnojiva',
       background: 'https://api-dp-eshop.web.app/images/cat/substraty.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -14574,7 +14570,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 27 },
     seo: {
-      title: 'Practical Rubber Pizza | Zahradnictví Březina',
+      title: 'Practical Rubber Pizza | Zahradnictví u Lukáše',
       description: 'Qui at laborum quo ea quaerat et nobis error.',
       image:
         'https://api-dp-eshop.web.app/images/products/substraty-hnojiva/marguerite-5959944_1280.webp',
@@ -14599,7 +14595,7 @@ export const products: Product[] = [
       slug: 'substraty-hnojiva',
       background: 'https://api-dp-eshop.web.app/images/cat/substraty.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -14609,7 +14605,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 5, instockCount: 19 },
     seo: {
-      title: 'Sleek Wooden Cheese | Zahradnictví Březina',
+      title: 'Sleek Wooden Cheese | Zahradnictví u Lukáše',
       description: 'Maxime aut autem maxime qui ratione non ipsa.',
       image:
         'https://api-dp-eshop.web.app/images/products/substraty-hnojiva/New Project (3).webp',
@@ -14639,7 +14635,7 @@ export const products: Product[] = [
       slug: 'substraty-hnojiva',
       background: 'https://api-dp-eshop.web.app/images/cat/substraty.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -14649,7 +14645,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available-soon', deliveryIn: 14 },
     seo: {
-      title: 'Refined Soft Hat | Zahradnictví Březina',
+      title: 'Refined Soft Hat | Zahradnictví u Lukáše',
       description:
         'Beatae quod officia labore sunt adipisci consequatur commodi non.',
       image:
@@ -14679,7 +14675,7 @@ export const products: Product[] = [
       slug: 'substraty-hnojiva',
       background: 'https://api-dp-eshop.web.app/images/cat/substraty.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -14689,7 +14685,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 3, instockCount: 38 },
     seo: {
-      title: 'Fantastic Metal Ball | Zahradnictví Březina',
+      title: 'Fantastic Metal Ball | Zahradnictví u Lukáše',
       description: 'Voluptatem rerum error.',
       image:
         'https://api-dp-eshop.web.app/images/products/substraty-hnojiva/New Project (3).webp',
@@ -14722,7 +14718,7 @@ export const products: Product[] = [
       slug: 'substraty-hnojiva',
       background: 'https://api-dp-eshop.web.app/images/cat/substraty.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -14732,7 +14728,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'unavailable' },
     seo: {
-      title: 'Handcrafted Granite Ball | Zahradnictví Březina',
+      title: 'Handcrafted Granite Ball | Zahradnictví u Lukáše',
       description: 'Eligendi non cupiditate aut ut ut ut eius magni nesciunt.',
       image:
         'https://api-dp-eshop.web.app/images/products/substraty-hnojiva/marguerite-5959944_1280.webp',
@@ -14758,7 +14754,7 @@ export const products: Product[] = [
       slug: 'substraty-hnojiva',
       background: 'https://api-dp-eshop.web.app/images/cat/substraty.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -14768,7 +14764,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 2, instockCount: 47 },
     seo: {
-      title: 'Gorgeous Soft Table | Zahradnictví Březina',
+      title: 'Gorgeous Soft Table | Zahradnictví u Lukáše',
       description:
         'Delectus sunt a consequuntur repellendus unde sit voluptatum quod corrupti.',
       image:
@@ -14794,7 +14790,7 @@ export const products: Product[] = [
       slug: 'substraty-hnojiva',
       background: 'https://api-dp-eshop.web.app/images/cat/substraty.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -14804,7 +14800,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available-soon', deliveryIn: 23 },
     seo: {
-      title: 'Licensed Frozen Fish | Zahradnictví Březina',
+      title: 'Licensed Frozen Fish | Zahradnictví u Lukáše',
       description: 'Vel labore consequuntur explicabo.',
       image:
         'https://api-dp-eshop.web.app/images/products/substraty-hnojiva/marguerite-5959944_1280.webp',
@@ -14834,7 +14830,7 @@ export const products: Product[] = [
       slug: 'substraty-hnojiva',
       background: 'https://api-dp-eshop.web.app/images/cat/substraty.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -14844,7 +14840,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 63 },
     seo: {
-      title: 'Fantastic Granite Fish | Zahradnictví Březina',
+      title: 'Fantastic Granite Fish | Zahradnictví u Lukáše',
       description:
         'Impedit voluptatem accusantium aut quae repellat reprehenderit architecto blanditiis dolor.',
       image:
@@ -14879,7 +14875,7 @@ export const products: Product[] = [
       slug: 'substraty-hnojiva',
       background: 'https://api-dp-eshop.web.app/images/cat/substraty.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -14889,7 +14885,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 29 },
     seo: {
-      title: 'Licensed Granite Bike | Zahradnictví Březina',
+      title: 'Licensed Granite Bike | Zahradnictví u Lukáše',
       description:
         'Nihil illum itaque provident porro quos quo repudiandae adipisci est.',
       image:
@@ -14915,7 +14911,7 @@ export const products: Product[] = [
       slug: 'substraty-hnojiva',
       background: 'https://api-dp-eshop.web.app/images/cat/substraty.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -14925,7 +14921,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available-soon', deliveryIn: 23 },
     seo: {
-      title: 'Refined Soft Soap | Zahradnictví Březina',
+      title: 'Refined Soft Soap | Zahradnictví u Lukáše',
       description: 'Sunt aut illo quae placeat nam quia sed adipisci.',
       image:
         'https://api-dp-eshop.web.app/images/products/substraty-hnojiva/New Project (3).webp',
@@ -14950,7 +14946,7 @@ export const products: Product[] = [
       slug: 'substraty-hnojiva',
       background: 'https://api-dp-eshop.web.app/images/cat/substraty.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -14960,7 +14956,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available-soon', deliveryIn: 13 },
     seo: {
-      title: 'Tasty Cotton Hat | Zahradnictví Březina',
+      title: 'Tasty Cotton Hat | Zahradnictví u Lukáše',
       description: 'Corrupti assumenda laboriosam nobis illum.',
       image:
         'https://api-dp-eshop.web.app/images/products/substraty-hnojiva/marguerite-5959944_1280.webp',
@@ -14989,7 +14985,7 @@ export const products: Product[] = [
       slug: 'substraty-hnojiva',
       background: 'https://api-dp-eshop.web.app/images/cat/substraty.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -14999,7 +14995,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 38 },
     seo: {
-      title: 'Ergonomic Frozen Cheese | Zahradnictví Březina',
+      title: 'Ergonomic Frozen Cheese | Zahradnictví u Lukáše',
       description: 'Saepe doloremque velit rerum deleniti.',
       image:
         'https://api-dp-eshop.web.app/images/products/substraty-hnojiva/New Project (3).webp',
@@ -15029,7 +15025,7 @@ export const products: Product[] = [
       slug: 'substraty-hnojiva',
       background: 'https://api-dp-eshop.web.app/images/cat/substraty.webp',
       seo: {
-        title: 'Trvalky | Zahradnictví Březina',
+        title: 'Trvalky | Zahradnictví u Lukáše',
         description: 'Rostliny, které žijí, dokud je nezapomenete dlouho zalít',
       },
     },
@@ -15039,7 +15035,7 @@ export const products: Product[] = [
     similarProducts: [],
     stockState: { state: 'available', deliveryIn: 4, instockCount: 62 },
     seo: {
-      title: 'Licensed Metal Bike | Zahradnictví Březina',
+      title: 'Licensed Metal Bike | Zahradnictví u Lukáše',
       description:
         'Voluptatibus aliquid nulla soluta natus voluptatem perspiciatis laboriosam ipsam.',
       image:

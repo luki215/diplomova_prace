@@ -26,7 +26,9 @@ const images = fs
     cat: cat,
     images: fs
       .readdirSync(path.join('public', 'images', 'products', cat))
-      .map((im) => `https://api-dp-eshop.web.app/images/products/${cat}/${im}`),
+      .map(
+        (im) => `https://api-dp-eshop-2.web.app/images/products/${cat}/${im}`,
+      ),
   }));
 
 const catImages: { [key: string]: { current: number; images: string[] } } = {};
@@ -89,7 +91,7 @@ const productFactory: (cat: Category) => Product = (cat: Category) => {
     similarProducts: [],
     stockState: stockStateFactory(),
     seo: {
-      title: name + ' | Zahradnictví Březina',
+      title: name + ' | Zahradnictví u Lukáše',
       description: shortDesc,
       image: image,
     },

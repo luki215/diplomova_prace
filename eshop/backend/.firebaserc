@@ -1,14 +1,14 @@
 {
   "targets": {
-    "dp-eshop": {
+    "dp-eshop-2": {
       "hosting": {
         "api": [
-          "api-dp-eshop"
+          "api-dp-eshop-2"
         ]
       }
     }
   },
   "projects": {
-    "default": "dp-eshop"
+    "default": "dp-eshop-2"
   }
 }

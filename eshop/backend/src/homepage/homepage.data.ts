@@ -3,7 +3,7 @@ import { Homepage } from 'src/shared/interfaces/homepage.interface';
 
 export const homepage: Homepage = {
   seo: {
-    title: 'Domů | Zahradnictví Březina',
+    title: 'Domů | Zahradnictví u Lukáše',
     description: '',
   },
   campaigns: [

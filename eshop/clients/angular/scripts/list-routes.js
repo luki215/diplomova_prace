@@ -1,7 +1,7 @@
 const fs = require("fs");
 const axios = require("axios");
 const endOfLine = require("os").EOL;
-const apiURL = "https://api-dp-eshop.web.app";
+const apiURL = "https://api-dp-eshop-2.web.app";
 const routesFile = "./routes.txt";
 
 const routes = [];
