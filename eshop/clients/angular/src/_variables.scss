@@ -1,8 +1,17 @@
+//CSR
 $primary: #334d37;
+// //SSR
+// $primary: #33334d;
+// //prerender
+// $primary: #551d2f;
+// //sr
+// $primary: #1d4355;
+
+$bg_secondary: lighten($primary, 72%);
 
 :root {
   --primary: $primary;
+  --bg-secondary: #{$bg_secondary};
   --bg-medium: white;
   --bg: white;
-  --bg-secondary: #ecf1ec;
 }
